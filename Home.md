@@ -4,7 +4,7 @@ The privacy patterns wiki, is a space for discussion about
 
  * The writing of draft patterns
  * Project goals and plans
- * [[Specs/Landing page]]
+ * [[Specs]]
  * [[Notes]]
 
 and other miscellaneous items. 
