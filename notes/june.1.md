@@ -1,4 +1,6 @@
-# Notes 
+# Meeting Notes, June 1 2011
+
+Members: @npdoty @mohitgupta 
 
 - writing patterns. 
 
