@@ -1,9 +1,9 @@
-patterns
-	Alex: there are categories of software design patterns
-		is location one category?
-		anonymization might be one broad category
-	
-	Don: how do you know the patterns are the effective ones?
+* patterns
+    * Alex: there are categories of software design patterns
+		* is location one category?
+		* anonymization might be one broad category
+
+    * Don: how do you know the patterns are the effective ones?
 		as a vocabulary, it's actually good to have even if the patterns are bad (anti-patterns) or be able to discuss when or why you should use X
 		as opposed to just saying, "I think this is bad"
 		
