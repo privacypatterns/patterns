@@ -1,0 +1,1 @@
+# Specs for the privacypatterns.org landing page
