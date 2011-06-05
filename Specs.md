@@ -4,5 +4,5 @@ List of specifications for possible designs and reference specs for various part
 
 
  * [[landing page]] 
- * [[specs/website]]
- * [[specs/requirements]]
+ * [[website]]
+ * [[requirements]]
