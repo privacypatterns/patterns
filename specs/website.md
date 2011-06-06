@@ -17,4 +17,3 @@ The privacy patterns project **REQUIRES** a public facing website as a space whe
    * help with the development of the site
    * participate in interviews about design for privacy
 
- *
