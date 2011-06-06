@@ -6,3 +6,4 @@ List of specifications for possible designs and reference specs for various part
  * [[landing page]] 
  * [[website]]
  * [[requirements]]
+ * [[patterns schemas]]
