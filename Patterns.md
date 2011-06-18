@@ -1,4 +1,5 @@
 ## List of Patterns.
 
- * Asynchronous Notice. 
+ * [[asynchronous notice]]
  * [[location granuality]]
+ * [[Privacy Dashboard]]
