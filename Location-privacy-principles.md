@@ -20,7 +20,7 @@ For each of these factors, we've listed titles for potential privacy patterns th
   * ''something process-oriented: user research, evaluating existing norms, etc.''
 
 ## Minimization ##
-* [[Fuzzing]] / [[Location granularity]]
+* [[Fuzzing]] / [[Location granuality]]
 * Summarization
 
 ## User Control ##
