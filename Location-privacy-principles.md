@@ -1,5 +1,5 @@
-There are several sources of principles, issues or factors to support or consider in designing a privacy-supportive system. These include the OECD guidelines and FTC (see also versions from the DHS and others) Fair Information Practice Principles (FIPPs). There are even location-specific sets include the CTIA guidelines (which are organized around a few principles).
-[dsfjkhk](url)
+There are several sources of principles, issues or factors to support or consider in designing a privacy-supportive system. These include the OECD guidelines and FTC (see also versions from the DHS and others) Fair Information Practice Principles (FIPPs). There are even location-specific sets include the CTIA guidelines (which are organized around a few principles). 
+
 [ Mulligan and Doty](http://escholarship.org/uc/item/0rp834wf) present a list of ten factors, drawn from FIPPs, academic theories of privacy (including informational self-determination and contextual integrity) and industry experience.
 
 * Appropriateness
