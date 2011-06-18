@@ -5,3 +5,5 @@
  * [[Privacy Dashboard]]
 
 [[Patterns to Write]]
+
+[[Location Privacy Principles]]
