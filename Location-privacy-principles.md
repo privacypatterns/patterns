@@ -1,6 +1,6 @@
 There are several sources of principles, issues or factors to support or consider in designing a privacy-supportive system. These include the OECD guidelines and FTC (see also versions from the DHS and others) Fair Information Practice Principles (FIPPs). There are even location-specific sets include the CTIA guidelines (which are organized around a few principles).
-
-[http://escholarship.org/uc/item/0rp834wf Mulligan and Doty] present a list of ten factors, drawn from FIPPs, academic theories of privacy (including informational self-determination and contextual integrity) and industry experience.
+[dsfjkhk](url)
+[ Mulligan and Doty](http://escholarship.org/uc/item/0rp834wf) present a list of ten factors, drawn from FIPPs, academic theories of privacy (including informational self-determination and contextual integrity) and industry experience.
 
 * Appropriateness
 * Minimization
@@ -17,10 +17,10 @@ For each of these factors, we've listed titles for potential privacy patterns th
 
 ## Appropriateness ##
 * ...
-** ''something process-oriented: user research, evaluating existing norms, etc.''
+  * ''something process-oriented: user research, evaluating existing norms, etc.''
 
 ## Minimization ##
-* [[Fuzzing (pattern)]] / [[Location granularity (pattern)]]
+* [[Fuzzing]] / [[Location granularity]]
 * Summarization
 
 ## User Control ##
