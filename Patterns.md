@@ -3,3 +3,5 @@
  * [[Asynchronous Notice]]
  * [[Location Granuality]]
  * [[Privacy Dashboard]]
+
+[[Patterns to Write]]
