@@ -1,8 +1,8 @@
 ## List of Patterns.
 
- * [[Asynchronous Notice]]
- * [[Location Granuality]]
- * [[Privacy Dashboard]]
+ * [[Asynchronous notice (pattern)]]
+ * [[Location granularity (pattern)]]
+ * [[Privacy dashboard (pattern)]]
 
 [[Patterns to Write]]
 
