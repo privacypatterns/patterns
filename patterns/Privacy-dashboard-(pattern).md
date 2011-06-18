@@ -11,9 +11,9 @@ When your service collects, aggregates or processes personal information from us
 
 How can a service succinctly and effectively communicate the kind and extent of potentially disparate data that has been collected or aggregated by a service? Users may not remember or realize what data a particular service or company has collected, and thus can't be confident that a service isn't collecting too much data. Users who aren't regularly and consistently made aware of what data a service has collected may be surprised or upset when they hear about the service's data collection practices in some other context. Without visibility into the actual data collected, users may not fully understand the abstract description of what types of data are collected; simultaneously, users may easily be overwhelmed by access to raw data without a good understanding of what that data means.
 
- {#`
+ `{#
 this is a comment. I wonder if this shows up. 
- `#}
+ #}`
 
 ##Solution##
 
