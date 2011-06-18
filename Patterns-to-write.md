@@ -5,6 +5,7 @@ _List the title (and potentially brief description or informative links) of a po
 * **Summarization** -- on the server side store just the processed conclusions/inferences/summaries of some data, rather than all the raw data itself
 
 * **Privacy / data usage activity stream** -- the same way we get activity streams about our friends, why not see an activity stream of how other services are accessing and processing your data? (Also, could re-use/take advantage of standards and conventions around activity streams.)
+
   * Facebook [https://www.facebook.com/settings/?tab=applications "Apps You Use"] access log includes day-by-day logs of which information was accessed by which Facebook app
 
 * **Stripping invisible metadata** -- Remove invisible and potentially sensitive metadata (like geolocation in EXIF) from uploaded user-generated content.
