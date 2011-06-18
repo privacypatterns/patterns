@@ -10,5 +10,5 @@ _List the title (and potentially brief description or informative links) of a po
 
 * **Stripping invisible metadata** -- Remove invisible and potentially sensitive metadata (like geolocation in EXIF) from uploaded user-generated content.
 
-** See [https://support.twitter.com/groups/31-twitter-basics/topics/111-features/articles/20156423-about-image-uploading-on-twitter Twitter image uploading]
+  * See [https://support.twitter.com/groups/31-twitter-basics/topics/111-features/articles/20156423-about-image-uploading-on-twitter Twitter image uploading]
 
