@@ -1,19 +1,3 @@
-# Asynchronous notice (pattern)
-
-## Contents
-
-  * [1 Intent][2]
-  * [2 Context][3]
-  * [3 Problem][4]
-  * [4 Solution][5]
-
-    * [4.1 Examples][6]
-
-      * [4.1.1 Google Latitude reminder email][7]
-      * [4.1.2 Fire Eagle My Alerts][8]
-
-  * [5 Forces/Concerns][9]
-
 ##   Intent
 
 Support notice of ongoing location tracking.
