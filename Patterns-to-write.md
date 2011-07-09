@@ -12,3 +12,6 @@ _List the title (and potentially brief description or informative links) of a po
 
   * See [https://support.twitter.com/groups/31-twitter-basics/topics/111-features/articles/20156423-about-image-uploading-on-twitter Twitter image uploading]
 
+* **Show examples of data** -- rather than abstract categories, show examples (pictures, addresses, specific sample pieces of data)
+
+* **Privacy policy** -- whether it's a pattern or an anti-pattern, it's certainly a common practice for addressing Notice.
