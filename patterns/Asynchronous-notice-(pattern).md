@@ -10,7 +10,7 @@ Supports [Notice (principle)][11], [User Control (principle)][12],
 Tracking a person's location over time in an invisible fashion, with or
 without prior explicit consent. (Particularly useful for background tracking,
 tracking through devices with limited or no screen space, or tracking
-repeatedly over long periods of time.)
+repeatedly over long periods of time. For devices with sufficient screen space or other notification affordances, see also [ambient notice](Ambient-notice).)
 
 ##   Problem
 
