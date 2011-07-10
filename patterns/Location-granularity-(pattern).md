@@ -14,7 +14,7 @@ Since much geographic data inherently has different levels of precision (see [[g
 
 A similar pattern is [[Fuzzing (pattern)|location fuzzing]] which uses an algorithm to decrease the accuracy of location data without changing its lat/lon precision. This may be useful if the application only functions on latitude/longitude data, but can be vulnerable to attack.
 
-In some cases, less granular data may also better capture the intent of a user (that tweet was about Sproul Plaza in general, not that particular corner) or be more meaningful to a recipient ("Nick is in Berkeley, CA" means more to my DC relatives than the particular intersection). For more along these lines, see, for example, [http://www.meloproject.com/team the Meaningful Location Project].
+In some cases, less granular data may also better capture the intent of a user (that tweet was about Sproul Plaza in general, not that particular corner) or be more meaningful to a recipient ("Nick is in Berkeley, CA" means more to my DC relatives than the particular intersection). For more along these lines, see, for example, [the Meaningful Location Project](http://www.meloproject.com/team).
 
 ###Examples###
 
@@ -22,7 +22,8 @@ In some cases, less granular data may also better capture the intent of a user (
 
 [[File:Fire Eagle granularity.png]]
 
-Yahoo! Fire Eagle allows user to provide location information to applications using eight different "levels" of granularity in their [http://fireeagle.yahoo.net/developer/documentation/location hierarchy]: 
+Yahoo! Fire Eagle allows user to provide location information to applications using eight different "levels" of granularity in their [hierarchy](http://fireeagle.yahoo.net/developer/documentation/location): 
+
 * No information
 * As precise as possible
 * Postal code
@@ -36,7 +37,7 @@ Fire Eagle specifically requires that recipient applications be written to handl
 
 ####Twitter "place" vs. "exact location"####
 
-[https://support.twitter.com/articles/78525-about-the-tweet-location-feature Twitter] allows users to tag a tweet with either exact coordinates, a Twitter "place" (a town, neighborhood or venue) or both.
+[Twitter](https://support.twitter.com/articles/78525-about-the-tweet-location-feature) allows users to tag a tweet with either exact coordinates, a Twitter "place" (a town, neighborhood or venue) or both.
 
 ####Geode####
 
