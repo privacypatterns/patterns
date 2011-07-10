@@ -1,5 +1,5 @@
 ##Intent##
-Support [[Minimization (principle)|minimization]] of data collection and distribution.
+Support [minimization](Minimization) of data collection and distribution.
 
 ##Context##
 When a service is collecting location data from or about a user, or transmitting location data about a user to a third-party.
@@ -10,9 +10,9 @@ Many location-based services collect current or ongoing location information fro
 
 ##Solution##
 
-Since much geographic data inherently has different levels of precision (see [[geographic ontologies]], for example) -- like street, city, county, state, country -- there may be natural divisions in the precision of location data. By collecting or distributing only the necessary level of granularity, a service may be able to maintain the same functionality without requesting or distributing potentially sensitive data. A local weather site can access only the user's zip code to provide relevant weather without ever accessing precise (and therefore sensitive) location information.
+Since much geographic data inherently has different levels of precision (see [geographic ontologies](Geographic ontologies), for example) -- like street, city, county, state, country -- there may be natural divisions in the precision of location data. By collecting or distributing only the necessary level of granularity, a service may be able to maintain the same functionality without requesting or distributing potentially sensitive data. A local weather site can access only the user's zip code to provide relevant weather without ever accessing precise (and therefore sensitive) location information.
 
-A similar pattern is [[Fuzzing (pattern)|location fuzzing]] which uses an algorithm to decrease the accuracy of location data without changing its lat/lon precision. This may be useful if the application only functions on latitude/longitude data, but can be vulnerable to attack.
+A similar pattern is [location fuzzing](Fuzzing) which uses an algorithm to decrease the accuracy of location data without changing its lat/lon precision. This may be useful if the application only functions on latitude/longitude data, but can be vulnerable to attack.
 
 In some cases, less granular data may also better capture the intent of a user (that tweet was about Sproul Plaza in general, not that particular corner) or be more meaningful to a recipient ("Nick is in Berkeley, CA" means more to my DC relatives than the particular intersection). For more along these lines, see, for example, [the Meaningful Location Project](http://www.meloproject.com/team).
 
