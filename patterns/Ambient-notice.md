@@ -10,6 +10,8 @@ Categories: location, notice, smartphone, ui
 
 Status: draft
 
+Address: http://npdoty.name
+
 %}
 
 ##Intent##
