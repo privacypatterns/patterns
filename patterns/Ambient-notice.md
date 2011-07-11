@@ -1,3 +1,15 @@
+{%hyde
+
+Title: Ambient notice
+
+Type: pattern
+
+Desc: Provide an ambient notice (unobtrusive, non-modal) when location is being accessed to increase awareness of ongoing tracking.
+
+Categories: location, notice, smartphone, ui
+
+%}
+
 ##Intent##
 Provide unobtrusive, ongoing notice of real-time location tracking.
 
