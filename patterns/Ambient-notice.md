@@ -8,6 +8,8 @@ Desc: Provide an ambient notice (unobtrusive, non-modal) when location is being 
 
 Categories: location, notice, smartphone, ui
 
+Status: draft
+
 %}
 
 ##Intent##
