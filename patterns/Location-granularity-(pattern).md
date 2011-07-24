@@ -1,3 +1,9 @@
+{%hyde
+
+Title: Location Granularity
+
+%}
+
 ##Intent##
 Support [[Minimization (principle)|minimization]] of data collection and distribution.
 

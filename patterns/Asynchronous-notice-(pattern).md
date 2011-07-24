@@ -1,25 +1,11 @@
 # Asynchronous notice (pattern)
 
-## Contents
-
-  * [1 Intent][2]
-  * [2 Context][3]
-  * [3 Problem][4]
-  * [4 Solution][5]
-
-    * [4.1 Examples][6]
-
-      * [4.1.1 Google Latitude reminder email][7]
-      * [4.1.2 Fire Eagle My Alerts][8]
-
-  * [5 Forces/Concerns][9]
-
 ##   Intent
 
 Support notice of ongoing location tracking.
 
-Supports [Notice (principle)][11], [User Control (principle)][12],
-[Transparency and feedback (principle)][13].
+Supports [Notice (principle)], [User Control (principle)],
+[Transparency and feedback (principle)]
 
 ##   Context
 
@@ -73,7 +59,7 @@ like the Location History service.
     
 
      Google Location History 
-     You may disable these applications at any time by going to [https://www.google.com/latitude/apps?hl=en][22]
+     You may disable these applications at any time by going to [https://www.google.com/latitude/apps?hl=en]
 
      **Do more with Latitude**
      Go to [https://www.google.com/latitude/apps][23] on your computer and try the following: 
@@ -85,15 +71,15 @@ like the Location History service.
      Google Public Location Badge lets you publish your location on your blog or site. 
 
      You are receiving this reminder once a week. To change your reminder settings, go to: 
-     [https://www.google.com/latitude/apps?hl=en&tab=privacyreminders][24]
+     [https://www.google.com/latitude/apps?hl=en&tab=privacyreminders]
 
 * * *
 
 ####   Fire Eagle My Alerts
 
-![5642647032_e74e815f6a.jpg][26]
+![5642647032_e74e815f6a.jpg]
 
-[Fire Eagle My Alerts configuration by nickdoty, on Flickr][27]
+[Fire Eagle My Alerts configuration by nickdoty, on Flickr]
 
 ##   Forces/Concerns
 
