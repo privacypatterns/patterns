@@ -1,10 +1,10 @@
 {%hyde
 
-title: Ambient notice
+title: "Ambient notice"
 
 type: pattern
 
-exceprt: Provide an ambient notice (unobtrusive, non-modal) when location is being accessed to increase awareness of ongoing tracking.
+excerpt: "Provide an ambient notice (unobtrusive, non-modal) when location is being accessed to increase awareness of ongoing tracking."
 
 categories: location, notice, smartphone, ui
 
