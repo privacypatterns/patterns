@@ -1,18 +1,18 @@
-{%hyde
+    {%hyde
 
-title: "Ambient notice"
+    title: "Ambient notice"
 
-type: pattern
+    type: pattern
 
-excerpt: "Provide an ambient notice (unobtrusive, non-modal) when location is being accessed to increase awareness of ongoing tracking."
+    excerpt: "Provide an ambient notice (unobtrusive, non-modal) when location is being accessed to increase awareness of ongoing tracking."
 
-categories: location, notice, smartphone, ui
+    categories: location, notice, smartphone, ui
 
-status: draft
+    status: draft
 
-address: http://npdoty.name
+    address: http://npdoty.name
 
-%}
+    %}
 
 ##Intent##
 Provide unobtrusive, ongoing notice of real-time location tracking.
