@@ -1,9 +1,10 @@
-{%hyde
+    {%hyde
 
-Title: Strip Invisible Metadata
-Desc: 
+    title: "Strip Invisible Metadata"
+    excerpt:
+    status:
 
-%}
+    %}
 
 ## Intent
 
