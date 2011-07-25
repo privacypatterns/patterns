@@ -1,8 +1,8 @@
-{%hyde
+    {%hyde
 
-Title: Location Granularity
+    title: "Location Granularity"
 
-%}
+    %}
 
 ##Intent##
 Support [minimization](Minimization) of data collection and distribution.
@@ -54,4 +54,3 @@ One of the fore-runners to the W3C Geolocation API, Firefox's experimental Geode
 Accepting or transmitting location data at different levels of granularity generally requires a location hierarchy or geographic ontology agreed upon by both services and a more complex data storage model than simple digital coordinates.  
 
 Truncating latitude and longitude coordinates to a certain number of decimal places may decrease precision, but is generally not considered a good fuzzing algorithm. (For example, if a user is moving in a straight line and regularly updating their location, truncated location information will occasionally reveal precise location when the user crosses a lat/lon boundary.) Similarly, using "town" rather than lat/lon may occasionally reveal more precise data than expected when the user crosses a border between two towns.
-
