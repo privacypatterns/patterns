@@ -1,3 +1,9 @@
+    {%hyde
+
+    title: "Privacy dashboard"
+
+    %}
+
 ##Intent##
 Help users see an overview of the personal information collected about them, particularly when the data or services in question are numerous.
 
@@ -43,4 +49,3 @@ As in other access mechanisms, showing a user's data back to them can create new
 ## See Also ##
 
 Dashboards are a widely-used pattern in other data-intensive activities for providing a summary of key or actionable metrics. See: <external references needed here>
-
