@@ -1,16 +1,16 @@
 {%hyde
 
-Title: Ambient notice
+title: Ambient notice
 
-Type: pattern
+type: pattern
 
-Desc: Provide an ambient notice (unobtrusive, non-modal) when location is being accessed to increase awareness of ongoing tracking.
+exceprt: Provide an ambient notice (unobtrusive, non-modal) when location is being accessed to increase awareness of ongoing tracking.
 
-Categories: location, notice, smartphone, ui
+categories: location, notice, smartphone, ui
 
-Status: draft
+status: draft
 
-Address: http://npdoty.name
+address: http://npdoty.name
 
 %}
 
