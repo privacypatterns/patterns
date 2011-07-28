@@ -6,7 +6,11 @@
 
     excerpt: "Provide an ambient notice (unobtrusive, non-modal) when location is being accessed to increase awareness of ongoing tracking."
 
-    categories: location, notice, smartphone, ui
+    categories: 
+        - location
+        - notice
+        - smartphone
+        - ui
 
     status: draft
 
