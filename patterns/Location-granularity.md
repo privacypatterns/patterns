@@ -2,8 +2,14 @@
 
     title: "Location Granularity"
     excerpt: "Support minimization of data collection and distribution. Important when a service is collecting location data from or about a user, or transmitting location data about a user to a third-party."
+    status: draft
+    type: pattern
+    categories:
+        - location
 
     %}
+
+[TOC]
 
 ##Intent##
 Support [minimization](Minimization) of data collection and distribution.
