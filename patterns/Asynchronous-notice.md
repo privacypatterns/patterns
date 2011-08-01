@@ -16,14 +16,14 @@
 
 Support notice of ongoing location tracking.
 
-Supports [Notice](Notice), [User Control][2], [Transparency and feedback](Transparency-feedback)
+Supports [[Notice]], [[User Control]], [[Transparency and feedback]]
 
 ##   Context
 
 Tracking a person's location over time in an invisible fashion, with or
 without prior explicit consent. (Particularly useful for background tracking,
 tracking through devices with limited or no screen space, or tracking
-repeatedly over long periods of time. For devices with sufficient screen space or other notification affordances, see also [ambient notice](Ambient-notice).)
+repeatedly over long periods of time. For devices with sufficient screen space or other notification affordances, see also [[Ambient notice]].)
 
 ##   Problem
 
@@ -49,8 +49,7 @@ user may well have forgotten) about the service and any opportunities for
 
 Asynchronous notices may also include a summary of the data recently collected
 (since the last notice, say) in order to provide clarity (and reminders) to
-the user about the extent of collection. See also, [Privacy dashboard]
-(Privacy-dashboard) and [Access][1].
+the user about the extent of collection. See also, [[Privacy dashboard]] and [Access][1].
 
 By ensuring that users aren't surprised, asynchronous notice may increase
 trust in the service and comfort with continued disclosure of information.
