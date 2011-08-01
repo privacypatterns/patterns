@@ -13,7 +13,7 @@
 ##Intent##
 Help users see an overview of the personal information collected about them, particularly when the data or services in question are numerous.
 
-Supports [[Access]], [[Transparency and feedback]].
+Supports [Access](Access), [Transparency and feedback](Transparency-and-feedback).
 
 ##Context##
 
@@ -41,7 +41,7 @@ In short, a dashboard answers the common user question "what do you know about m
 
 ####Google Privacy Dashboard####
 
-[[media/images/Google_Dashboard_Latitude.png]]
+![Google Dashboard Latitude](media/images/Google_Dashboard_Latitude.png)
 
 The [Google Dashboard](https://google.com/dashboard) shows a summary of the content stored and/or shared by many (but not all) of Google's services (Latitude, Google's location sharing service, is shown above). For each service, a summary (with counts) of each type of data is listed, and in some cases an example of the most recent such item is described. An icon signifies which pieces of data are public. Links are also provided in two categories: to actions that can be taken to change or delete data, and to privacy policy / help pages.
 
