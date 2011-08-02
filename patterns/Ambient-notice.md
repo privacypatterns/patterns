@@ -18,7 +18,7 @@
 ##Intent##
 Provide unobtrusive, ongoing notice of real-time location tracking.
 
-Supports [notice](Notice_principle), [transparency](Transparency_principle) and [user control](User control_principle).
+Supports [notice](Notice), [transparency](Transparency-and-feedback) and [user control](User-control).
 
 ##Context##
 When a service is tracking a user's location in an ongoing fashion, or accessing the user's location on each repeated use of a service. (See also, [asynchronous notice](Asynchronous-notice).)
