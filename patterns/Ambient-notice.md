@@ -24,9 +24,7 @@ Supports [notice](Notice_principle), [transparency](Transparency_principle) and 
 When a service is tracking a user's location in an ongoing fashion, or accessing the user's location on each repeated use of a service. (See also, [asynchronous notice](Asynchronous-notice).)
 
 ##Problem##
-How can a service effectively provide notice to a user that location tracking is continuing, or happening again, without being as obtrusive as a repeated modal dialog? A user may not realize that an application given permission to access location is doing so continuously or repeatedly, or may not remember that explicit permissions given in the past allow a service to access data again later. In some cases, past explicit permission may not have been provided by the current user of the device (but instead by a spouse, parent or even an ex-spouse or stalker who temporarily had control of the device or the account). If notice is provided only at the time of consent, a user may
-inadvertently distribute personal information over a long period of time after
-having lost control of their device only momentarily.
+How can a service effectively provide notice to a user that location tracking is continuing, or happening again, without being as obtrusive as a repeated modal dialog? A user may not realize that an application given permission to access location is doing so continuously or repeatedly, or may not remember that explicit permissions given in the past allow a service to access data again later. In some cases, past explicit permission may not have been provided by the current user of the device (but instead by a spouse, parent or even an ex-spouse or stalker who temporarily had control of the device or the account). If notice is provided only at the time of consent, a user may inadvertently distribute personal information over a long period of time after having lost control of their device only momentarily.
 
 ##Solution##
 
@@ -35,7 +33,7 @@ Provide an _ambient_ notice &mdash; unobtrusive, non-modal, but available at a g
 
 ###Examples###
 
-####Location services icon (Android, iOS, Chrome)####
+####Location services icons: Mac OS X, Google Chrome, et al.####
 
 ![Lion Location Icon](media/images/lion_location_icon.png)
 
