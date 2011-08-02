@@ -6,6 +6,7 @@
     type: pattern
     categories:
         - location
+        - minimization
 
     %}
 

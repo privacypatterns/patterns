@@ -6,7 +6,7 @@
     categories: 
         - location
         - notice
-        - smartphone
+        - mobile
         - ui
     status: draft
     address: http://npdoty.name

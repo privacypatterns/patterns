@@ -5,6 +5,7 @@
     categories:
         - location
         - notice
+        - mobile
     status: draft
     type: pattern
 
