@@ -37,10 +37,15 @@ Provide an _ambient_ notice &mdash; unobtrusive, non-modal, but available at a g
 
 ####Location services icon (Android, iOS, Chrome)####
 
-_Include screenshots and comparisons of each._
+![Lion Location Icon](media/images/lion_location_icon.png)
 
-#### ???
-_Does Location Labs have good examples of ambient notice in their software?_
+Mac OS X Lion adds an ambient location services icon (a compass arrow) which appears in the task bar momentarily when an application is accessing the device's location.
+
+![Chrome Location Icon](media/images/chrome_location_icon.png)
+
+Chrome adds a cross-hair icon to the location bar when a web site accesses the device location via the W3C Geolocation API. Clicking on the icon provides potential actions: clearing the saved consent for this site and accessing settings.
+
+_Similar examples exist in at least Android, iOS and Win7._
 
 ##Forces/Concerns##
 
