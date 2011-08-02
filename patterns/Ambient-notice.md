@@ -1,3 +1,20 @@
+    {%hyde
+
+    title: "Ambient notice"
+    type: pattern
+    excerpt: "Provide an ambient notice (unobtrusive, non-modal) when location is being accessed to increase awareness of ongoing tracking."
+    categories: 
+        - location
+        - notice
+        - smartphone
+        - ui
+    status: draft
+    address: http://npdoty.name
+
+    %}
+
+[TOC]
+
 ##Intent##
 Provide unobtrusive, ongoing notice of real-time location tracking.
 

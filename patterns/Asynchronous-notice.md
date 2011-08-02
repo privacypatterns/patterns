@@ -1,9 +1,22 @@
+    {%hyde
+
+    title: "Asynchronous notice"
+    excerpt: "How can a service effectively provide notice to a user who gave permission once but whose information is accessed repeatedly (perhaps even continuously) over a long period of time? Proactively notify the user after the time of consent that information is being tracked, stored or re-distributed."
+    categories:
+        - location
+        - notice
+    status: draft
+    type: pattern
+
+    %}
+
+[TOC]
+
 ##   Intent
 
 Support notice of ongoing location tracking.
 
-Supports [Notice (principle)][11], [User Control (principle)][12],
-[Transparency and feedback (principle)][13].
+Supports [Notice](Notice), [User Control][2], [Transparency and feedback](Transparency-feedback)
 
 ##   Context
 
@@ -32,12 +45,12 @@ achieved through an email, text message, on-screen notice or even through non-
 digital means (by telephone or postal mail, say). The message should inform
 the user about the ongoing practice, including background context (since the
 user may well have forgotten) about the service and any opportunities for
-[access][17] and [control][18].
+[access][1] and [control][2].
 
 Asynchronous notices may also include a summary of the data recently collected
 (since the last notice, say) in order to provide clarity (and reminders) to
-the user about the extent of collection. See also, [Privacy dashboard
-(pattern)][19] and [Access (principle)][17].
+the user about the extent of collection. See also, [Privacy dashboard]
+(Privacy-dashboard) and [Access][1].
 
 By ensuring that users aren't surprised, asynchronous notice may increase
 trust in the service and comfort with continued disclosure of information.
@@ -57,10 +70,10 @@ like the Location History service.
     
 
      Google Location History 
-     You may disable these applications at any time by going to [https://www.google.com/latitude/apps?hl=en][22]
+     You may disable these applications at any time by going to <https://www.google.com/latitude/apps?hl=en]>
 
      **Do more with Latitude**
-     Go to [https://www.google.com/latitude/apps][23] on your computer and try the following: 
+     Go to <https://www.google.com/latitude/apps> on your computer and try the following: 
 
     
 
@@ -69,15 +82,14 @@ like the Location History service.
      Google Public Location Badge lets you publish your location on your blog or site. 
 
      You are receiving this reminder once a week. To change your reminder settings, go to: 
-     [https://www.google.com/latitude/apps?hl=en&tab=privacyreminders][24]
+     <https://www.google.com/latitude/apps?hl=en&tab=privacyreminders>
 
 * * *
 
 ####   Fire Eagle My Alerts
 
-![5642647032_e74e815f6a.jpg][26]
-
-[Fire Eagle My Alerts configuration by nickdoty, on Flickr][27]
+![Fire Eagle My Alerts configuration by npdoty, on Flickr](http://farm6.static.flickr.com/5001/5642647032_e74e815f6a.jpg)  
+[Fire Eagle My Alerts configuration by npdoty, on Flickr](http://www.flickr.com/photos/npdoty/5642647032])
 
 ##   Forces/Concerns
 
@@ -99,9 +111,5 @@ practice altogether. Take measures to avoid unnecessary notices and some level
 of configuration for frequency of notices. This must be balanced against the
 concerns of an attacker's opting the user in without their knowledge.
 
-   [22]: https://www.google.com/latitude/apps?hl=en
-   [23]: https://www.google.com/latitude/apps
-   [24]: https://www.google.com/latitude/apps?hl=en&tab=privacyreminders
-   [26]: ./Asynchronous notice (pattern) - Techdel_files/5642647032_e74e815f6a.jpg
-   [27]: http://www.flickr.com/photos/npdoty/5642647032
-
+[1]: Access
+[2]: User-control

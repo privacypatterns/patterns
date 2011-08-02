@@ -1,3 +1,16 @@
+    {%hyde
+
+    title: "Location Granularity"
+    excerpt: "Support minimization of data collection and distribution. Important when a service is collecting location data from or about a user, or transmitting location data about a user to a third-party."
+    status: draft
+    type: pattern
+    categories:
+        - location
+
+    %}
+
+[TOC]
+
 ##Intent##
 Support [minimization](Minimization) of data collection and distribution.
 
@@ -20,7 +33,7 @@ In some cases, less granular data may also better capture the intent of a user (
 
 ####Fire Eagle location hierarchy####
 
-![Fire Eagle granularity screenshot](Fire Eagle granularity.png)
+![Fire Eagle granularity screenshot](media/images/Fire_Eagle_granularity.png)
 
 Yahoo! Fire Eagle allows user to provide location information to applications using eight different "levels" of granularity in their [hierarchy](http://fireeagle.yahoo.net/developer/documentation/location): 
 
@@ -48,4 +61,3 @@ One of the fore-runners to the W3C Geolocation API, Firefox's experimental Geode
 Accepting or transmitting location data at different levels of granularity generally requires a location hierarchy or geographic ontology agreed upon by both services and a more complex data storage model than simple digital coordinates.  
 
 Truncating latitude and longitude coordinates to a certain number of decimal places may decrease precision, but is generally not considered a good fuzzing algorithm. (For example, if a user is moving in a straight line and regularly updating their location, truncated location information will occasionally reveal precise location when the user crosses a lat/lon boundary.) Similarly, using "town" rather than lat/lon may occasionally reveal more precise data than expected when the user crosses a border between two towns.
-

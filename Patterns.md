@@ -1,9 +1,10 @@
 ## List of Patterns.
 
- * [[Asynchronous notice (pattern)]]
- * [[Location granularity (pattern)]]
- * [[Privacy dashboard (pattern)]]
- * [[Strip invisible metadata (pattern)]]
+ * [[Asynchronous notice]]
+ * [[Ambient notice]]
+ * [[Location granularity]]
+ * [[Privacy dashboard]]
+ * [[Strip invisible metadata]]
 
 [[Patterns to Write]]
 
