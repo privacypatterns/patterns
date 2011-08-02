@@ -15,3 +15,5 @@ _List the title (and potentially brief description or informative links) of a po
 * **Show examples of data** -- rather than abstract categories, show examples (pictures, addresses, specific sample pieces of data)
 
 * **Privacy policy** -- whether it's a pattern or an anti-pattern, it's certainly a common practice for addressing Notice.
+
+* **Usage notification** -- an application lets a user know why they're asking for location at the time that they're asking. See, for example, Lion's new `purpose` parameter, the Camera app on iPhone, maybe old versions of Google Gears.
