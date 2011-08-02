@@ -1,0 +1,35 @@
+{% extends "skeleton/_body.html" %}
+
+{%hyde
+    title: "Home"
+    listing: True
+%}
+
+{% block content_body %}
+  <div id="content">
+    <p>Privacy patterns are design solutions to common privacy problems &mdash; a way to translate "privacy-by-design" into practical advice for software engineering. We believe design patterns can help <em>document common practices</em> and <em>standardize terminology</em> and while we're starting with a set of patterns for location-based services, we hope to build <em>a living, community space</em> where all can contribute their own patterns.</p>
+    <a href="about/about.html" title="About"><em>Learn More &raquo;</em></a>
+  </div>
+  <div id="button_holder">
+    <a href="/patterns/patterns.html" id="lib_button" title="Browse Patterns">Browse Patterns &raquo;</a>
+  </div>
+
+	{%recent_posts recents 3 %}
+
+  <h2>Popular Patterns</h2>
+	<ul id="patterns_listing">
+		{% for post in recents %}
+		  {% if post.display_in_list %}
+  			<li>
+  				<a href='{{post.url}}'>
+  				  <h3>{{post.title}}</h3>
+  					{% if post.excerpt %}
+  						<p>{{post.excerpt}}</p>
+  					{%endif%}
+  				</a>
+  			</li>
+			{% endif %}
+		{%endfor%}
+	</ul>
+
+{%endblock%}
