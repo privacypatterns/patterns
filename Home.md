@@ -8,6 +8,7 @@ The privacy patterns wiki, is a space for discussion about
  * [[Notes]]
  * [[Resources]]
  * [[Patterns]]
+ * [[Principles]]
 
 and other miscellaneous items. 
 
