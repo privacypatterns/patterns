@@ -1,3 +1,18 @@
+{%hyde
+
+title: "Zero-knowledge encryption"
+excerpt: "Use encryption in such a way that the service provider cannot decrypt the user's information."
+status: draft
+display_in_list: True
+type: pattern
+categories:
+    - encryption
+    - control
+    - mobile
+    - cloud
+address: David Houlding
+%}
+
 [TOC]
 
 ##Intent##
