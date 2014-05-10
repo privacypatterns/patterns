@@ -6,7 +6,12 @@ type: pattern _values allowed: pattern, principle, page_
 
 excerpt: This short description is a 1-2 line abstract to appear on the homepage and other shortened forms.
 
-categories: location, notice, smartphone, ui _tags that classify the subject matter, the purpose of the pattern, and the applicable audience_
+categories: 
+  - location
+  - notice
+  - smartphone
+  - ui 
+_tags that classify the subject matter, the purpose of the pattern, and the applicable audience_
 
 status: draft _values allowed: stub, draft, published_ 
 
