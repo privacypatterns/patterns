@@ -25,8 +25,8 @@ When private content is accessible online, especially granular resources, and us
 
 ##Problem##
 
-How do you share an “authenticated” resource with “unauthenticated” users in a way that respects its sensitivity?
-The solution must not allow “unauthenticated” users to access resources that weren't intended to be shared. 
+How do you share a private resource with unauthenticated users in a way that respects its sensitivity?
+The solution must not allow unauthenticated users to access resources that weren't intended to be shared. 
 
 ##Solution##
 
