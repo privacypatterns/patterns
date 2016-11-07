@@ -71,8 +71,8 @@ a warning label in different cultures.
 A color coding similar to traffic lights is implemented in many modern
 web browsers for HTTPS connections. A green background indicates a
 valid certificate while a red background and a warning label shows
-that there are problems when validating a certificate. (Facebook
-Privacy Watcher)[http://www.daniel-puscher.de/fpw/] enhances the
+that there are problems when validating a certificate. [Facebook
+Privacy Watcher](http://www.daniel-puscher.de/fpw/) enhances the
 Facebook website by color-coding shared content and indicating its
 visibility. Posts with green background are public, yellow indicates
 visibility for friends only and red content is only visible to the
