@@ -49,3 +49,4 @@ _Similar examples exist in at least Android, iOS and Win7._
 
 A tray full of ambient notices may annoy or confuse users and inure them to ongoing practices. Take measures to avoid unnecessary notice. This must be balanced against the
 concerns of an attacker's opting the user in without their knowledge.
+
