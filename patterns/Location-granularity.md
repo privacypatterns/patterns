@@ -7,7 +7,8 @@
     categories:
         - location
         - minimization
-
+        - abstract
+        - group
     %}
 
 [TOC]
@@ -130,8 +131,8 @@ One of the fore-runners to the W3C Geolocation API, Firefox's experimental Geode
 ##Categories
 <!-- Placeholder for future agreed upon categories as per collaboration's evaluation.-->
 
-Minimise
-Strip
+Abstract
+Group
 
 <!--##Tags-->
 <!-- User definable descriptors for additional correlation.-->

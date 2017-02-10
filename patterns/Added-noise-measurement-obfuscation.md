@@ -5,8 +5,9 @@
     excerpt: "Add some noise to service operation measurements, but
     make it cancel itself in the long-term"
     categories: 
+        - minimize
         - hide
-        - minimise
+        - obfuscate
     status: draft
     %}
 
@@ -111,10 +112,11 @@ An electric utility operates a smart grid network with smart meters that provide
 
 
 
-<!--##Categories-->
+##Categories
 <!-- Placeholder for future agreed upon categories as per collaboration's evaluation.-->
 
-
+Hide
+Obfuscate
 
 <!--##Tags-->
 <!-- User definable descriptors for additional correlation.-->

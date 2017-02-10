@@ -3,8 +3,10 @@
     title: "use of dummies"
     type: pattern
     excerpt: "This pattern hides the actions taken by a user by adding
-    fake actions that are undistinguishable from real."
+    fake actions that are indistinguishable from real."
     categories: 
+      - hide
+      - obfuscate
     status: draft
     %}
 
@@ -24,7 +26,7 @@ use of dummies
 <!-- One short paragraph summarising the pattern.-->
 
 This pattern hides the actions taken by a user by adding fake actions
-that are undistinguishable from real.
+that are indistinguishable from real.
 
 ##Context
 <!-- The situations in which the pattern may apply.-->
@@ -40,7 +42,7 @@ information about themselves. An option would be for users to not
 perform such actions to protect their privacy. However, this is not
 possible since users cannot completely avoid executing these actions
 because they need to perform them to achieve a goal (e.g., search for
-a word on the internet, send an email, search for a location).
+a word on the Internet, send an email, search for a location).
 
 ##Solution
 <!-- A concise description of how the pattern addresses the problem.-->

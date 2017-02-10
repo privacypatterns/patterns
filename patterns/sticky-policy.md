@@ -8,6 +8,8 @@
     information."
     categories: 
         - privacy-policy
+        - enforce
+        - uphold
     status: draft
     %}
 
@@ -51,7 +53,7 @@ Service providers use an obligation management system. Obligation
 management handles information lifecycle management based on
 individual preferences and organisational policies. The obligation
 management system manipulates data over time, ensuring data
-minimisation, deletion and notiﬁcations to data subjects.
+minimization, deletion and notifications to data subjects.
 
 <!--goals-->
 The goal of the pattern is to enable users to allow users to control
@@ -76,7 +78,7 @@ access to their personal information.
 Beneﬁts: Policies can be propagated throughout the cloud to trusted
 organisations, strong enforcement of the policies, traceability.
 Liabilities: Scalability: policies increase size of data. Practicality
-may not be compatible with existing systems. It may be diﬃcult to
+may not be compatible with existing systems. It may be difficult to
 update the policy after sharing of the data and existence of multiple
 copies of data. It requires ensuring data is handled according to
 policy e.g. using auditing.
@@ -98,11 +100,11 @@ specific privacy policies associated with the data.
 ###[Known Uses]
 <!-- Pointers to various applications of the pattern.-->
 
-Examples of policy speciﬁcation languages include EPAL, OASIS XACML
+Examples of policy specification languages include EPAL, OASIS XACML
 and W3C P3P. Tracing of services can use Identiﬁer-Based Encryption
 and trusted technologies. An alternative approach using Merkle hash
 tree has been proposed by Pöhls (2008). A Platform for Enterprise
-Privacy Practices (E-P3P) (2003) distinguishes the enterprise-speciﬁc
+Privacy Practices (E-P3P) (2003) distinguishes the enterprise-specific
 deployment policy from the privacy policy and facilitates the
 privacy-enabled management and exchange of customer data. References:
 Pearson, S., Sander, T. and Sharma, R., Privacy Management for Global
@@ -134,10 +136,11 @@ Technologies, pp. 69-84, Springer Berlin Heidelberg, 2003
 
 
 
-<!--##Categories-->
+##Categories
 <!-- Placeholder for future agreed upon categories as per collaboration's evaluation.-->
 
-
+Enforce
+Uphold
 
 <!--##Tags-->
 <!-- User definable descriptors for additional correlation.-->

@@ -6,6 +6,8 @@
     stored on a personal device."
     categories: 
         - control
+        - separate
+        - isolate
     status: draft
     %}
 
@@ -115,7 +117,7 @@ particular, in the health sector.
 <!-- Placeholder for future agreed upon categories as per collaboration's evaluation.-->
 
 Separate
-Distribute
+Isolate
 
 <!--##Tags-->
 <!-- User definable descriptors for additional correlation.-->

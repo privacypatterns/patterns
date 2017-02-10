@@ -8,7 +8,7 @@
         - mix-networks
         - obfuscation
         - hide
-        - aggregate
+        - mix
     status: draft
     %}
 

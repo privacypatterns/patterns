@@ -6,6 +6,7 @@
     versions. Leave the legalese to the lawyers."
     categories: 
         - inform
+        - explain
     status: draft
     %}
 
@@ -107,11 +108,11 @@ See examples at Terms of Service Didn't Read. The average user would take 76 wor
 
 
 
-<!--##Categories-->
+##Categories
 <!-- Placeholder for future agreed upon categories as per collaboration's evaluation.-->
 
-
-#N/A
+Inform
+Explain
 
 <!--##Tags-->
 <!-- User definable descriptors for additional correlation.-->

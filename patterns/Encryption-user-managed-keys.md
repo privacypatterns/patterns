@@ -10,6 +10,8 @@ categories:
     - control
     - mobile
     - cloud
+    - hide
+    - restrict
 address: David Houlding
 %}
 
@@ -81,7 +83,7 @@ Encryption of the personal information of the user prior to storing it with, or 
 <!--Motivational example to see how the pattern is applied.-->
 
 * [Spider Oak](https://spideroak.com/): online backup, sync, sharing enabling user managed personal information in zero knowledge privacy environment.
-* [Least Authority](https://leastauthority.com/): secure offsite backup system with client side encryption.
+* [Least Authority](https://leastauthority.com/): secure off-site backup system with client side encryption.
 * [LastPass](https://lastpass.com/): encrypted credentials and personal information database with user managed encryption keys.
 
 [Some](http://zeroknowledgeprivacy.org/) have used the term "zero-knowledge" to describe this pattern; however, "zero-knowledge proof" is a cryptographic term with a [distinct meaning](https://en.wikipedia.org/wiki/Zero-knowledge_proof).
@@ -111,10 +113,11 @@ Encryption of the personal information of the user prior to storing it with, or 
 
 
 
-<!--##Categories-->
+##Categories
 <!-- Placeholder for future agreed upon categories as per collaboration's evaluation.-->
 
-
+Hide
+Restrict
 
 <!--##Tags-->
 <!-- User definable descriptors for additional correlation.-->

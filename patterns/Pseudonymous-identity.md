@@ -8,7 +8,8 @@
     categories: 
         - anonymity
         - pseudonymity
-        - Hide
+        - hide
+        - dissociate
     status: draft
     %}
 
@@ -132,7 +133,7 @@ are using pseudonyms for the storage of e-health records.
 <!-- Placeholder for future agreed upon categories as per collaboration's evaluation.-->
 
 Hide
-Separate
+Dissociate
 
 <!--##Tags-->
 <!-- User definable descriptors for additional correlation.-->

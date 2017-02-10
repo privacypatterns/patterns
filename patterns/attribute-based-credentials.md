@@ -13,6 +13,7 @@
         - zero-knowledge
         - minimize
         - hide
+        - restrict
     status: draft
     %}
 
@@ -114,10 +115,11 @@ The most popular implementations include:
 
 
 
-<!--##Categories-->
+##Categories
 <!-- Placeholder for future agreed upon categories as per collaboration's evaluation.-->
 
-
+Hide
+Restrict
 
 <!--##Tags-->
 <!-- User definable descriptors for additional correlation.-->

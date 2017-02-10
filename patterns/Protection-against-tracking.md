@@ -10,8 +10,8 @@
         - unlinkability
         - tracking
         - cookies
-        - hide
-        - aggregate
+        - minimize
+        - exclude
     status: draft
     %}
 
@@ -136,7 +136,7 @@ tabs as soon as they are closed.
 ##Categories
 <!-- Placeholder for future agreed upon categories as per collaboration's evaluation.-->
 
-Minimise
+Minimize
 Exclude
 
 <!--##Tags-->

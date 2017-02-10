@@ -1,16 +1,17 @@
-{%hyde
+    {%hyde
 
-title: "Handling unusual account activities with multiple factors"
-type: pattern
-excerpt: "Use additional factors to notify users of unusual activities and authenticate when accounts may have been compromised."
-categories: 
-  - control
-  - notice
-  - authentication
-status: draft
-address: weisi@cmu.edu
-
-%}
+    title: "Handling unusual account activities with multiple factors"
+    type: pattern
+    excerpt: "Use additional factors to notify users of unusual activities and authenticate when accounts may have been compromised."
+    categories: 
+      - control
+      - notice
+      - authentication
+      - inform
+      - notify
+    status: draft
+    address: weisi@cmu.edu
+    %}
 
 [TOC]
 
@@ -129,7 +130,7 @@ sign-ins).
 
 This pattern includes multi-factor authentication and two-step
 authentication, which are well studied. But the general topic about
-informing the user of unusual activites seems to be lack of literature.
+informing the user of unusual activities seems to be lack of literature.
 
  ####Limitations and Discussion####
 
@@ -138,7 +139,7 @@ identification of suspicious sign-ins based on meta information, where
 the meta information including the IP address can be spoofed by an
 experienced attacker.
 
-If the fallback multi-factor authentication only happens occationally to
+If the fallback multi-factor authentication only happens occasionally to
 the legitimate account owner, they may be unprepared to such
 authentication, leading to a decreased usability.
 
@@ -149,7 +150,7 @@ First, the service should be able to identify unusual sign-ins Then the
 service may use multi-factor authentication to confirm the identity of
 the user.
 
-The user should be informed of unusual activites, or have some ways to
+The user should be informed of unusual activities, or have some ways to
 see recent events, and even do something.
 
  ####Identify Unusual Activities####
@@ -320,10 +321,11 @@ the user to unlink one or more of them.
 
 
 
-<!--##Categories-->
+##Categories
 <!-- Placeholder for future agreed upon categories as per collaboration's evaluation.-->
 
-
+Inform
+Notify
 
 <!--##Tags-->
 <!-- User definable descriptors for additional correlation.-->

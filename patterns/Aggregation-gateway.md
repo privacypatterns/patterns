@@ -6,7 +6,7 @@
     categories: 
         - aggregate
         - hide
-        - separate
+        - restrict
     status: draft
     %}
 
@@ -105,11 +105,11 @@ An electric utility operates a smart grid network with smart meters that provide
 
 
 
-<!--##Categories-->
+##Categories
 <!-- Placeholder for future agreed upon categories as per collaboration's evaluation.-->
 
-
-#N/A
+Hide
+Restrict
 
 <!--##Tags-->
 <!-- User definable descriptors for additional correlation.-->

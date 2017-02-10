@@ -1,6 +1,6 @@
     {%hyde
 
-    title: "Ontion Routing"
+    title: "Onion Routing"
     type: pattern
     excerpt: "This pattern provides unlinkability between senders and
     receivers by encapsulating the data in different layers of
@@ -10,6 +10,7 @@
         - routing
         - anonymous-communication
         - hide
+        - mix
     status: draft
     %}
 
@@ -18,7 +19,7 @@
 ##Name
 <!--Primary name the pattern is known by.-->
 
-Ontion Routing
+Onion Routing
 
 <!--###[Also Known As]-->
 <!-- All other names the pattern is known by.-->
@@ -91,11 +92,11 @@ the sender and the receiver, the pattern becomes useless.
 ##Examples
 <!--Motivational example to see how the pattern is applied.-->
 
-Alice is a whistleblower and tries to forward data to Bob who works at
+Alice is a whistle-blower and tries to forward data to Bob who works at
 the press. She sends the corresponding documents as an
 e-mail-attachment. Eve monitors the traffic and can see who sent this
-mail to whom. The next day, police raids Alices apartment and sends
-her to jail. Bobs mailaccount gets seized.
+mail to whom. The next day, police raids Alice's apartment and sends
+her to jail. Bobs mail account gets seized.
 
 ###[Known Uses]
 <!-- Pointers to various applications of the pattern.-->

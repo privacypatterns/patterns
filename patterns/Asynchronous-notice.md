@@ -6,6 +6,8 @@
         - location
         - notice
         - mobile
+        - inform
+        - notify
     status: draft
     type: pattern
 

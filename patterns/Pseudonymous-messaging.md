@@ -10,6 +10,7 @@
         - email
         - pseudonymity
         - hide
+        - dissociate
     status: draft
     %}
 
@@ -96,7 +97,7 @@ disappears into a labor camp and is never seen again.
 
 nym.alias.net a pseudonymous email system with the goal to provide
 secure concealment of the user's identity. A Type I Anonymous Remailer
-forwards emails by modifing the message header and removing
+forwards emails by modifying the message header and removing
 sender-related information.
 
 <!--##See Also-->
@@ -123,7 +124,7 @@ sender-related information.
 <!-- Placeholder for future agreed upon categories as per collaboration's evaluation.-->
 
 Hide
-Separate
+Dissociate
 
 <!--##Tags-->
 <!-- User definable descriptors for additional correlation.-->

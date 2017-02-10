@@ -10,6 +10,7 @@
         - user-interface
         - control
         - inform
+        - explain
     status: draft
     %}
 
@@ -44,7 +45,7 @@ networking sites.
 
 Privacy settings and the actual effect of these settings on shared
 content and data is often not obvious for the user. Not having the
-active settings constantly in mind might lead to nonoptimal privacy
+active settings constantly in mind might lead to non-optimal privacy
 experiences when the perceived privacy settings differ from the actual
 settings.
 
@@ -53,7 +54,7 @@ settings.
 
 The results of privacy settings such as visibility are divided into
 different levels. A distinct color is assigned to each of these
-levels. Everytime the user is performing an action where privacy
+levels. Every time the user is performing an action where privacy
 settings come into play, the color is used as an indication of the
 privacy settings currently in effect. The choice of colors should take
 into account prevalent color meanings, like usage of the color red for
@@ -103,7 +104,7 @@ a warning label in different cultures.
 Alice uses a social network and shares personal stories only with her
 friends while she shares mundane content publicly. Hence she always
 has to change the privacy settings of her posts in order to adjust the
-visiblity of the posts. One day she forgets to change the setting and
+visibility of the posts. One day she forgets to change the setting and
 does not realize that she actually shared a precarious story with her
 boss.
 

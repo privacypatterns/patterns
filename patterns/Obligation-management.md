@@ -6,6 +6,8 @@
     storing and processing to be transferred and managed when the data
     is shared between multiple parties."
     categories: 
+        - enforce
+        - uphold
     status: draft
     %}
 
@@ -50,7 +52,7 @@ Service providers use an obligation management system. Obligation
 management handles information lifecycle management based on
 individual preferences and organisational policies. The obligation
 management system manipulates data over time, ensuring data
-minimisation, deletion and notiﬁcations to data subjects.
+minimization, deletion and notifications to data subjects.
 
 <!--###[Structure]-->
 <!--A detailed specification of the structural aspects of the pattern. A class diagram if applicable.-->
@@ -68,7 +70,7 @@ minimisation, deletion and notiﬁcations to data subjects.
 
 
 <!--constraints and consequences-->
-Beneﬁts: privacy preferences and policies are communicated and adhered
+Benefits: privacy preferences and policies are communicated and adhered
 to among organisations sharing data. Liabilities: additional effort to
 set obligations.
 
@@ -82,7 +84,7 @@ set obligations.
 
 A service provider subcontracts services, but requires that the data
 to be deleted after a certain time and that the service provider
-requires to be notiﬁed if there is further subcontracting.
+requires to be notified if there is further subcontracting.
 
 ###[Known Uses]
 <!-- Pointers to various applications of the pattern.-->
@@ -91,12 +93,12 @@ Pretschner et al (2009) provide a framework for evaluating whether a
 supplier is meeting customer data protection obligations in
 distributed systems. Researchers at IBM propose Enterprise Privacy
 Authorization Language (EPAL) (2004) to govern data handling practices
-according to ﬁne-grained access control. Casassa Mont (2004) discusses
+according to fine-grained access control. Casassa Mont (2004) discusses
 various important aspects and technical approaches to deal with
 privacy obligations. Pretschner, A., Schtz, F., Schaefer, C., and
 Walter, T.: Policy Evolution in Distributed Usage Control. Electron.
 Notes Theor. Comput. Sci. 244, 2009 IBM, The Enterprise Privacy
-Authorization Language (EPAL), EPAL speciﬁcation,
+Authorization Language (EPAL), EPAL specification,
 http://www.zurich.ibm.com/security/enterprise-privacy/epal/, 2004
 Mont, M. C., Dealing with Privacy Obligations, Important Aspects and
 Technical Approaches, TrustBus, 2004
@@ -124,8 +126,8 @@ Technical Approaches, TrustBus, 2004
 ##Categories
 <!-- Placeholder for future agreed upon categories as per collaboration's evaluation.-->
 
-Control
-Update
+Enforce
+Uphold
 
 <!--##Tags-->
 <!-- User definable descriptors for additional correlation.-->

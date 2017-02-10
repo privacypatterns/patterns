@@ -7,7 +7,9 @@
     user-trusted environments (e.g. their own devices). Allow users to
     control the exact data that shares with service providers"
     categories: 
-        - data-minimisation
+        - data-minimization
+        - separate
+        - isolate
     status: draft
     %}
 
@@ -83,8 +85,8 @@ personal data
 Depending on the type of processing (e.g calculate the bill for the
 monthly energy consumption or the age from the birth date) the service
 provider will require some guarantees from the processor (the end
-user). This may involve the usage of Trusted Plaftorm Modules or
-cryptographic algoritms (e.g. ABC4Trust)
+user). This may involve the usage of Trusted Platform Modules or
+cryptographic algorithms (e.g. ABC4Trust)
 
 <!--###[Constraints]-->
 <!-- limitations as a consequence of applying the pattern.-->
@@ -130,10 +132,11 @@ drive insurances, electronic toll pricing
 
 
 
-<!--##Categories-->
+##Categories
 <!-- Placeholder for future agreed upon categories as per collaboration's evaluation.-->
 
-
+Separate
+Isolate
 
 <!--##Tags-->
 <!-- User definable descriptors for additional correlation.-->

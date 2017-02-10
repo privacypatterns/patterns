@@ -11,7 +11,8 @@
         - exif
         - location
         - media
-
+        - minimize
+        - strip
     %}
 
 [TOC]
@@ -146,8 +147,8 @@ _TODO: add screenshots_
 ##Categories
 <!-- Placeholder for future agreed upon categories as per collaboration's evaluation.-->
 
-Hide
-Restrict
+Minimize
+Strip
 
 <!--##Tags-->
 <!-- User definable descriptors for additional correlation.-->

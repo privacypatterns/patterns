@@ -7,6 +7,8 @@
     categories: 
         - risk-management
         - procedure
+        - enforce
+        - create
     status: draft
     %}
 
@@ -123,11 +125,11 @@ Ontario & Liberty Alliance Project, January 2009
 
 
 
-<!--##Categories-->
+##Categories
 <!-- Placeholder for future agreed upon categories as per collaboration's evaluation.-->
 
-
-#N/A
+Enforce
+Create
 
 <!--##Tags-->
 <!-- User definable descriptors for additional correlation.-->

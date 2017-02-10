@@ -7,6 +7,7 @@
     categories: 
         - separate
         - hide
+        - restrict
     status: draft
     %}
 
@@ -73,7 +74,7 @@ A service provider wants to prevent users who misbehave from accessing the servi
 
 
 <!--constraints and consequences-->
-Different implementations may only be practical for services with a reduce number of users, require intense computations, limit the scope of the reputation to a constrained timeframe, be vulnerable to Sybil attacks, etc. Nonetheless, protocols are being improved to overcome these and other issues. See the cited sources below for the specific discussion.
+Different implementations may only be practical for services with a reduce number of users, require intense computations, limit the scope of the reputation to a constrained time frame, be vulnerable to Sybil attacks, etc. Nonetheless, protocols are being improved to overcome these and other issues. See the cited sources below for the specific discussion.
 
 <!--###[Constraints]-->
 <!-- limitations as a consequence of applying the pattern.-->
@@ -111,10 +112,11 @@ A wiki allows any visitor to modify its contents, even without having been authe
 
 
 
-<!--##Categories-->
+##Categories
 <!-- Placeholder for future agreed upon categories as per collaboration's evaluation.-->
 
-
+Hide
+Restrict
 
 <!--##Tags-->
 <!-- User definable descriptors for additional correlation.-->

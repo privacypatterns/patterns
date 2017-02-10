@@ -8,6 +8,8 @@
         - distribution
         - media
         - access
+        - control
+        - choose
     status: draft
     address: 
 

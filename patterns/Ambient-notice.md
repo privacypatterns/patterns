@@ -8,6 +8,8 @@
         - notice
         - mobile
         - ui
+        - inform
+        - notify
     status: draft
     address: http://npdoty.name
 

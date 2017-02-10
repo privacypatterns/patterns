@@ -5,8 +5,9 @@
     excerpt: "Give one careful thought to your privacy needs, then be
     always able to swiftly apply what you decided."
     categories: 
-        - inform
         - control
+        - inform
+        - provide
     status: draft
     %}
 
@@ -79,7 +80,7 @@ This pattern requires sharing a machine-readable format to express and exchange 
 - For an academic discussion, see Graf, C., Wolkerstorfer, P., Geven, A., & Tscheligi, M. (2010, November). A pattern collection for privacy enhancing technology. In PATTERNS 2010, The Second International Conferences on Pervasive Patterns and Applications (pp. 72-77).
 - For a discussion of privacy languages see Kumaraguru, P., Cranor, L., Lobo, J., & Calo, S. (2007, July). A survey of privacy policy languages In SOUPS'07: Proceedings of the 3rd Symposium on Usable Privacy and Security. and Becker, M. Y., Malkis, A., & Bussard, L. (2010).
 - A related, classic initiative was W3C's The Platform for Privacy Preferences 1.1 (P3P1.1) Specification, however, the matching was performed at the client's side.
-- A more reent example is available at S4P: A generic language for specifying privacy preferences and policies. Microsoft Research.
+- A more recent example is available at S4P: A generic language for specifying privacy preferences and policies. Microsoft Research.
 - ... and Sacco, O., & Passant, A. (2011, March). A Privacy Preference Ontology (PPO) for Linked Data. In LDOW.
 
 <!--##See Also-->

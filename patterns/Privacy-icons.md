@@ -8,6 +8,7 @@
     categories: 
         - privacy-policy
         - inform
+        - explain
     status: draft
     %}
 
@@ -41,7 +42,7 @@ Many organizations provide privacy policies which are too lengthy and hard to un
 ##Solution
 <!-- A concise description of how the pattern addresses the problem.-->
 
-Include within the service/device a very accesible and visual explanaition of the privacy policy. Icons are a great complement to written text, as they may convey much information at a glance through a different modality (images). Standardized icon sets may thus be added to the privacy policy.
+Include within the service/device a very accessible and visual explanation of the privacy policy. Icons are a great complement to written text, as they may convey much information at a glance through a different modality (images). Standardized icon sets may thus be added to the privacy policy.
 
 <!--goals-->
 Truly inform customers of the privacy policy of a system/organization
@@ -72,9 +73,9 @@ Users may understand, at first glance, what are the potential risks of consentin
 ##Examples
 <!--Motivational example to see how the pattern is applied.-->
 
-Alice buys a fitness tracker and she is aware that the device collects her location, and sends it to a central web service in order to provide her with her fitness statistics (her fitness routes, the time spent...). The device provider aggregates this data and provides a businesss analytics service to third parties.
+Alice buys a fitness tracker and she is aware that the device collects her location, and sends it to a central web service in order to provide her with her fitness statistics (her fitness routes, the time spent...). The device provider aggregates this data and provides a business analytics service to third parties.
 
-Alices is totally unaware of this secondary use of her data and may not agree to it. But accessing this policy involves accessing a website and going through a lenghty and legally oriented document.
+Alice is totally unaware of this secondary use of her data and may not agree to it. But accessing this policy involves accessing a website and going through a lengthy and legally oriented document.
 
 ###[Known Uses]
 <!-- Pointers to various applications of the pattern.-->

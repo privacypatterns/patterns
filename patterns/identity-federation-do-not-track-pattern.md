@@ -10,6 +10,8 @@
     between the user and the Service Providers the user us."
     categories: 
         - identity-management
+        - enforce
+        - uphold
     status: draft
     %}
 
@@ -115,11 +117,11 @@ Identity federations and ecosystems
 
 
 
-<!--##Categories-->
+##Categories
 <!-- Placeholder for future agreed upon categories as per collaboration's evaluation.-->
 
-
-#N/A
+Enforce
+Uphold
 
 <!--##Tags-->
 <!-- User definable descriptors for additional correlation.-->

@@ -9,6 +9,7 @@
         - proxy
         - p3p
         - inform
+        - explain
     status: draft
     %}
 
@@ -107,7 +108,7 @@ intermediary. Depending on the specified privacy preferences of a
 user, it controls the access to web servers. Another known P3P user
 agent is AT&T Privacy Bird. Privacy Bird is a tool warning users if
 privacy policies of visited websites are not matching with their
-invidual privacy preferences.
+individual privacy preferences.
 
 <!--##See Also-->
 <!-- Any pointers to relevant information, not contained in the subfields below.-->
@@ -129,10 +130,11 @@ invidual privacy preferences.
 
 
 
-<!--##Categories-->
+##Categories
 <!-- Placeholder for future agreed upon categories as per collaboration's evaluation.-->
 
-
+Inform
+Explain
 
 <!--##Tags-->
 <!-- User definable descriptors for additional correlation.-->

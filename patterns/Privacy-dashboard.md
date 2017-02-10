@@ -8,7 +8,8 @@
         - transparency
         - access
         - location
-    
+        - inform
+        - provide        
     %}
 
 [TOC]
