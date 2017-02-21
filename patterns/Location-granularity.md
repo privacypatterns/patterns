@@ -78,7 +78,7 @@ In some cases, less granular data may also better capture the intent of a user (
 ##Examples
 <!--Motivational example to see how the pattern is applied.-->
 
- ####Fire Eagle location hierarchy####
+1. _Fire Eagle location hierarchy_
 
 ![Fire Eagle granularity screenshot](media/images/Fire_Eagle_granularity.png)
 
@@ -95,11 +95,11 @@ Yahoo! Fire Eagle allows user to provide location information to applications us
 
 Fire Eagle specifically requires that recipient applications be written to handle data at any of the levels, and allows updating the user's location at any level of granularity.
 
- ####Twitter "place" vs. "exact location"####
+2. _Twitter "place" vs. "exact location"_
 
 [Twitter](https://support.twitter.com/articles/78525-about-the-tweet-location-feature) allows users to tag a tweet with either exact coordinates, a Twitter "place" (a town, neighborhood or venue) or both.
 
- ####Geode####
+3. _Geode_
 
 One of the fore-runners to the W3C Geolocation API, Firefox's experimental Geode feature allowed JavaScript access to the current location at four different levels of granularity.{{fact}}
 

@@ -79,7 +79,7 @@ In short, a dashboard answers the common user question "what do you know about m
 ##Examples
 <!--Motivational example to see how the pattern is applied.-->
 
- ####Google Privacy Dashboard####
+* _Google Privacy Dashboard_
 
 ![Google Dashboard Latitude](media/images/Google_Dashboard_Latitude.png)
 

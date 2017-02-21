@@ -7,7 +7,7 @@
         - location
         - notice
         - mobile
-        - ui
+        - user-interface
         - inform
         - notify
     status: draft
@@ -79,7 +79,7 @@ Provide an _ambient_ notice &mdash; unobtrusive, non-modal, but available at a g
 ##Examples
 <!--Motivational example to see how the pattern is applied.-->
 
- ####Location services icons: Mac OS X, Google Chrome, et al.####
+* _Location services icons: Mac OS X, Google Chrome, et al._
 
 ![Lion Location Icon](media/images/lion_location_icon.png)
 

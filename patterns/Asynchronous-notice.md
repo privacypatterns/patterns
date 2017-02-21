@@ -120,7 +120,7 @@ trust in the service and comfort with continued disclosure of information.
 ##Examples
 <!--Motivational example to see how the pattern is applied.-->
 
- ####   Google Latitude reminder email
+1. _Google Latitude reminder email_
 
 Google Latitude users can configure a reminder email (see below) when their
 location is being shared with any application, including internal applications
@@ -149,7 +149,7 @@ like the Location History service.
 
 * * *
 
- ####   Fire Eagle My Alerts
+2. _Fire Eagle My Alerts_
 
 ![Fire Eagle My Alerts configuration by npdoty, on Flickr](http://farm6.static.flickr.com/5001/5642647032_e74e815f6a.jpg)  
 [Fire Eagle My Alerts configuration by npdoty, on Flickr](http://www.flickr.com/photos/npdoty/5642647032])
