@@ -17,11 +17,6 @@
 
 [TOC]
 
-##Name
-<!--Primary name the pattern is known by.-->
-
-Protection against Tracking
-
 <!--###[Also Known As]-->
 <!-- All other names the pattern is known by.-->
 
@@ -132,12 +127,6 @@ tabs as soon as they are closed.
 <!-- Separate discussion on the pattern.-->
 
 
-
-##Categories
-<!-- Placeholder for future agreed upon categories as per collaboration's evaluation.-->
-
-Minimize
-Exclude
 
 <!--##Tags-->
 <!-- User definable descriptors for additional correlation.-->

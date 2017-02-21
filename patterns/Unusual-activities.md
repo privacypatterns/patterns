@@ -15,11 +15,6 @@
 
 [TOC]
 
-##Name
-<!--Primary name the pattern is known by.-->
-
-Handling unusual account activities with multiple factors
-
 <!--###[Also Known As]-->
 <!-- All other names the pattern is known by.-->
 
@@ -313,12 +308,6 @@ This pattern includes multi-factor authentication and two-step
 authentication, which are well studied. But the general topic about
 informing the user of unusual activities seems to be lack of literature.
 
-
-##Categories
-<!-- Placeholder for future agreed upon categories as per collaboration's evaluation.-->
-
-Inform
-Notify
 
 <!--##Tags-->
 <!-- User definable descriptors for additional correlation.-->

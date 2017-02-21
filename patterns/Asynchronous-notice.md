@@ -15,11 +15,6 @@
 
 [TOC]
 
-##Name
-<!--Primary name the pattern is known by.-->
-
-Asynchronous notice
-
 <!--###[Also Known As]-->
 <!-- All other names the pattern is known by.-->
 
@@ -178,12 +173,6 @@ trust in the service and comfort with continued disclosure of information.
 <!-- Separate discussion on the pattern.-->
 
 
-
-##Categories
-<!-- Placeholder for future agreed upon categories as per collaboration's evaluation.-->
-
-Inform
-Notify
 
 <!--##Tags-->
 <!-- User definable descriptors for additional correlation.-->

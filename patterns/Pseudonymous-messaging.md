@@ -16,11 +16,6 @@
 
 [TOC]
 
-##Name
-<!--Primary name the pattern is known by.-->
-
-Pseudonymous Messaging
-
 <!--###[Also Known As]-->
 <!-- All other names the pattern is known by.-->
 
@@ -119,12 +114,6 @@ sender-related information.
 <!-- Separate discussion on the pattern.-->
 
 
-
-##Categories
-<!-- Placeholder for future agreed upon categories as per collaboration's evaluation.-->
-
-Hide
-Dissociate
 
 <!--##Tags-->
 <!-- User definable descriptors for additional correlation.-->
