@@ -21,12 +21,6 @@ address: http://npdoty.name, @m0hit _comma-separated list of authors, or more im
 
 [TOC]
 
-
-##Name
-<!--Primary name the pattern is known by.-->
-
-
-
 <!--###[Also Known As]-->
 <!-- All other names the pattern is known by.-->
 
@@ -101,9 +95,6 @@ address: http://npdoty.name, @m0hit _comma-separated list of authors, or more im
 <!-- Separate discussion on the pattern.-->
 
 
-
-<!--##Categories-->
-<!-- Placeholder for future agreed upon categories as per collaboration's evaluation.-->
 
 <!--##Tags-->
 <!-- User definable descriptors for additional correlation.-->
