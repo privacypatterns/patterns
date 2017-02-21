@@ -17,11 +17,6 @@
 
 [TOC]
 
-##Name
-<!--Primary name the pattern is known by.-->
-
-Ambient notice
-
 <!--###[Also Known As]-->
 <!-- All other names the pattern is known by.-->
 
@@ -115,12 +110,6 @@ _Similar examples exist in at least Android, iOS and Win7._
 <!-- Separate discussion on the pattern.-->
 
 
-
-##Categories
-<!-- Placeholder for future agreed upon categories as per collaboration's evaluation.-->
-
-Inform
-Notify
 
 <!--##Tags-->
 <!-- User definable descriptors for additional correlation.-->

@@ -13,11 +13,6 @@
 
 [TOC]
 
-##Name
-<!--Primary name the pattern is known by.-->
-
-Location Granularity
-
 <!--###[Also Known As]-->
 <!-- All other names the pattern is known by.-->
 
@@ -127,12 +122,6 @@ One of the fore-runners to the W3C Geolocation API, Firefox's experimental Geode
 <!-- Separate discussion on the pattern.-->
 
 
-
-##Categories
-<!-- Placeholder for future agreed upon categories as per collaboration's evaluation.-->
-
-Abstract
-Group
 
 <!--##Tags-->
 <!-- User definable descriptors for additional correlation.-->

@@ -16,11 +16,6 @@
 
 [TOC]
 
-##Name
-<!--Primary name the pattern is known by.-->
-
-Onion Routing
-
 <!--###[Also Known As]-->
 <!-- All other names the pattern is known by.-->
 
@@ -123,12 +118,6 @@ anonymity makes heavy use of onion routing.
 <!-- Separate discussion on the pattern.-->
 
 
-
-##Categories
-<!-- Placeholder for future agreed upon categories as per collaboration's evaluation.-->
-
-Hide
-Mix
 
 <!--##Tags-->
 <!-- User definable descriptors for additional correlation.-->

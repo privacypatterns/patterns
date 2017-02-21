@@ -15,11 +15,6 @@
 
 [TOC]
 
-##Name
-<!--Primary name the pattern is known by.-->
-
-Psuedonymous Identity
-
 <!--###[Also Known As]-->
 <!-- All other names the pattern is known by.-->
 
@@ -128,12 +123,6 @@ are using pseudonyms for the storage of e-health records.
 <!-- Separate discussion on the pattern.-->
 
 
-
-##Categories
-<!-- Placeholder for future agreed upon categories as per collaboration's evaluation.-->
-
-Hide
-Dissociate
 
 <!--##Tags-->
 <!-- User definable descriptors for additional correlation.-->

@@ -16,11 +16,6 @@
 
 [TOC]
 
-##Name
-<!--Primary name the pattern is known by.-->
-
-Privacy Color Coding
-
 <!--###[Also Known As]-->
 <!-- All other names the pattern is known by.-->
 
@@ -140,12 +135,6 @@ user. Blue background is used for custom audiences such as groups.
 <!-- Separate discussion on the pattern.-->
 
 
-
-##Categories
-<!-- Placeholder for future agreed upon categories as per collaboration's evaluation.-->
-
-Inform
-Explain
 
 <!--##Tags-->
 <!-- User definable descriptors for additional correlation.-->

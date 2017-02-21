@@ -13,11 +13,6 @@
 
 [TOC]
 
-##Name
-<!--Primary name the pattern is known by.-->
-
-Policy Matching Display
-
 <!--###[Also Known As]-->
 <!-- All other names the pattern is known by.-->
 
@@ -102,12 +97,6 @@ This pattern requires sharing a machine-readable format to express and exchange 
 <!-- Separate discussion on the pattern.-->
 
 
-
-##Categories
-<!-- Placeholder for future agreed upon categories as per collaboration's evaluation.-->
-
-Inform
-Provide
 
 <!--##Tags-->
 <!-- User definable descriptors for additional correlation.-->
