@@ -103,13 +103,13 @@ clearly should be stripped to avoid overstepping the users' expectations.
 ##Examples
 <!--Motivational example to see how the pattern is applied.-->
 
- #### Uploading images to twitter.com
+1. Uploading images to twitter.com
 
 Twitter.com removes EXIF data from images uploaded to their image
 sharing service. Previously there have been many breaches of personal
 location by using EXIF data shared by image sharing services. 
 
- #### Hiding EXIF data on Flickr.com
+2. Hiding EXIF data on Flickr.com
 
 In certain cases services might build features based on
 metadata, or the metadata sharing could be an important part of the

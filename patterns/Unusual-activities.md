@@ -24,14 +24,14 @@ Handling unusual account activities with multiple factors
 <!-- All other names the pattern is known by.-->
 
 
-
 ##Summary
 <!-- One short paragraph summarising the pattern.-->
 
-Use additional factors to notify users of unusual activities and authenticate when accounts may have been compromised.
+Use additional factors to notify users of unusual activities and authenticate 
+when accounts may have been compromised.
 
 <!--intent-->
-For Internet services, prevent suspicious access to the account, and/or
+For Internet services, prevent suspicious access to the account, and/or 
 make the account owner aware of unusual activities.
 
 ##Context
@@ -112,48 +112,17 @@ seriously. It should be also to identify most of the activities, with a
 false positive rate that is not too high. It should balance the cost of
 multi-factor authentication.
 
-Reflection on the Process
--------------------------
-
- ####Determining the Scope####
-
-I started with Gmail's display of account activities. It displays
-unusual activities regarding an account, which involves identifying
-unusual activities where the password entered is correct. For some other
-services, correct passwords can be rejected from a new device /
-location.
-
-So, the scope of this pattern is to handle unusual activities (including
-sign-ins).
-
- ####Relevant Information####
-
-This pattern includes multi-factor authentication and two-step
-authentication, which are well studied. But the general topic about
-informing the user of unusual activities seems to be lack of literature.
-
- ####Limitations and Discussion####
-
-This pattern has some limitations. For example, it relies on accurate
-identification of suspicious sign-ins based on meta information, where
-the meta information including the IP address can be spoofed by an
-experienced attacker.
-
-If the fallback multi-factor authentication only happens occasionally to
-the legitimate account owner, they may be unprepared to such
-authentication, leading to a decreased usability.
-
 ##Solution
 <!-- A concise description of how the pattern addresses the problem.-->
 
-First, the service should be able to identify unusual sign-ins Then the
+First, the service should be able to identify unusual sign-ins. Then the
 service may use multi-factor authentication to confirm the identity of
 the user.
 
 The user should be informed of unusual activities, or have some ways to
 see recent events, and even do something.
 
- ####Identify Unusual Activities####
+* Identify Unusual Activities
 
 Today, a web service may appear as a website or an application on the
 user's devices (including mobile devices and the PCs). The service can
@@ -163,7 +132,7 @@ username-password combination is suspicious.
 The strategies described here has both false positives and false
 negatives.
 
- ####A Website####
+* A Website
 
 Typically, a sign-in to a website is in the form of an HTTP request,
 which contains many customized settings of the browser, including the
@@ -178,7 +147,7 @@ the website. The website can have its rules to determine if an access is
 *suspicious*, for example, an access from a new country / browser /
 operating system is considered suspicious.
 
- ####An Application####
+* An Application
 
 By running native code, the application can collect some identifiers of
 the machine, including the operating system environment settings (e.g.
@@ -192,7 +161,7 @@ the service. The service can have its rules to determine if a sign-in is
 *suspicious*, for example, an access from a new country / machine /
 operating system is considered suspicious.
 
- ####Require Multi-factor Authentication####
+* Require Multi-factor Authentication
 
 In case of a suspicious sign-in, multi-factor authentication may be a
 way to let the legitimate user in. The service can request one more
@@ -227,7 +196,7 @@ authentication except password, such as:
 Using multi-factor authentication only in case of suspicious sign-ins is
 more convenient to using it all the time, but is less secure.
 
- ####Notify Account Holders of Unusual Activities####
+* Notify Account Holders of Unusual Activities
 
 When an suspicious sign-in is detected, it may be a sign that the
 password has already been leaked. Depending on the type of the service,
@@ -251,20 +220,28 @@ and review recent sign-in events.
 
 
 
-<!--##Consequences-->
+##Consequences
 <!--The advantages (benefits) and disadvantages (liabilities) of applying the pattern.-->
 
 
 
-<!--###[Constraints]-->
+###[Constraints]
 <!-- limitations as a consequence of applying the pattern.-->
 
+This pattern has some limitations. For example, it relies on accurate
+identification of suspicious sign-ins based on meta information, where
+the meta information including the IP address can be spoofed by an
+experienced attacker.
+
+If the fallback multi-factor authentication only happens occasionally to
+the legitimate account owner, they may be unprepared to such
+authentication, leading to a decreased usability.
 
 
 ##Examples
 <!--Motivational example to see how the pattern is applied.-->
 
- ####Gmail####
+1. Gmail
 
 Gmail displays information about other sessions (if any) in the footer,
 linking to a page named "Activity on this account" which lists other
@@ -275,13 +252,13 @@ In case of annoying false positives, the user may choose to disable the
 alert for unusual activity. The disable takes about a week, "to make
 sure the bad guys aren't the ones who turned off your alerts."
 
- ####Facebook####
+2. Facebook
 
 When Facebook detects an unusual sign-in, it shows *social
 authentication* that displays a few pictures of the user's friends and
 asks the user to name the person in those photos.
 
- ####Dropbox####
+3. Dropbox
 
 The *Security* tab of the *Settings* of the Dropbox website displays all
 web browser sessions logged in to the account, and enables the user to
@@ -316,9 +293,25 @@ the user to unlink one or more of them.
     *Proceedings of the 28th Annual Computer Security Applications
     Conference* (pp. 399-408). ACM.
 
-<!--##General Comments-->
+##General Comments
 <!-- Separate discussion on the pattern.-->
 
+* Determining the Scope
+
+I started with Gmail's display of account activities. It displays
+unusual activities regarding an account, which involves identifying
+unusual activities where the password entered is correct. For some other
+services, correct passwords can be rejected from a new device /
+location.
+
+So, the scope of this pattern is to handle unusual activities (including
+sign-ins).
+
+* Relevant Information
+
+This pattern includes multi-factor authentication and two-step
+authentication, which are well studied. But the general topic about
+informing the user of unusual activities seems to be lack of literature.
 
 
 ##Categories
@@ -329,5 +322,4 @@ Notify
 
 <!--##Tags-->
 <!-- User definable descriptors for additional correlation.-->
-
 

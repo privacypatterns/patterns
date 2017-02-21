@@ -83,13 +83,13 @@ Services may also allow users to revoke existing private links or change the URL
 ##Examples
 <!--Motivational example to see how the pattern is applied.-->
 
- #### Flickr "Guest Pass" ####
+1. Flickr "Guest Pass"
 
- #### Google "anyone with the link" sharing ####
+2. Google "anyone with the link" sharing
 
- #### Tripit "Get a link" ####
+3. Tripit "Get a link"
 
- #### Dropbox "Share Link" ####
+4. Dropbox "Share Link"
 
 <!--###[Known Uses]-->
 <!-- Pointers to various applications of the pattern.-->

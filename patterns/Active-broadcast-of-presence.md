@@ -76,7 +76,7 @@ While sharing access controls may allow constant access, only _broadcast_ presen
 ##Examples
 <!--Motivational example to see how the pattern is applied.-->
 
- ####Foursquare check-in model####
+* Foursquare check-in model
 
 <!--###[Known Uses]-->
 <!-- Pointers to various applications of the pattern.-->
