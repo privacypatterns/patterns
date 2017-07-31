@@ -15,11 +15,11 @@
 
 [TOC]
 
-<!--###[Also Known As]-->
+<!--### [Also Known As]-->
 <!-- All other names the pattern is known by.-->
 
 
-##Summary
+## Summary
 <!-- One short paragraph summarising the pattern.-->
 
 Use additional factors to notify users of unusual activities and authenticate 
@@ -29,7 +29,7 @@ when accounts may have been compromised.
 For Internet services, prevent suspicious access to the account, and/or 
 make the account owner aware of unusual activities.
 
-##Context
+## Context
 <!-- The situations in which the pattern may apply.-->
 
 Many Internet services are using password-based authentication which is
@@ -75,7 +75,7 @@ determine if an activity is unusual. In case of such unusual activities,
 a service needs to prevent suspicious access to an account, and/or
 inform the account owner of the unusual activities.
 
-##Problem
+## Problem
 <!-- The problem a pattern addresses, including a list of forces describing why a problem might be difficult to solve.-->
 
 How can a service that uses username-password authentication and
@@ -107,7 +107,7 @@ seriously. It should be also to identify most of the activities, with a
 false positive rate that is not too high. It should balance the cost of
 multi-factor authentication.
 
-##Solution
+## Solution
 <!-- A concise description of how the pattern addresses the problem.-->
 
 First, the service should be able to identify unusual sign-ins. Then the
@@ -205,22 +205,22 @@ For services that can be logged on from multiple devices at the same
 time, the user should be able to check the existence of other sessions,
 and review recent sign-in events.
 
-<!--###[Structure]-->
+<!--### [Structure]-->
 <!--A detailed specification of the structural aspects of the pattern. A class diagram if applicable.-->
 
 
 
-<!--###[Implementation]-->
+<!--### [Implementation]-->
 <!--Guidelines for implementing the pattern; code fragments; suggested PETS; policy fragments.-->
 
 
 
-##Consequences
+## Consequences
 <!--The advantages (benefits) and disadvantages (liabilities) of applying the pattern.-->
 
 
 
-###[Constraints]
+### [Constraints]
 <!-- limitations as a consequence of applying the pattern.-->
 
 This pattern has some limitations. For example, it relies on accurate
@@ -233,7 +233,7 @@ the legitimate account owner, they may be unprepared to such
 authentication, leading to a decreased usability.
 
 
-##Examples
+## Examples
 <!--Motivational example to see how the pattern is applied.-->
 
 1. Gmail
@@ -264,22 +264,22 @@ authentication, leading to a decreased usability.
  It also displays all devices that are linked to the account, and allows
  the user to unlink one or more of them.
 
-<!--###[Known Uses]-->
+<!--### [Known Uses]-->
 <!-- Pointers to various applications of the pattern.-->
 
 
 
-<!--##See Also-->
+<!--## See Also-->
 <!-- Any pointers to relevant information, not contained in the subfields below.-->
 
 
 
-<!--###[Related Patterns]-->
+<!--### [Related Patterns]-->
 <!-- Supporting and conflicting patterns-->
 
 
 
-###[Sources]
+### [Sources]
 <!-- References to the original source of the pattern.-->
 
 -   Polakis, I., Lancini, M., Kontaxis, G., Maggi, F., Ioannidis, S.,
@@ -288,7 +288,7 @@ authentication, leading to a decreased usability.
     *Proceedings of the 28th Annual Computer Security Applications
     Conference* (pp. 399-408). ACM.
 
-##General Comments
+## General Comments
 <!-- Separate discussion on the pattern.-->
 
 * Determining the Scope
@@ -309,6 +309,6 @@ authentication, which are well studied. But the general topic about
 informing the user of unusual activities seems to be lack of literature.
 
 
-<!--##Tags-->
+<!--## Tags-->
 <!-- User definable descriptors for additional correlation.-->
 
