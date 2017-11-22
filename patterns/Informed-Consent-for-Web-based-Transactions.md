@@ -102,7 +102,7 @@ Human Computer Interaction concepts expressed in the work of Fischer-Hübner et 
 
 [Informed Consent for Web-based Transactions](Informed-Consent-for-Web-based-Transactions) may be used by [Lawful Consent](Lawful-Consent), as it is one of the compound pattern's possible constituents.
 
-This pattern _specializes_ [Obtaining Explicit Consent](Obtaining-Explicit-Consent). In either case the controller in question focuses on informing and getting the user's consent explicitly, with more emphasis on one or the other. In the case of this pattern, it is applied for Web-based transactions in particular.
+This pattern _refines_ [Obtaining Explicit Consent](Obtaining-Explicit-Consent). In either case the controller in question focuses on informing and getting the user's consent explicitly, with more emphasis on one or the other. In the case of this pattern, it is applied for Web-based transactions in particular.
 
 Additionally, [Privacy Policy Display](Privacy-Policy-Display) or similar is also used by this pattern.
 

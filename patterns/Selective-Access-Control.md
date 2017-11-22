@@ -87,7 +87,7 @@ These rules could be defined based on users, groups of users, or based on contex
 [Selective Access Control](Selective-Access-Control)
  is complemented by [Private link](Private-link), which focuses on private sharing with anonymous users while this pattern defines the audience for a contribution. It is a part of the [Support Selective Disclosure](Support-Selective-Disclosure) compound pattern, and thus may be used by it.
 
-This pattern _specializes_ [Reasonable Level of Control](Reasonable-Level-of-Control) in a socially oriented service context. It _complements_ both [Discouraging Blanket Strategies](Discouraging-Blanket-Strategies) (more flexible privacy setting management) and [Decoupling [content] and location information visibility](Decoupling-[content]-and-location-information-visibility) (selectively providing location access).
+This pattern _refines_ [Reasonable Level of Control](Reasonable-Level-of-Control) in a socially oriented service context. It _complements_ both [Discouraging Blanket Strategies](Discouraging-Blanket-Strategies) (more flexible privacy setting management) and [Decoupling [content] and location information visibility](Decoupling-[content]-and-location-information-visibility) (selectively providing location access).
 
 Despite focusing on the choices within access control, decisions which users make should still be informed, and explicit, with the consent involved uncoerced. Therefore, this pattern also _must use_ [Lawful Consent](Lawful-Consent).
 

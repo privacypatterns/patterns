@@ -80,7 +80,7 @@ Private defaults will often not be the appropriate settings for a user, as most 
 
 This pattern is used by [Support Selective Disclosure](Support-Selective-Disclosure), a compound pattern. It is also complemented by [Discouraging blanket strategies](Discouraging-blanket-strategies) (avoiding all or nothing strategies for privacy settings) and [Decoupling [content] and location information visibility](Decoupling-[content]-and-location-information-visibility) (change the privacy every time content is being shared). 
 
-[Negotiation of Privacy Policy](Negotiation-of-Privacy-Policy) _specializes_ [Reasonable Level of Control](Reasonable-Level-of-Control), which describes methods which allow users to share their information (selectively and granularly), while this pattern targets the beginning of the service use. 
+[Negotiation of Privacy Policy](Negotiation-of-Privacy-Policy) _refines_ [Reasonable Level of Control](Reasonable-Level-of-Control), which describes methods which allow users to share their information (selectively and granularly), while this pattern targets the beginning of the service use. 
 
 It is _similar to_ [Enable/Disable Functions](Enable/Disable-Functions), where users may switch between functionalities which affect their privacy. This solution is quite similar to opting in or out of those features. Specifically a similar problem is addressed from non-functional as opposed to functional perspectives.
 

@@ -91,7 +91,7 @@ Thus pattern may be used by [Lawful Consent](Lawful-Consent), as it is one of th
 
 [Obtaining Explicit Consent](Obtaining-Explicit-Consent) is _similar to_ [Sign an Agreement to Solve Lack of Trust on the Use of Private Data Context](Sign-an-Agreement-to-Solve-Lack-of-Trust-on-the-Use-of-Private-Data-Context). This Contractual Consent merely focuses on the need for non-repudiation more so than [Obtaining Explicit Consent](Obtaining-Explicit-Consent). Their perspectives are different while their overall solution is more or less the same. 
 
-It also is specialized by [Informed Consent for Web-based Transactions](Informed-Consent for-Web-based-Transactions). It is a specialization of, and is used by, [Lawful Consent](Lawful-Consent). In both cases the controller aims to inform users prior to obtaining their consent, though in the other pattern's case it is applied specifically for Web-based transactions.
+It also is refined by [Informed Consent for Web-based Transactions](Informed-Consent for-Web-based-Transactions). It is a refinement of, and is used by, [Lawful Consent](Lawful-Consent). In both cases the controller aims to inform users prior to obtaining their consent, though in the other pattern's case it is applied specifically for Web-based transactions.
 
 Porekar et al. (2008) also highlight this pattern's complementing Enforce patten relationships:
 - [Constructing Privacy Policy](Creating-Privacy-Policy);

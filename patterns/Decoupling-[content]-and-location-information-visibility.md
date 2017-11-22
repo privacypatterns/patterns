@@ -107,7 +107,7 @@ The pattern _complements_ [Discouraging Blanket Strategies](Discouraging-Blanket
 
 It also _complements_ [Negotiation of Privacy Policy](Negotiation-of-Privacy-Policy). The latter defines privacy settings at the beginning. This pattern however gives the chance to change privacy settings every time content is being shared.
 
-Additionally, this pattern _specializes_ [Reasonable Level of Control](Reasonable-Level-of-Control). It provides means of control for location attached to content, so it complies with the the latter's solution in a more specific scenario.
+Additionally, this pattern _refines_ [Reasonable Level of Control](Reasonable-Level-of-Control). It provides means of control for location attached to content, so it complies with the the latter's solution in a more specific scenario.
 
 Finally, this pattern _may use_ the [Buddy List](Buddy List) pattern. The location information could be seen by different types of users, one of them could be featured in a [Buddy List](Buddy List) or one of its user/search directories.
 
