@@ -36,33 +36,33 @@ Many Internet services are using password-based authentication which is
 really convenient (compared to strong authentication) but has apparent
 drawbacks:
 
--   The password itself does not change.
+- The password itself does not change.
 
     Unless the account owner changes the password, all sign-ins use the
     same identity-password combination. If the password is stolen by a
     malicious party through some means, it can be reused until it is
     changed.
 
--   The password can be cracked.
+- The password can be cracked.
 
     Many account owners tend to use weak passwords that can be
     brute-force attacked online. Sometimes the hacker can obtain the
     database dump which contains hashed passwords, which can be
     brute-forced offline.
 
--   The account owner has no way to ensure their exclusive possession of
+- The account owner has no way to ensure their exclusive possession of
     the password.
 
     The account owner has no evidence if the password is stolen by a
     malicious party.
 
--   The only way to control who can access is to reset the password.
+- The only way to control who can access is to reset the password.
 
     As a result, if the account owner want to ensure only they have the
     password, they can only reset the password. In some scenarios,
     resetting the password is not enough.
 
--   The password can be seen by people around.
+- The password can be seen by people around.
 
     When the account owner enters the password on a computer keyboard or
     the screen of a mobile device (mobile phone / tablet), people around
@@ -91,14 +91,14 @@ which is inconvenient. It increases privacy at the cost of usability.
 The fallback multi-factor authentication should be picked carefully with
 the understanding of the service.
 
--   In the above example, Facebook makes use of its resource of
+- In the provided example, Facebook makes use of its resource of
     friendship and photos. Their decision is based on the assumption
     that it is very unlikely for a hacker to recognize the friends.
     Actually the assumption may not hold true in some scenarios, because
     many of the photos are public and can be viewed under another
     account, or can be identified with the help from a large-scale
     tagged photo collection and machine learning.
--   Persuading the user into carrying a hardware token everywhere only
+- Persuading the user into carrying a hardware token everywhere only
     for occasional multi-factor authentication may be difficult, but it
     might worth the effort for financial services.
 
@@ -162,26 +162,26 @@ In case of a suspicious sign-in, multi-factor authentication may be a
 way to let the legitimate user in. The service can request one more
 authentication except password, such as:
 
--   A software token
+- A software token
 
     Examples include Google Authenticator which runs on mobile phones
     and implements RFC6238 TOTP security tokens..
 
--   A hardware token (disconnected)
+- A hardware token (disconnected)
 
     Examples include a token issued by a bank which displays digits,
     which is similar to a software token.
 
--   A hardware token (connected)
+- A hardware token (connected)
 
     The token may exchange a longer secondary password than the previous
     one, which means it's safer.
 
--   Personal data like date of birth, SSN
+- Personal data like date of birth, SSN
 
     Obviously not a good choice here because it cannot be changed.
 
--   An one-time password (OTP) sent to the registered E-mail address /
+- An one-time password (OTP) sent to the registered E-mail address /
     mobile phone
 
     Depending the type of the service, maybe the user uses the same
