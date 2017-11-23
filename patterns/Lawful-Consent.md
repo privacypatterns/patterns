@@ -41,8 +41,6 @@ Concerned controllers aim to promote trust in any number of ways, potentially in
 An controller aims to maximise the value of their services by gathering as much sharing and participation as possible, potentially seeing user consent as a barrier to functionality and efficiency. They may inadvertently subvert notions of consent by unnecessarily bundling together desirable services with needs for personal information, or downplaying the significance of the data involved. They undermine self-determination at the risk of losing trust from their users, and attracting legal investigations which may rule their practices unlawful.
 
 #### Forces/Concerns
-<!-- Implications in this problem which affect the appropriateness of a solution, and are affected by this pattern.-->
-<!-- Forces should be highly visible for easy reference, where less obvious a dedicated section is recommended.-->
 - Controllers want to encourage participation, and thus may be less concerned with investigating or revealing tradeoffs
 - Controllers may be tempted to bundle various services under a single broad consent request, pressuring users into agreements they might not otherwise accept
 - Users often want to make use of new and exciting features, and therefore easily overlook downplayed privacy risks
