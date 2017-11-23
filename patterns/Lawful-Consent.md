@@ -4,8 +4,8 @@
     type: pattern
     excerpt: "A crucial element in privacy protection is ensuring that all sensitive processing is preceded by the acquisition of freely given, informed, specific, and explicit consent."
     categories:
-        - Control
-        - Consent
+        - control
+        - consent
     status: pattern
     address:
 
@@ -109,7 +109,7 @@ Allowing informed and specific consent prevents controllers from soliciting misp
 ### [Related Patterns]
 <!-- Supporting and conflicting patterns-->
 
-[Lawful Consent](Lawful-Consent) is a compound pattern of various other consent-based patterns. Therefore it _may use_ a combination of [Informed Consent for Web-based Transactions](Informed-Consent-for-Web-based-Transactions), [Obtaining Explicit Consent](Obtaining-Explicit-Consent), and [Sign an Agreement to Solve Lack of Trust on the Use of Private Data Context](Sign-an-Agreement-to-Solve-Lack-of-Trust-on-the-Use-of-Private-Data-Context) (or simply, Contractual Consent). 
+[Lawful Consent](Lawful-Consent) is a compound pattern of various other consent-based patterns. Therefore it _may use_ a combination of [Informed Consent for Web-based Transactions](Informed-Consent-for-Web-based-Transactions), [Obtaining Explicit Consent](Obtaining-Explicit-Consent), and [Sign an Agreement to Solve Lack of Trust on the Use of Private Data Context](Sign-an-Agreement-to-Solve-Lack-of-Trust-on-the-Use-of-Private-Data-Context) (or simply, Contractual Consent).
 
 Since it contains crucial elements from each of its constituents, with the potential for additional focus based on context, this compound pattern is useful for every pattern that needs to consider user consent. As such, the list of patterns which _must use_ this pattern is extensive and listed here non-exhaustively. Within patterns for Control they include:
 
