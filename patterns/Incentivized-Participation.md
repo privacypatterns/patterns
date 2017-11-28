@@ -4,9 +4,9 @@
     type: pattern
     excerpt: "Users are more willing to contribute valuable input when they can do so without leaking personal data, or perceive an equal or greater exchange in value either monetarily or socially."
     categories:
-        - Control
-        - Choose
-        - Consent
+        - control
+        - choose
+        - consent
     status: pattern
     address:
 
@@ -51,8 +51,6 @@ An example of this behaviour might be seen in dating sites where users with only
 Users which provide limited or vague information due to privacy concerns may have less opportunity for participation. Another way this occurs is when they are not driven by positive social reinforcement. The lack of friends, followers, potential matches, etc. leads to user inactivity.
 
 #### Forces/Concerns
-<!-- Implications in this problem which affect the appropriateness of a solution, and are affected by this pattern.-->
-<!-- Forces should be highly visible for easy reference, where less obvious a dedicated section is recommended.-->
 - Controllers want to encourage users to grow their networks and further participate, though this may increase their exposure to privacy concerns and bad user experience.
 - User concerns over privacy may cause for adverse reactions to unwelcome changes or discoveries in policy, especially attempts to goad or guilt-trip users into activity (e.g. "This user does not participate").
 - Where controllers sanction users for inactivity, or undesirable activity, they affect user experience, for better or for worse.
