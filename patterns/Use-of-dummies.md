@@ -1,6 +1,6 @@
     {%hyde
 
-    title: "use of dummies"
+    title: "Use of dummies"
     type: pattern
     excerpt: "This pattern hides the actions taken by a user by adding
     fake actions that are indistinguishable from real."
