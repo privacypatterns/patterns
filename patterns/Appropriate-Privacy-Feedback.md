@@ -92,9 +92,23 @@ When you share some content on Facebook, it sometimes asks you to review your fu
 
 
 
-<!--### [Related Patterns]-->
+### [Related Patterns]
 <!-- Supporting and conflicting patterns-->
-<!-- These relationships are still under review -->
+
+This pattern is a component of the compound pattern, [Awareness Feed](Awareness-Feed). As such, this pattern _may be used_ by it.
+
+This pattern _complements_ [Privacy Awareness Panel](Privacy-Awareness-Panel), [Who's Listening](Whos-Listening), [Trust Evaluation of Services Sides](Trust-Evaluation-of-Services-Sides), and [Increasing Awareness of Information Aggregation](Increasing-Awareness-of-Information-Aggregation).
+
+[Privacy Awareness Panel](Privacy-Awareness-Panel) provides the same information (what, who, and how) as this pattern, while using different mechanisms. Together these patterns cover future, present, and past disclosure. While this could be a _similar_ relationship, complementary aspects are also present. Similar to [Privacy Awareness Panel](Privacy-Awareness-Panel), the complementary relationship with [Who's Listening](Whos-Listening) allows for monitoring of access in a more holistic manner.
+
+[Trust Evaluation of Services Sides](Trust-Evaluation-of-Services-Sides) provides visual highlights which alert the user to the estimated trustworthiness of a service. This functionality goes well with the aim to provide the user with useful feedback on risks to their privacy. Together, these patterns can illuminate the trustworthiness of entities which access the user's data, especially third parties.
+
+[Increasing Awareness of Information Aggregation](Increasing-Awareness-of-Information-Aggregation) aims to solve a different problem, though it may help future disclosure decisions through knowledge of its potential sensitivity when aggregated.
+
+For ensuring the feedback provided is accurate and actionable, this pattern also _complements_ [Privacy Sensitive Architectures](Privacy-Sensitive-Architectures) and [Reasonable Level of Control](Reasonable-Level-of-Control).
+
+Appropriate Privacy Feedback _may be used_ by [Privacy Mirrors](Privacy-Mirrors) as a means to provide feedback on personal data usage. [Privacy Dashboard](Privacy-Dashboard) also _may use_ it, as it empowers users to act on detail they have been drawn attention to. Notification may also be facilitated through _using_ [Ambient](Ambient-Notice) or [Asynchronous Notice](Asynchronous-Notice) to reduce intrusiveness.
+
 ### [Sources]
 <!-- References to the original source of the pattern.-->
 

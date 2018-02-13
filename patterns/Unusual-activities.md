@@ -131,9 +131,15 @@ _If the fallback multi-factor authentication only happens occasionally to the le
 
 
 
-<!--### [Related Patterns]-->
+### [Related Patterns]
 <!-- Supporting and conflicting patterns-->
-<!-- These relationships are still under review -->
+
+This pattern _complements_ the [Data Breach Notification](Data-Breach-Notification) pattern. These patterns work in an overlapping context. While this pattern  focuses on detecting and dealing with unauthorized access, [Data Breach Notification](Data-Breach-Notification) focuses on informing and reacting when a data breach has occurred. The patterns can work together to handle unauthorized access to personal data.
+
+This pattern also _complements_ [Informed Secure Passwords](Informed-Secure-Passwords). While this pattern establishes access norms for authentication, the latter focuses on encouraging better use of password-based authentication. The patterns may work together to aid in detection and response to compromised access, and in users learning from these instances.
+
+Finally this pattern _complements_ [Impactful Information and Feedback](Impactful-Information-and-Feedback). Unusual Activities provides important information which can be used with [Impactful Information and Feedback](Impactful-Information-and-Feedback) to better inform the user, and allow the user to better protect their personal data.
+
 ### [Sources]
 <!-- References to the original source of the pattern.-->
 

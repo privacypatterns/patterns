@@ -111,9 +111,15 @@ _Asynchronous notices may also include a summary of the data recently collected 
 
 
 
-<!--### [Related Patterns]-->
+### [Related Patterns]
 <!-- Supporting and conflicting patterns-->
-<!-- These relationships are still under review -->
+
+This pattern _refines_ [Preventing Mistakes or Reducing Their Impact](Preventing-Mistakes-or-Reducing-Their-Impact). As it provides notice of noteworthy processing when in context, a user is prevented from mistakenly producing data. As the notification is obtrusive, they are given every chance to cease doing so before it has an impact. As an implicit relationship through [Preventing Mistakes or Reducing Their Impact](Preventing-Mistakes-or-Reducing-Their-Impact), this pattern also _complements_ [Impactful Information and Feedback](Impactful-Information-and-Feedback).
+
+This pattern is an _alternative_ to [Ambient Notice](Ambient-Notice). While this pattern provides contextually justified notice whenever necessary, the Ambient variant does so persistently and without contextual justification. Unlike this pattern, [Ambient Notice](Ambient-Notice) is unobtrusive.
+
+This pattern _complements_ [Single Point of Contact](Single-Point-of-Contact). A SPoC is an authority which validates requests and ensures secure and private communication, a usage of data which can be contextually displayed to remind the user of its (de)activation.
+
 ### [Sources]
 <!-- References to the original source of the pattern.-->
 

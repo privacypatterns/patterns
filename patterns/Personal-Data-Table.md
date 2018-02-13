@@ -117,9 +117,16 @@ _Figure 1 shows the actual design of the personal data table pattern implementat
 
 
 
-<!--### [Related Patterns]-->
+### [Related Patterns]
 <!-- Supporting and conflicting patterns-->
-<!-- These relationships are still under review -->
+
+This pattern _complements_ [Minimal Information Asymmetry](Minimal-Information-Asymmetry). Like this pattern, it allows a user to see what personal data is acquired by the controller. It provides a better understanding of what data is processed and the policies surrounding that processing, including potential risks. Together these patterns show a clearer representation for the user to consider.
+
+This pattern may be _used by_ [Privacy Mirrors](Privacy-Mirrors). It keeps track of what is known, and allows for various configurations within this. It also stems from a multidisciplinary context. As such there exists a an extension of functionality in this. However, as the described problems are different, there is not an _extends_ relationship.
+
+_Patterns that also show personal data within a user application are the Personal Data Infographic (showing data as infographic, not a table) and Viewable Personal Data Overlay (showing in an overlay which data is viewable by others)[.] Furthermore, the Digital File with Personal Data pattern allows a user to receive the personal data collected for a certain service in a digital file._
+
+
 ### [Sources]
 <!-- References to the original source of the pattern.-->
 

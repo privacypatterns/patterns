@@ -81,9 +81,21 @@ _Before using the terms one should be sure that they are clear and understandabl
 
 
 
-<!--### [Related Patterns]-->
+### [Related Patterns]
 <!-- Supporting and conflicting patterns-->
-<!-- These relationships are still under review -->
+
+This pattern _complements_ [Awareness Feed](Awareness-Feed), [Appropriate Privacy Icons](Appropriate-Privacy-Icons), [Icons for Privacy Policies](Icons-for-Privacy-Policies), [Privacy Color Coding](Privacy-Color-Coding), [Abridged Terms and Conditions](Abridged-Terms-and-Conditions), [Privacy Policy Display](Privacy-Policy-Display), [Layered Policy Design](Layered-Policy-Design), and [Privacy-Aware Network Client](Privacy-Aware-Network-Client).
+
+Like many patterns which inform users, elements of [Awareness Feed](Awareness-Feed) (like [Impactful Information and Feedback](Impactful-Information-and-Feedback)) and its methods for establishing awareness go well with accessible policy aspects like this pattern.
+
+Interpretations of privacy policies and their expression in easily understood summaries could be improved with [Appropriate Privacy Icons](Appropriate-Privacy-Icons), [Icons for Privacy Policies](Icons-for-Privacy-Policies) and [Privacy Color Coding](Privacy-Color-Coding). This makes for a more accessible solution with visual cues.
+
+Accessible policies like these go well with [Abridged Terms and Conditions](Abridged-Terms-and-Conditions), as they _complement_ its need for policy summarization.
+
+Privacy Aware Wording can be used alongside [Privacy Policy Display](Privacy-Policy-Display) and [Layered Policy Design](Layered-Policy-Design) to provide more accessible wording in the resulting layered privacy policy or display. Similarly, [Privacy-Aware Network Client](Privacy-Aware-Network-Client) benefits from such attention to accessibility in its easily readable format.
+
+Implicit complementary relationships to this pattern include [Dynamic Privacy Policy Display](Dynamic-Privacy-Policy-Display) and [Policy Matching Display](Policy-Matching-Display). Both of these exist through their use of [Privacy Policy Display](Privacy-Policy-Display).
+
 ### [Sources]
 <!-- References to the original source of the pattern.-->
 

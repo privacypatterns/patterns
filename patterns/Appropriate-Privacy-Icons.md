@@ -82,7 +82,7 @@ _Informed users are able to make informed decisions which lead to a more respons
 - _https://netzpolitik.org/2007/iconset-fuer-datenschutzerklaerungen/_ <br>![icons from netzpolitik](https://cdn.netzpolitik.org/wp-upload/data-privacy-icons-v01.jpg)
 - _http://knowprivacy.org/policies_methodology.html_
 ![KnowPrivacy.org Icons](http://knowprivacy.org/images/iconset.png)
-- _http://www.privicons.org/ _![dont-attribute](http://privicons.org/files/gimgs/dont-attribute.png) ![dont-print](http://privicons.org/files/gimgs/dont-print.png) ![delete-after](http://privicons.org/files/gimgs/delete-after.png) ![keep-internal](http://privicons.org/files/gimgs/keep-internal.png) ![please-share](http://privicons.org/files/gimgs/please-share.png) ![keep-secret](http://privicons.org/files/gimgs/keep-secret.png)
+- _http://www.privicons.org/_ ![dont-attribute](http://privicons.org/files/gimgs/dont-attribute.png) ![dont-print](http://privicons.org/files/gimgs/dont-print.png) ![delete-after](http://privicons.org/files/gimgs/delete-after.png) ![keep-internal](http://privicons.org/files/gimgs/keep-internal.png) ![please-share](http://privicons.org/files/gimgs/please-share.png) ![keep-secret](http://privicons.org/files/gimgs/keep-secret.png)
 - _The EU-funded PrimeLife project also proposed a set of privacy icons_
 - _The Use of Privacy Icons and Standard Contract Terms for Generating Consumer Trust and Confidence in Digital Services CREATe Working Paper 2014/15 (October 2014)_
 
@@ -98,9 +98,19 @@ _Currently, most of these are only applied by client-side solutions._
 
 Recital 60 as well as Art. 12(7) of the General Data Protection Regulation suggests the use of standardized icons, informing users in an _easily visible, intelligible and clearly legible manner_.
 
-<!--### [Related Patterns]-->
+### [Related Patterns]
 <!-- Supporting and conflicting patterns-->
-<!-- These relationships are still under review -->
+
+This pattern _complements_ [Impactful Information and Feedback](Impactful-Information-and-Feedback), [Informed Secure Passwords](Informed-Secure-Passwords), [Layered Policy Design](Layered-Policy-Design), [Privacy Aware Wording](Privacy-Aware-Wording), [Privacy-Aware Network Client](Privacy-Aware-Network-Client), and [Awareness Feed](Awareness-Feed). It also implicitly _complements_ [Trust Evaluation of Services Sides](Trust-Evaluation-of-Services-Sides) through [Awareness Feed](Awareness-Feed).
+
+As a visual cue, this pattern aids in providing [Impactful Information and Feedback](Impactful-Information-and-Feedback) by augmenting it with quickly interpreted information. These visual cues additionally help towards [Informed Secure Passwords](Informed-Secure-Passwords), as they may indicate password strength and policy.
+
+Visual cues like this pattern also aid in providing accessible policies, and thus _complement_ [Layered Policy Design](Layered-Policy-Design), [Privacy Aware Wording](Privacy-Aware-Wording), and [Privacy-Aware Network Client](Privacy-Aware-Network-Client).
+
+Like many patterns which inform users, elements of [Awareness Feed](Awareness-Feed) and its methods for establishing awareness also go well with visual cues like this pattern. It also implicitly aids [Trust Evaluation of Services Sides](Trust-Evaluation-of-Services-Sides), which provides visual representation to highlight trust levels to the user.
+
+This pattern is _led to_ from [Icons for Privacy Policies](Icons-for-Privacy-Policies). While this pattern explains how privacy icons may be misused and proposes how to use them appropriately, [Icons for Privacy Policies](Icons-for-Privacy-Policies) encourages their usage in the first place to describe a privacy policy. That usage is prone to pitfalls which this pattern addresses.
+
 ### [Sources]
 <!-- References to the original source of the pattern.-->
 

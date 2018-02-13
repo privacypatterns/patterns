@@ -42,7 +42,7 @@ _Information asymmetry is generally described as one party having more or better
 ## Solution
 <!-- A concise description of how the pattern addresses the problem.-->
 
-Require minimal information from the user, so that only as much personal data as is required, explained, and consented to, is processed. Further reduce the imbalance of policy knowledge by writing clear and concise policies rather than, or in addition to, complex and verbose ones. 
+Require minimal information from the user, so that only as much personal data as is required, explained, and consented to, is processed. Further reduce the imbalance of policy knowledge by writing clear and concise policies rather than, or in addition to, complex and verbose ones.
 
 <!--### [Structure]-->
 <!--A detailed specification of the structural aspects of the pattern. A class diagram if applicable.-->
@@ -54,7 +54,7 @@ Require minimal information from the user, so that only as much personal data as
 
 Limit the amount of data needed to provide the services necessary to the users, and where appropriate, prefer less sensitive data to do so. Give users the option to opt in to features which require more data, but keep it minimal by default. If the amount of data needed is minimized, then users have less they need to understand, and less to disagree with. This also allows for more simple policies.
 
-Making policies more clear and concise is also crucial, as users will not want to sift through long-winded texts to understand what would happen with their data. Highlight important aspects for users themselves, rather than allowing them to become cluttered with legal jargon, detail, and complexity. While certain elements cannot be explained adequately without doing so at length, not all aspects are relevant at once. Some elements may be summarized without the detail, so that users may better understand the current focus. The full detail should still exist however, and be easily located. 
+Making policies more clear and concise is also crucial, as users will not want to sift through long-winded texts to understand what would happen with their data. Highlight important aspects for users themselves, rather than allowing them to become cluttered with legal jargon, detail, and complexity. While certain elements cannot be explained adequately without doing so at length, not all aspects are relevant at once. Some elements may be summarized without the detail, so that users may better understand the current focus. The full detail should still exist however, and be easily located.
 
 <!--## Consequences-->
 <!--The advantages (benefits) and disadvantages (liabilities) of applying the pattern.-->
@@ -81,9 +81,15 @@ Making policies more clear and concise is also crucial, as users will not want t
 
 
 
-<!--### [Related Patterns]-->
+### [Related Patterns]
 <!-- Supporting and conflicting patterns-->
-<!-- These relationships are still under review -->
+
+This pattern _complements_ [Privacy Mirrors](Privacy-Mirrors) and [Personal Data Table](Personal-Data-Table).
+
+This pattern supports informed user agency through explanations of policy and potential risks. This is compatible with the solution suggested in [Privacy Mirrors](Privacy-Mirrors), as it provides a general solution for managing identify through informing and controlling sharing decisions. Together they could compose a better identity management solution for the user.
+
+[Personal Data Table](Personal-Data-Table), like this pattern, allows a user to see what personal data is acquired by the controller. It provides a tabular overview of what is still retained for that user. Together these patterns show a clearer representation for the user to consider.
+
 ### [Sources]
 <!-- References to the original source of the pattern.-->
 

@@ -96,9 +96,13 @@ _Alternatively, Claudia could have told her browser that she wanted to be warned
 
 
 
-<!--### [Related Patterns]-->
+### [Related Patterns]
 <!-- Supporting and conflicting patterns-->
-<!-- These relationships are still under review -->
+
+This pattern _complements_ [Dynamic Privacy Policy Display](Dynamic-Privacy-Policy-Display). The solutions are different, but are within the same context. These patterns may work together to show the user the privacy policy and how it compares to the user preferences. [Dynamic Privacy Policy Display](Dynamic-Privacy-Policy-Display) _uses_ [Privacy Policy Display](Privacy-Policy-Display). This pattern also implicitly _complements_ that pattern.
+
+This pattern _uses_ [Policy Matching Display](Policy-Matching-Display) and [Privacy-Aware Network Client](Privacy-Aware-Network-Client). For both of these, context and problem are overlapping and the latter is a part of the solution's implementation described in the former. [Policy Matching Display](Policy-Matching-Display) in particular adds very useful improvements while including this pattern.
+
 ### [Sources]
 <!-- References to the original source of the pattern.-->
 

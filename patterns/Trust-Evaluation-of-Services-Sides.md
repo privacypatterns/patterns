@@ -94,9 +94,15 @@ J. Siljee, “Privacy transparency patterns,” in EuroPLoP ’15, 2015, pp. 1�
 
 O. Drozd, “privacypatterns.wu.ac.at - Privacy Patterns Catalog,” privacypatterns.wu.ac.at, 2016. [Online]. Available: http://privacypatterns.wu.ac.at:8080/catalog/. [Accessed: 25-Jan-2017].
 
-<!--### [Related Patterns]-->
+### [Related Patterns]
 <!-- Supporting and conflicting patterns-->
-<!-- These relationships are still under review -->
+
+This pattern _complements_ [Policy Matching Display](Policy-Matching-Display) and [Awareness Feed](Awareness-Feed). It also implicitly _complements_ [Icons for Privacy Policies](Icons-for-Privacy-Policies), [Privacy Color Coding](Privacy-Color-Coding), and [Appropriate Privacy Icons](Appropriate-Privacy-Icons).
+
+With [Policy Matching Display](Policy-Matching-Display), these patterns may work together towards providing the user with information which builds trust. This will be based on both preferences matching and means for demonstrating trustworthiness. With [Awareness Feed](Awareness-Feed), this pattern keeps users informed about what risks their disclosures might face, providing feedback which can relate to and further explain met criteria.
+
+As visual cues, [Appropriate Privacy Icons](Appropriate-Privacy-Icons), [Icons for Privacy Policies](Icons-for-Privacy-Policies), and [Privacy Color Coding](Privacy-Color-Coding) aid this pattern implicitly through [Awareness Feed](Awareness-Feed) by augmenting this pattern with quickly interpreted, visual information. This is useful for highlighting trust levels to the user.
+
 <!--### [Sources]-->
 <!-- References to the original source of the pattern.-->
 

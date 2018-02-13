@@ -83,9 +83,13 @@ Jiang et al. (2010). "A Classified Credential Selection Scheme with Disclosure-m
 
 
 
-<!--### [Related Patterns]-->
+### [Related Patterns]
 <!-- Supporting and conflicting patterns-->
-<!-- These relationships are still under review -->
+
+This pattern _complements_ [Informed Secure Passwords](Informed-Secure-Passwords). This pattern focuses on informing users about the data released for authentication in certain contexts, elaborating on how such data might be used. [Informed Secure Passwords](Informed-Secure-Passwords) focuses on encouraging better use of password-based authentication. With overlapping contexts, these patterns both provide assistance around password-based authentication, together enhancing awareness and usage. [Preventing Mistakes or Reducing Their Impact](Preventing-Mistakes-or-Reducing-Their-Impact) may also benefit from the use of this pattern. It seeks to prevent users from unintentionally having their personal data accessed, particularly from automatic disclosure. However due to this contextual distinction, the benefit is less clearly complementary.
+
+This pattern has an implicit relationship with [Unusual Activities](Unusual-Activities). This _complements_ relationship stems from [Informed Secure Passwords](Informed-Secure-Passwords). While not as strongly connected, this pattern may also benefit from detection and response to compromised authentication methods.
+
 ### [Sources]
 <!-- References to the original source of the pattern.-->
 

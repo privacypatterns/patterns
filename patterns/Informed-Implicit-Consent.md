@@ -79,9 +79,13 @@ Users will be informed before implicitly providing consent to reasonable process
 
 
 
-<!--### [Related Patterns]-->
+### [Related Patterns]
 <!-- Supporting and conflicting patterns-->
-<!-- These relationships are still under review -->
+
+This pattern _complements_ [Ambient Notice](Ambient-Notice). By extension, it may also be implicitly _complemented by_ [Asynchronous Notice](Asynchronous-Notice) as an alternative approach. Furthermore, this implicit connection has ties to [Preventing Mistakes or Reducing Their Impact](Preventing-Mistakes-or-Reducing-Their-Impact).
+
+In all these cases, a user needs to be made aware of the implicit nature of their consent. [Ambient Notice](Ambient-Notice) can complement this intention with continuous, but unobtrusive notice. Its alternative can do so in a model, continual manner, where context changes might justify it. This is less complementary depending on how it is applied. In either case, users need to be prevented from mistakenly sharing personal data.
+
 ### [Sources]
 <!-- References to the original source of the pattern.-->
 

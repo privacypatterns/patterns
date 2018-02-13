@@ -88,9 +88,22 @@ Expressing and comparing the policies requires a consistent machine-readable for
 
 
 
-<!--### [Related Patterns]-->
+### [Related Patterns]
 <!-- Supporting and conflicting patterns-->
-<!-- These relationships are still under review -->
+
+This pattern _may use_ [Privacy Policy Display](Privacy-Policy-Display). While the display aims to show policy information this pattern may highlight privacy preference mismatches therein, providing more valuable information for the user.
+
+It may also be _used_ by [Platform for Privacy Preferences](Platform-for-Privacy-Preferences). It is a fundamental part of the implementation of the latter, which adds useful improvements and overlaps this pattern's context and problem.
+
+This pattern _complements_ [Trust Evaluation of Services Sides](Trust-Evaluation-of-Services-Sides), [Dynamic Privacy Policy Display](Dynamic-Privacy-Policy-Display). 
+
+Between this pattern and [Trust Evaluation of Services Sides](Trust-Evaluation-of-Services-Sides), both patterns may work together to provide the user with information toward building trust in a controller. This will be based on both preferences matching and means for demonstrating trustworthiness.
+
+With [Dynamic Privacy Policy Display](Dynamic-Privacy-Policy-Display), however, these patterns may provide mismatches within or through the standardization and 'tooltips'.
+
+Implicitly, through [Trust Evaluation of Services Sides](Trust-Evaluation-of-Services-Sides), this pattern also complements the visual cue patterns. This includes [Icons for Privacy Policies](Icons-for-Privacy-Policies), [Appropriate Privacy Icons](Appropriate-Privacy-Icons), and [Privacy Color Coding](Privacy-Color-Coding).
+
+
 ### [Sources]
 <!-- References to the original source of the pattern.-->
 

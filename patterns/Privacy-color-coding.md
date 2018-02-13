@@ -84,9 +84,19 @@ _A color coding similar to traffic lights is implemented in many modern web brow
 
 
 
-<!--### [Related Patterns]-->
+### [Related Patterns]
 <!-- Supporting and conflicting patterns-->
-<!-- These relationships are still under review -->
+
+This pattern _complements_ [Impactful Information and Feedback](Impactful-Information-and-Feedback), [Informed Secure Passwords](Informed-Secure-Passwords), [Layered Policy Design](Layered-Policy-Design), [Privacy Aware Wording](Privacy-Aware-Wording), [Privacy-Aware Network Client](Privacy-Aware-Network-Client), [Awareness Feed](Awareness-Feed), and [Icons for Privacy Policies](Icons-for-Privacy-Policies). It also implicitly _complements_ [Trust Evaluation of Services Sides](Trust-Evaluation-of-Services-Sides) through [Awareness Feed](Awareness-Feed).
+
+As a visual cue, this pattern aids in providing [Impactful Information and Feedback](Impactful-Information-and-Feedback) by augmenting it with quickly interpreted information. These visual cues additionally help towards [Informed Secure Passwords](Informed-Secure-Passwords), as they may indicate password strength and policy.
+
+Visual cues like this pattern also aid in providing accessible policies, and thus _complement_ [Layered Policy Design](Layered-Policy-Design), [Privacy Aware Wording](Privacy-Aware-Wording), and [Privacy-Aware Network Client](Privacy-Aware-Network-Client).
+
+Like many patterns which inform users, elements of [Awareness Feed](Awareness-Feed) and its methods for establishing awareness also go well with visual cues like this pattern. It also implicitly aids [Trust Evaluation of Services Sides](Trust-Evaluation-of-Services-Sides), which provides visual representation to highlight trust levels to the user.
+
+Like this pattern, [Icons for Privacy Policies](Icons-for-Privacy-Policies) provides its own way to tackle an overlapping and quite similar problem. This features the understanding of the privacy policy in both cases, as well as privacy settings in this pattern. These patterns may work together to integrate a solution illustrating with both color and imagery.
+
 ### [Sources]
 <!-- References to the original source of the pattern.-->
 

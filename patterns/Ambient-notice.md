@@ -95,9 +95,16 @@ _QR-code based information access, smart meter display_
 
 
 
-<!--### [Related Patterns]-->
+### [Related Patterns]
 <!-- Supporting and conflicting patterns-->
-<!-- These relationships are still under review -->
+
+This pattern is an _alternative_ to [Asynchronous Notice](Asynchronous-Notice). While this pattern aims at non-intrusive and ongoing notification, the Asynchronous variant focuses on obtrusive and unavoidable notifications. As such it must be used more sparingly.
+
+This pattern _complements_ [Informed Implicit Consent](Informed-Implicit-Consent) and [Single Point of Contact](Single-Point-of-Contact)(SPoC). Implicit consent is shown by the Ambient Notice, reminding the user of the system's assumption that their consent has not been retracted. A SPoC is an authority which validates requests and ensures secure and private communication, a usage of data which can be persistently displayed to remind the user of its (de)activation.
+
+This pattern _refines_ [Preventing Mistakes or Reducing Their Impact](Preventing-Mistakes-or-Reducing-Their-Impact). As it provides ongoing notice of data collection, a user is prevented from mistakenly producing data, or better has a good chance to cease doing so before having an impact. As an implicit relationship through [Preventing Mistakes or Reducing Their Impact](Preventing-Mistakes-or-Reducing-Their-Impact), this pattern also _complements_ [Impactful Information and Feedback](Impactful-Information-and-Feedback). However, in order to do so, the implementation must allow for a potentially indefinite delay, as the notification will not be modal.
+
+
 ### [Sources]
 <!-- References to the original source of the pattern.-->
 

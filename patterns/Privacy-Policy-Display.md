@@ -83,9 +83,18 @@ By constantly reminding users what it really means to share their information, t
 
 
 
-<!--### [Related Patterns]-->
+### [Related Patterns]
 <!-- Supporting and conflicting patterns-->
-<!-- These relationships are still under review -->
+
+This pattern _may be used_ by [Dynamic Privacy Policy Display](Dynamic-Privacy-Policy-Display) and [Policy Matching Display](Policy-Matching-Display). The first of these uses it to add standardization and 'tooltip' functionality, while the second adds preference and policy mismatches.
+
+This pattern _complements_ [Privacy Aware Wording](Privacy-Aware-Wording), [Layered Policy Design](Layered-Policy-Design), [Platform for Privacy Preferences](Platform-for-Privacy-Preferences). 
+
+The complementary relationship with [Platform for Privacy Preferences](Platform-for-Privacy-Preferences) however, is implicit. It is made so by the _use_ of this pattern by [Dynamic Privacy Policy Display](Dynamic-Privacy-Policy-Display), which has a _complements_ relationship with [Platform for Privacy Preferences](Platform-for-Privacy-Preferences).
+
+The complementary relationship between [Privacy Aware Wording](Privacy-Aware-Wording) and [Layered Policy Design](Layered-Policy-Design) stems from their use as accessible policies. As they seek to make privacy policies more easily interpreted by users, it is a natural aid to the display of information requests and explanations within this pattern.
+
+
 ### [Sources]
 <!-- References to the original source of the pattern.-->
 

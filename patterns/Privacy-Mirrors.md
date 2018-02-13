@@ -136,9 +136,18 @@ WebAware provided a view of page accesses, this was extended to a Web Server Log
 ## See Also:
 <!-- Any pointers to relevant information, not contained in the subfields below.-->
 
-<!--### [Related Patterns]-->
+### [Related Patterns]:
 <!-- Supporting and conflicting patterns-->
-<!-- These relationships are still under review -->
+
+This pattern _complements_ [Minimal Information Asymmetry](Minimal-Information-Asymmetry) and [Impactful Information and Feedback](Impactful-Information-and-Feedback).
+
+This pattern provides a general solution for managing identify through informing and controlling sharing decisions. This is compatible with the solution suggested in [Minimal Information Asymmetry](Minimal-Information-Asymmetry), as it supports informed user agency through explanations of policy and potential risks. Together they could compose a better identity management solution for the user.
+
+[Impactful Information and Feedback](Impactful-Information-and-Feedback) supplies insights on potentially sensitive activity. These warnings allow for protection from the controller and reflection on sharing decisions in this pattern. This makes the patterns almost _similar_, and just short of a refinement towards more specific contexts. The problems these patterns address are however quite distinct.
+
+This patter is _similar to_ [Privacy Dashboard](Privacy-Dashboard). They have overlapping contexts, describe overlapping problems, and have solutions which have similar elements within them.
+
+This pattern uses [Personal Data Table](Personal-Data-Table) and [Appropriate Privacy Feedback](Appropriate-Privacy-Feedback). [Personal Data Table](Personal-Data-Table) is focused in tracking stored personal data, which this pattern applies as part of its solution. This pattern may also _use_ [Appropriate Privacy Feedback](Appropriate-Privacy-Feedback) as a means to provide feedback on personal data usage.
 
 ### [Sources]:
 <!-- References to the original source of the pattern.-->

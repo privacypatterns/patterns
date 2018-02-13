@@ -85,9 +85,21 @@ _Improved awareness of users about who exactly will be [and has been] able to se
 
 
 
-<!--### [Related Patterns]-->
+### [Related Patterns]
 <!-- Supporting and conflicting patterns-->
-<!-- These relationships are still under review -->
+
+This pattern is a component of the compound pattern, [Awareness Feed](Awareness-Feed). As such, this pattern _may be used_ by it.
+
+This pattern _complements_ [Who's Listening](Whos-Listening), [Impactful Information and Feedback](Impactful-Information-and-Feedback), and [Appropriate Privacy Feedback](Appropriate-Privacy-Feedback).
+
+[Who's Listening](Whos-Listening), like this pattern, tries to show who can see disclosed information. It specifically allows for monitoring who accesses the same content as the user. Comparatively, this pattern allows monitoring what access is occurring and how it might become identifying. These could work together to have a more complete solution which covers released and accessed content monitoring.
+
+Privacy Awareness Panel may additionally take analytical provisions from [Impactful Information and Feedback](Impactful-Information-and-Feedback) to supply information on potentially sensitive activity. [Appropriate Privacy Feedback](Appropriate-Privacy-Feedback) provides essentially equivalent information to this pattern, together covering more contexts. However, these are also _similar_ patterns.
+
+This pattern is additionally _refined by_ [Increasing Awareness of Information Aggregation](Increasing-Awareness-of-Information-Aggregation). While the problem this pattern aims to solve is overlapped by [Increasing Awareness of Information Aggregation](Increasing-Awareness-of-Information-Aggregation), this pattern considers past disclosure decisions which mirrors knowledge of more specific aggregation risks in general.
+
+This pattern also _complements_ Privacy Options in Social Networks, Selective Access Control in Forum Software, and Privacy Enhanced Group Scheduling.
+
 ### [Sources]
 <!-- References to the original source of the pattern.-->
 

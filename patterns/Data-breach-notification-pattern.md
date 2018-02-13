@@ -85,9 +85,11 @@ _This pattern is based on the privacy principle "Accountability" specified in [I
 
 
 
-<!--### [Related Patterns]-->
+### [Related Patterns]
 <!-- Supporting and conflicting patterns-->
-<!-- These relationships are still under review -->
+
+This pattern _complements_ [Unusual Activities](Unusual-Activities). These patterns work in an overlapping context. While this pattern focuses on informing and reacting when a data breach has occurred, [Unusual Activities](Unusual-Activities) focuses on detecting and dealing with unauthorized access. The patterns can work together to handle unauthorized access to personal data.
+
 ### [Sources]
 <!-- References to the original source of the pattern.-->
 

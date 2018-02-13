@@ -81,9 +81,15 @@ However, users may also happen to not trigger the tooltip, especially when using
 
 
 
-<!--### [Related Patterns]-->
+### [Related Patterns]
 <!-- Supporting and conflicting patterns-->
-<!-- These relationships are still under review -->
+
+This pattern _complements_ [Policy Matching Display](Policy-Matching-Display) and [Platform for Privacy Preferences](Platform-for-Privacy-Preferences). In both cases the solutions are different, but share the same context.
+
+With [Policy Matching Display](Policy-Matching-Display), this pattern may add mismatches between preferences and the standardized policies to 'tooltips' therein. Against the [Platform for Privacy Preferences](Platform-for-Privacy-Preferences) pattern, however, they may work together to show the user how the privacy policy compares to user preferences.
+
+This pattern _may use_ [Privacy Policy Display](Privacy-Policy-Display). While this pattern adds additional elements to the solution presented by [Privacy Policy Display](Privacy-Policy-Display), it is a _uses_ relationship rather than _extends_, as both patterns approach different problems.
+
 ### [Sources]
 <!-- References to the original source of the pattern.-->
 

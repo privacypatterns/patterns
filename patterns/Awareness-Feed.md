@@ -130,10 +130,23 @@ Full adoption of this pattern is not yet commonplace, yet there exist examples o
 
 
 
-<!--### [Related Patterns]-->
+### [Related Patterns]
 <!-- Supporting and conflicting patterns.-->
 
 This pattern _complements_ [Privacy Dashboard](Privacy-Dashboard), [Trust Evaluation of Services Sides](Trust-Evaluation-of-Services-Sides), [Appropriate Privacy Icons](Appropriate-Privacy-Icons), [Icons for Privacy Policies](Icons-for-Privacy-Policies), [Privacy Color Coding](Privacy-Color-Coding), [Privacy Aware Wording](Privacy-Aware-Wording), [Layered Policy Design](Layered-Policy-Design), and [Privacy-Aware Network Client](Privacy-Aware-Network-Client).
+
+As this pattern keeps users informed of processed data, as well as what can be derived, and [Privacy Dashboard](Privacy-Dashboard) provides collective summaries of such data, these patterns can work together. In doing so, users are better equipped to take actions which are in line with their personal privacy preferences. Similar to this argument is the benefit of [Trust Evaluation of Services Sides](Trust-Evaluation-of-Services-Sides), which highlights criteria which a service meets to build trust in the user. With this pattern, it can also inform the user of which parties with access to their data comply with these criteria.
+
+This pattern and its components also work well with visual cues like [Appropriate Privacy Icons](Appropriate-Privacy-Icons), [Icons for Privacy Policies](Icons-for-Privacy-Policies), and [Privacy Color Coding](Privacy-Color-Coding). These assist in providing awareness quickly through easily interpreted visual information.
+
+As this pattern seeks to inform users of policies in addition to notifying them of important information, it benefits from the application of accessible policies. Patterns which therefore _complement_ this pattern include [Privacy Aware Wording](Privacy-Aware-Wording), [Layered Policy Design](Layered-Policy-Design), and [Privacy-Aware Network Client](Privacy-Aware-Network-Client).
+
+This pattern is a composite pattern, and thus _may use_ any number of its component patterns. These include:
+- [Impactful Information and Feedback](Impactful-Information-and-Feedback);
+- [Increasing Awareness of Information Aggregation](Increasing-Awareness-of-Information-Aggregation);
+- [Privacy Awareness Panel](Privacy-Awareness-Panel);
+- [Appropriate Privacy Feedback](Appropriate-Privacy-Feedback); and
+- [Who's Listening](Whos-Listening).
 
 #### Pre-patterns
 - Privacy Options in Social Networks;

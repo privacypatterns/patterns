@@ -77,9 +77,13 @@ Clearing up mistakenly shared data adds additional overhead, especially if the s
 
 
 
-<!--### [Related Patterns]-->
+### [Related Patterns]
 <!-- Supporting and conflicting patterns-->
-<!-- These relationships are still under review -->
+
+This pattern _complements_ [Impactful Information and Feedback](Impactful-Information-and-Feedback), and [[Informed] Credential Selection]([Informed]-Credential-Selection). As such the patterns which refine it do so as well where their context permits. For [Impactful Information and Feedback](Impactful-Information-and-Feedback) this is the case. It provides feedback about disclosure under certain privacy settings before it takes place, and can be notified of, and reviewed, before causing an impact. [[Informed] Credential Selection]([Informed]-Credential-Selection), however, can only reasonably _complement_ [Asynchronous Notice](Asynchronous-Notice), as it deals with instant authentication. Modal notification like what this pattern might provide can inform users in a timely manner.
+
+It is also _refined_ by both [Ambient Notice](Ambient-Notice) and [Asynchronous Notice](Asynchronous-Notice). These variants of notice, which are themselves _alternatives_, both provide essentially equal problems for which they give more specific contexts and solutions. The former is unobtrusive and persistently informative, while the latter is unavoidably informative when context demands.
+
 ### [Sources]
 <!-- References to the original source of the pattern.-->
 

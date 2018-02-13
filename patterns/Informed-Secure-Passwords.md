@@ -22,7 +22,7 @@ Secure Passwords
 <!-- The situations in which the pattern may apply.-->
 <!-- Aspects which constrain the solution, but are not modified by it. They affect the impact of different forces.-->
 
-Credentials are required by numerous services (and products) in order to ensure that only authenticated and authorized users have access to certain features. Controllers typically provide authentication mechanisms in the form of usernames and passwords. Although these provide a weak form of security when used incorrectly, they are more convenient for users than many less popular and more secure alternatives. Controllers often try to circumvent the shortcomings of passwords by encouraging users to change them frequently, use stronger variations, check them, and prevent disclosure and reuse. However users make use of many services, and use many passwords, thus discouraging proper application.
+Credentials are required by numerous services (and products) in order to ensure that only authenticated and authorized users have access to certain features. Controllers typically provide authentication mechanisms in the form of usernames and passwords. Although these provide a weak form of security when used incorrectly, they are more convenient for users than many less popular and more secure alternatives. Controllers often try to circumvent the shortcomings of passwords by encouraging users to change them frequently, use stronger variations, check them, and prevent disclosure and reuse. However users make use of many services, and use many passwords, thus discouraging proper application. This misapplication can result in personal data being accessed by unauthorized persons.
 
 ## Problem
 <!-- The problem a pattern addresses, including a list of forces describing why a problem might be difficult to solve.-->
@@ -59,7 +59,7 @@ These aspects can be weighted together to provide the user with a strength meter
 
 Given enough resources and time however, state of the art character lengths can be overcome. It is as such useful to change them more regularly than the time it would take to brute force them. Otherwise, the longer that a password remains unchanged, the more likely it is that the password has been compromised.
 
-Therefore a mechanism should also be provided to remind a user when it is time to start thinking of a new password. Based on how strong the original was this may more or less often. [Unusual Activities](Unusual-Activities) may also justify a more frequent update.
+Therefore a mechanism should also be provided to remind a user when it is time to start thinking of a new password. Based on how strong the original was this may be more or less often. [Unusual Activities](Unusual-Activities) may also justify a more frequent update.
 
 When verifying whether a user used the same password in a second field, to prevent mistypes, simply indicate whether the fields match with a recognizable affirmation. Typically this uses a green theme, and may use a check mark.
 
@@ -88,9 +88,17 @@ _Secure passwords are very important in [an interconnected world]. Users general
 
 
 
-<!--### [Related Patterns]-->
+### [Related Patterns]
 <!-- Supporting and conflicting patterns-->
-<!-- These relationships are still under review -->
+
+This pattern _complements_ [Unusual Activities](Unusual-Activities), [Informed Credential Selection](Informed-Credential-Selection), [Appropriate-Privacy-Icons](Appropriate-Privacy-Icons), [Icons-for-Privacy-Policies](Icons-for-Privacy-Policies), and [Privacy-Color-Coding](Privacy-Color-Coding).
+
+While [Unusual Activities](Unusual-Activities) establishes access norms for authentication, this pattern focuses on encouraging better use of password-based authentication. The patterns may work together to aid in detection and response to compromised access, and in users learning from these instances. In [Informed Credential Selection](Informed-Credential-Selection), the pattern focuses on informing users about the data released for authentication in certain contexts, elaborating on how such data might be used. With overlapping contexts, these patterns both provide assistance around password-based authentication, together enhancing awareness and usage.
+
+It has a complementary relationship with the visual cues [Appropriate-Privacy-Icons](Appropriate-Privacy-Icons), [Icons-for-Privacy-Policies](Icons-for-Privacy-Policies), and [Privacy-Color-Coding](Privacy-Color-Coding) as these can help provide simple information on password strength and policies.
+
+It also _complements_ the Auto Create Password pattern.
+
 ### [Sources]
 <!-- References to the original source of the pattern.-->
 

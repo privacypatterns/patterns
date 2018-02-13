@@ -104,9 +104,15 @@ _[Google Accounts: About the Dashboard](http://www.google.com/support/accounts/b
 
 _Dashboards are a widely-used pattern in other data-intensive activities for providing a summary of key or actionable metrics._
 
-<!--### [Related Patterns]-->
+### [Related Patterns]
 <!-- Supporting and conflicting patterns-->
-<!-- These relationships are still under review -->
+
+This pattern _complements_ [Awareness Feed](Awareness-Feed). As this pattern provides collective summaries of processed data, and [Awareness Feed](Awareness-Feed) keeps users informed of such data, as well as what can be derived, they can work together. In doing so, users are better equipped to take actions which are in line with their personal privacy preferences.
+
+This patter is _similar to_ [Privacy Mirrors](Privacy-Mirrors). They have overlapping contexts, describe overlapping problems, and have solutions which have similar elements within them.
+
+This pattern _uses_ [Appropriate Privacy Feedback](Appropriate-Privacy-Feedback), as it empowers users to act on detail they have been drawn attention to.
+
 ### [Sources]
 <!-- References to the original source of the pattern.-->
 

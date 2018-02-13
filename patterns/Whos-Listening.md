@@ -85,9 +85,17 @@ Various collaborative environments, like Google's Docs, or chat rooms, instant m
 
 
 
-<!--### [Related Patterns]-->
+### [Related Patterns]
 <!-- Supporting and conflicting patterns-->
-<!-- These relationships are still under review -->
+
+This pattern is a component of the compound pattern, [Awareness Feed](Awareness-Feed). As such, this pattern _may be used_ by it.
+
+This pattern _complements_ [Privacy Awareness Panel](Privacy-Awareness-Panel), [Appropriate Privacy Feedback](Appropriate-Privacy-Feedback), [Buddy List](Buddy-List), and [Reciprocity](Reciprocity).
+
+[Privacy Awareness Panel](Privacy-Awareness-Panel), like this pattern, shows disclosed information access. It specifically allows monitoring what access is occurring and how it might become identifying. Comparatively, this pattern allows for monitoring who accesses the same content as the user. These could work together to have a more complete solution which covers released and accessed content monitoring. [Appropriate Privacy Feedback](Appropriate-Privacy-Feedback) is another pattern which tries to show who can see disclosed content. It however adds the possibility of knowing how the data might be used, providing useful feedback to the user. These patterns may work together in a similar fashion.
+
+It also _may use_ Schümmer's Activity Counter for anonymous information aggregation which does not reveal receiver identify. The same holds for Elephant’s Brain, which can log information of user activity. It also _refines_ the Magic Document pattern (Volter 2003), which to a lessor extent ensures that collaborative users are aware of accessed information.
+
 ### [Sources]
 <!-- References to the original source of the pattern.-->
 

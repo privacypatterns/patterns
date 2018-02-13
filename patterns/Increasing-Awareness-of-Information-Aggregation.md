@@ -82,9 +82,20 @@ If users understand the power of data aggregation better, they are better able t
 
 
 
-<!--### [Related Patterns]-->
+### [Related Patterns]
 <!-- Supporting and conflicting patterns-->
-<!-- These relationships are still under review -->
+
+This pattern is a component of the compound pattern, [Awareness Feed](Awareness-Feed). As such, this pattern _may be used_ by it.
+
+This pattern _refines_ [Privacy Awareness Panel](Privacy-Awareness-Panel) and _complements_ [Appropriate Privacy Feedback](Appropriate-Privacy-Feedback).
+
+While it only aims to solve an overlapping problem, [Privacy Awareness Panel](Privacy-Awareness-Panel) considers past and future disclosure decisions and does not differ much from the knowledge of potential sensitivity when aggregated. This pattern therefore provides more a specific application. 
+
+[Appropriate Privacy Feedback](Appropriate-Privacy-Feedback) provides the same information as [Privacy Awareness Panel](Privacy-Awareness-Panel), only through a different mechanism and with a different problem. Through it, the benefit of more general awareness is sought.
+
+This pattern _may be used_ by [Impactful Information and Feedback](Impactful-Information-and-Feedback). As it focuses on analytics about historical queues and measures for warning users, it should inform the user about the risks involved, such as aggregation.
+
+
 ### [Sources]
 <!-- References to the original source of the pattern.-->
 
