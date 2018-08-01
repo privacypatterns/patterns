@@ -8,6 +8,7 @@
         - consent
     status: pattern
     address:
+    use: Informed-Consent-for-Web-based-Transactions Obtaining-Explicit-Consent Sign-an-Agreement-to-Solve-Lack-of-Trust-on-the-Use-of-Private-Data-Context
 
     %}
 

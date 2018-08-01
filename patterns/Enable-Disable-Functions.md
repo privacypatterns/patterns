@@ -7,6 +7,9 @@
         - control
         - update
     status: pattern
+    sim: Negotiation-of-Privacy-Policy
+    use: Lawful-Consent Private-Link
+    com: Masquerade
     address:
 
     %}

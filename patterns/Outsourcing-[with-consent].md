@@ -7,6 +7,7 @@
         - control
         - consent
     status: pattern
+    use: Lawful-Consent
     address:
 
     %}

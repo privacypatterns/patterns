@@ -7,6 +7,10 @@
         - control
         - choose
     status: pattern
+    use: Lawful-Consent Private-Link
+    sim: Enable-Disable-Functions
+    ref: Reasonable-Level-of-Control
+    com: Discouraging-blanket-strategies Decoupling-[content]-and-location-information-visibility Masquerade
     address:
 
     %}
@@ -78,11 +82,11 @@ Private defaults will often not be the appropriate settings for a user, as most 
 ### [Related Patterns]
 <!-- Supporting and conflicting patterns-->
 
-This pattern is used by [Support Selective Disclosure](Support-Selective-Disclosure), a compound pattern. It is also complemented by [Discouraging blanket strategies](Discouraging-blanket-strategies) (avoiding all or nothing strategies for privacy settings) and [Decoupling [content] and location information visibility](Decoupling-[content]-and-location-information-visibility) (change the privacy every time content is being shared). 
+This pattern is used by [Support Selective Disclosure](Support-Selective-Disclosure), a compound pattern. It is also complemented by [Discouraging blanket strategies](Discouraging-blanket-strategies) (avoiding all or nothing strategies for privacy settings) and [Decoupling [content] and location information visibility](Decoupling-[content]-and-location-information-visibility) (change the privacy every time content is being shared).
 
-[Negotiation of Privacy Policy](Negotiation-of-Privacy-Policy) _refines_ [Reasonable Level of Control](Reasonable-Level-of-Control), which describes methods which allow users to share their information (selectively and granularly), while this pattern targets the beginning of the service use. 
+[Negotiation of Privacy Policy](Negotiation-of-Privacy-Policy) _refines_ [Reasonable Level of Control](Reasonable-Level-of-Control), which describes methods which allow users to share their information (selectively and granularly), while this pattern targets the beginning of the service use.
 
-It is _similar to_ [Enable/Disable Functions](Enable/Disable-Functions), where users may switch between functionalities which affect their privacy. This solution is quite similar to opting in or out of those features. Specifically a similar problem is addressed from non-functional as opposed to functional perspectives.
+It is _similar to_ [Enable/Disable Functions](Enable-Disable-Functions), where users may switch between functionalities which affect their privacy. This solution is quite similar to opting in or out of those features. Specifically a similar problem is addressed from non-functional as opposed to functional perspectives.
 
 This pattern _must use_ [Lawful Consent](Lawful-Consent) in order to be implemented correctly. Additionally, due to the same need for notified and informed users in this pattern, the following patterns also complement this pattern:
 - [Ambient](Ambient-Notice)/[Asynchronous Notice](Asynchronous-Notice),

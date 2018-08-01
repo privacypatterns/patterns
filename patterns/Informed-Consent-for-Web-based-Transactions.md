@@ -8,6 +8,7 @@
         - control
         - consent
     status: pattern
+    ref: Obtaining-Explicit-Consent
     address:
 
     %}

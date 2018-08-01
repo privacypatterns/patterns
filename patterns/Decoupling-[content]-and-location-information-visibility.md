@@ -7,6 +7,9 @@
         - control
         - retract
     status: pattern
+    ref: Reasonable-Level-of-Control
+    use: Buddy-list Lawful-Consent Private-Link
+    com: Negotiation-of-Privacy-Policy Private-Link Selective-Access-Control Discouraging-Blanket-Strategies Masquerade
     address:
 
     %}
@@ -98,12 +101,12 @@ By applying this pattern the controller prevents location access by default, and
 ### [Related Patterns]
 <!-- Supporting and conflicting patterns-->
 
-This pattern is one of various foundations for [Support Selective Disclosure](Support-Selective-Disclosure), and thus may be used by it. This pattern _must use_ [Lawful Consent](Lawful-Consent) however, as information is recorded by default and only interacted with afterward. This requires the users true and informed approval. 
+This pattern is one of various foundations for [Support Selective Disclosure](Support-Selective-Disclosure), and thus may be used by it. This pattern _must use_ [Lawful Consent](Lawful-Consent) however, as information is recorded by default and only interacted with afterward. This requires the users true and informed approval.
 
 Decoupling [content] and location information visibility may be complemented by the use of a [Private Link](Private-Link).
 This could allow location information sharing with specific unauthenticated individuals, retaining the ability to decide later.
 
-The pattern _complements_ [Discouraging Blanket Strategies](Discouraging-Blanket-Strategies), which considers having a different privacy level for any content posted while this pattern mentions the privacy level for the location of that content. 
+The pattern _complements_ [Discouraging Blanket Strategies](Discouraging-Blanket-Strategies), which considers having a different privacy level for any content posted while this pattern mentions the privacy level for the location of that content.
 
 It also _complements_ [Negotiation of Privacy Policy](Negotiation-of-Privacy-Policy). The latter defines privacy settings at the beginning. This pattern however gives the chance to change privacy settings every time content is being shared.
 

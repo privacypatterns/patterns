@@ -7,6 +7,8 @@
         - control
         - choose
     status: pattern
+    use: Buddy-List Lawful-Consent Private-Link
+    com: Selective-Access-Control Decoupling-[content]-and-location-information-visibility Negotiation-of-Privacy-Policy Reasonable-Level-of-Control Masquerade
     address:
 
     %}
@@ -94,7 +96,7 @@ This pattern may be used by [Support Selective Disclosure](Support-Selective-Dis
 
 [Discouraging blanket strategies](Discouraging-blanket-strategies)
  _complements_ [Reasonable Level of Control](Reasonable-Level-of-Control), which features selective and granular sharing and may consider a range of options. These methods complement each other where considering this range.
- 
+
  This pattern additionally _complements_ the [Negotiation of Privacy Policy](Negotiation-of-Privacy-Policy) pattern. While [Negotiation of Privacy Policy](Negotiation-of-Privacy-Policy) aims to let users opt-in or opt-out, this pattern handles the way in which users configure their privacy settings. If users were not able to opt-in/out then a blanket strategy would probably be in place.
 
 Finally, this pattern also _may use_ [Buddy List](Buddy-List). Content the user decides to share could be selectively shown only to certain users on the [Buddy List](Buddy-List).

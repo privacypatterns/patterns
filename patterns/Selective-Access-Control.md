@@ -7,6 +7,9 @@
         - control
         - choose
     status: pattern
+    use: Lawful-Consent Private-Link
+    ref: Reasonable-Level-of-Control
+    com: Decoupling-[content]-and-location-information-visibility Discouraging-Blanket-Strategies Private-Link Masquerade
     address:
 
     %}

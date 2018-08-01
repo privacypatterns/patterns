@@ -7,6 +7,8 @@
         - control
         - update
     status: pattern
+    use: Masquerade Lawful-Consent Private-Link
+    com: Private-link Active-broadcast-of-presence Discouraging-blanket-strategies Masquerade
     address:
 
     %}
@@ -92,7 +94,7 @@ This pattern is _refined_ by [Selective Access Control](Selective-Access-Control
 
 As with most patterns in privacy, data protection, or self-determination, [Reasonable Level of Control](Reasonable-Level-of-Control) _must use_ use [Lawful Consent](Lawful-Consent). It also _may use_ [Masquerade](Masquerade), which allows the user to set their identifiability.  This pattern may include that functionality inside its own solution.
 
-[Reasonable Level of Control](Reasonable-Level-of-Control) may be used by [Support Selective Disclosure](Support-Selective-Disclosure) as one of the compound pattern's constituent patterns. It is also complemented by [Discouraging blanket strategies](Discouraging-blanket-strategies), [Private link](Private-link), and [Active broadcast of presence](Active-broadcast-of-presence). 
+[Reasonable Level of Control](Reasonable-Level-of-Control) may be used by [Support Selective Disclosure](Support-Selective-Disclosure) as one of the compound pattern's constituent patterns. It is also complemented by [Discouraging blanket strategies](Discouraging-blanket-strategies), [Private link](Private-link), and [Active broadcast of presence](Active-broadcast-of-presence).
 
 The first pattern in these complementary relationships defines methods which allow users to share their information (selectively and granularly). These methods could be complemented where considering a range of options as in this pattern. The second, [Private link](Private-link), focuses on private sharing with anonymous users, while [Reasonable Level of Control](Reasonable-Level-of-Control) focuses on granularity. They can work together to cover all possible audiences. The third complementary pattern, [Active broadcast of presence](Active-broadcast-of-presence), aims to define the audience for posts through rules, through which it could complement this pattern considering its relationship to [Selective Access Control](Selective-Access-Control) as a generalization.
 
