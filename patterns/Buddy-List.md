@@ -8,7 +8,7 @@
         - choose
     status: pattern
     com: Reciprocity Masquerade
-    use: Lawful-Consent Private-Link
+    use: Lawful-Consent Private-link
     address:
 
     %}

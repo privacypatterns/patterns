@@ -7,8 +7,8 @@
         - control
         - update
     status: pattern
-    use: Masquerade Lawful-Consent Private-Link
-    com: Private-link Active-broadcast-of-presence Discouraging-blanket-strategies Masquerade
+    use: Masquerade Lawful-Consent
+    com: Private-link Active-broadcast-of-presence Discouraging-blanket-strategies
     address:
 
     %}

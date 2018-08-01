@@ -7,7 +7,7 @@
         - control
         - choose
     status: pattern
-    use: Lawful-Consent Private-Link
+    use: Lawful-Consent Private-link
     sim: Enable-Disable-Functions
     ref: Reasonable-Level-of-Control
     com: Discouraging-blanket-strategies Decoupling-[content]-and-location-information-visibility Masquerade

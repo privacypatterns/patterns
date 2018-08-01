@@ -7,7 +7,7 @@
         - control
         - choose
     status: pattern
-    use: Buddy-List Lawful-Consent Private-Link
+    use: Buddy-List Lawful-Consent Private-link
     com: Selective-Access-Control Decoupling-[content]-and-location-information-visibility Negotiation-of-Privacy-Policy Reasonable-Level-of-Control Masquerade
     address:
 
