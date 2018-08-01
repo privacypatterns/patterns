@@ -28,9 +28,9 @@ This pattern allows users to make informed decisions regarding if, when, and how
 <!-- The situations in which the pattern may apply.-->
 <!-- Aspects which constrain the solution, but are not modified by it. They affect the impact of different forces.-->
 
-In a situation where user data is collected or otherwise processed, particularly personal data, many users are concerned about the potential repercussions of their actions. Controllers, which have dynamic and evolving services (or products) which users interact with, may share this concern. This may be for legal, ethical, or public appearance reasons.
+In a situation where user data is collected or otherwise processed, particularly personal data, many users are concerned about the potential repercussions of their actions. Controllers (e.g.~organizations), which have dynamic and evolving services (or products) which users interact with, may share this concern. This may be for legal, ethical, or public appearance reasons.
 
-These controllers (e.g. organizations) also care about the monetary implications of a solution, often including the opportunity cost of informed users against the risks and profits of over-sharing. For-profit organizations regularly want to bolster their market share by overcoming competition with state of the art technologies. These changes may have important consequences, unintentional or otherwise, for users of the system. Controllers want to limit the exposure of these risks to their userbase, even if from a third party, as they are responsible for their data.
+These controllers also care about the monetary implications of a solution, often including the opportunity cost of informed users against the risks and profits of over-sharing. For-profit organizations regularly want to bolster their market share by overcoming competition with state of the art technologies. These changes may have important consequences, unintentional or otherwise, for users of the system. Controllers want to limit the exposure of these risks to their userbase, even if from a third party, as they are responsible for their data.
 
 Such controllers may already have in place a [Privacy Dashboard](Privacy-Dashboard), seeking to complement it, or wish to maintain awareness through various other services. They likely consider [Lawful Consent](Lawful-Consent) and thus seek to ensure that their users are properly and priorly informed before making regrettable decisions. They would nonetheless need to prevent notification fatigue if they were [Preventing Mistakes or Reducing Their Impact](Preventing-Mistakes-or-Reducing-Their-Impact) like in this pattern.
 
@@ -38,25 +38,25 @@ Such controllers may already have in place a [Privacy Dashboard](Privacy-Dashboa
 <!-- The problem a pattern addresses, including a list of forces describing why a problem might be difficult to solve.-->
 <!-- Should be context-free, leading with a concise problem statement.-->
 
-Users are often unaware of the privacy risks in their data sharing activities, especially risks which are indirect or long-term.
+Users are often unaware of the privacy risks in their data sharing activities, especially risks which are indirect or long-term. How can we best ensure that users become aware of these risks?
 
 This problem is agitated by the organizational aim to provide novel and competitive services while keeping users informed. The difficulty of this is frequently underestimated. The pitfalls controllers face as a consequence manifest both in taking shortcuts and in unexpected long-term effects.
-
-#### Shortcuts
-The appeal of convenience features may sway controllers into flawed implementations which undermine user privacy. Automated decisions, influenced by past actions or by other potentially inaccurate metrics, may result in sharing decisions which users do not approve of. The same holds for services which are not adequately assessed. While a controller might intend all the necessary tools for informed decisions to be present, short-sighted process flows may violate user trust all the same.
-
-#### Long-term Effects
-Over time, supposedly harmless data may amass into more revealing information, especially when paired with the right metadata. Being able to link user activity to other sources of information may also result in far more exposing situations than expected.
-
-Not only are users often unaware of the potential consequences of their actions, even controllers themselves regularly fail to anticipate how revealing their services can be. While some users approach this uncertainty with caution, others will risk their privacy in hopes of using the services. Though the uncertainty might not prevent their participation, it may still jeopardize their trust in the system.
 
 #### Forces/Concerns
 <!-- Implications in this problem which affect the appropriateness of a solution, and are affected by this pattern.-->
 <!-- Forces should be highly visible for easy reference, where less obvious a dedicated section is recommended.-->
 - Users do not necessarily realize the effects of their information sharing, but often want to use new or interesting features
-- Some users are discouraged from sharing as they do realize that they are not informed, but cannot reasonably change that themselves
-- Controllers aim to provide or utilize novel and or competitive services, but explaining potential impacts is often non-trivial and generates a fear of upsetting the userbase
+- Some users are discouraged from sharing as they do realize that they are not informed about risks to their privacy, but cannot reasonably change that themselves
+- Controllers aim to provide or utilize novel and or competitive services, but explaining potential risks to privacy in those services is often non-trivial and generates a fear of upsetting the userbase and endangering trust
 - Some controllers wish to empower users by informing them, but do not want to jeopardize their business model, or ability to process in a timely fashion
+
+#### Shortcuts
+The appeal of convenience features may sway controllers into flawed implementations which undermine user privacy. Automated decisions, influenced by past actions or by other potentially inaccurate metrics, may result in sharing decisions which users do not approve of. The same holds for features which are not adequately assessed. While a controller might intend all the necessary tools for informed decisions to be present, short-sighted process flows may violate user trust all the same.
+
+#### Long-term Effects
+Over time, supposedly harmless data may amass into more revealing information, especially when paired with the right metadata. Being able to link user activity to other sources of information may also result in far more exposing situations than expected.
+
+Not only are users often unaware of the potential consequences of their actions, even controllers themselves regularly fail to anticipate how revealing their services can be. While some users approach this uncertainty with caution, others will risk their privacy in hopes of using the services. Though the uncertainty might not prevent their participation, it may still jeopardize their trust in the system.
 
 <!--#### Indications-->
 <!-- Symptoms that may indicate the existence of this problem, if otherwise unclear.-->
@@ -66,11 +66,14 @@ Not only are users often unaware of the potential consequences of their actions,
 
 Warn users about potential consequences before collecting or otherwise processing personal data, early enough to be appreciated and late enough to be relevant.
 
-This may require a form of [Task-based Processing](Task-based-Processing), where personal data is separated according to purpose. In this case, only use data for which any necessary consent has been granted, and which is within the scope of the personally enabled purposes. This precludes the application of unattended process changes which would induce new consequences.
+This information should be provided before the point where privacy risks could materialize. If there is some delay before further processing after collection, the user has some time to review the risks. Until the user accepts them however, that further processing should not take place.
 
-Users must be assured of the controller's dedication to transparency and openness, which will be enabled by the consistent presentation of that relevant information, along with other forms of [Building Trust and Credibility](Building-Trust-and-Credibility). As in [Preventing Mistakes or Reducing Their Impact](Preventing-Mistakes-or-Reducing-Their-Impact), both users and controllers themselves need to be aware of the potential for certain services to leak unwarranted personal information. Where the value of the service is nonetheless still high, even after efforts made to reduce leakage risks, users need to be informed enough to choose for themselves exactly what they share (see [Lawful Consent](Lawful-Consent) and [Selective Disclosure](Selective-Disclosure)).
-
-This approach may be partnered with accessible policies, including [Privacy Aware Wording](Privacy-Aware-Wording), [Layered Policy Design](Layered-Policy-Design), and [Privacy Aware Network Client](Privacy-Aware-Network-Client). It may also benefit from visual cues, like [Icons for Privacy Policies](Icons-for-Privacy-Policies), [Privacy Icons](Privacy-Icons) in general, or [Privacy Color Coding](Privacy-Color-Coding), which aid in alluding to those policies.
+This pattern is a compound pattern, one in which multiple patterns work together to address a broader problem. It combines the following patterns:
+- [Impactful Information and Feedback](Impactful-Information-and-Feedback);
+- [Increasing Awareness of Information Aggregation](Increasing-Awareness-of-Information-Aggregation);
+- [Privacy Awareness Panel](Privacy-Awareness-Panel);
+- [Appropriate Privacy Feedback](Appropriate-Privacy-Feedback); and
+- [Who's Listening](Whos-Listening).
 
 #### Rationale
 <!-- Where useful or otherwise unclear, justification for the solution's appropriateness in this pattern's context.-->
@@ -88,7 +91,7 @@ By making this effort, the controller avoids accusations of negligence in inform
 ### [Implementation]
 <!-- Guidelines for implementing the pattern; code fragments; suggested PETS; policy fragments.-->
 
-Every service which makes use of personal information should be investigated during its creation, or retrospectively if already available. Not only will this affect the user's understanding once presented to them in layman terms, but it will also allow the controller to realize the privacy impact of their services. This may encourage them to improve the services to be more respecting of privacy. A good solution composes of accessibility, as well as transparency and openness.
+Every service which makes use of personal information should be investigated by its creators during its creation, or retrospectively if already available. The controller in question is responsible for this. Not only will this affect the user's understanding once presented to them in layperson terms, but it will also allow the controller to realize the privacy impact of their services. This may encourage them to improve the services to be more respecting of privacy. A good solution composes of accessibility, as well as transparency and openness.
 
 #### Accessibility
 There needs to be a balance between the user effort required both to use a service and maintain their privacy. Information about the risks should not be deceptive, or difficult for laypersons to comprehend. Meeting this balance may also be challenging, as fully comprehending the risks involved might require a certain understanding of the system itself.
@@ -133,6 +136,12 @@ Full adoption of this pattern is not yet commonplace, yet there exist examples o
 ### [Related Patterns]
 <!-- Supporting and conflicting patterns.-->
 
+Users must be assured of the controller's dedication to transparency and openness, which will be enabled by the consistent presentation of that relevant information, along with other forms of [Building Trust and Credibility](Building-Trust-and-Credibility). As in [Preventing Mistakes or Reducing Their Impact](Preventing-Mistakes-or-Reducing-Their-Impact), both users and controllers themselves need to be aware of the potential for certain services to leak unwarranted personal information. Where the value of the service is nonetheless still high, even after efforts made to reduce leakage risks, users need to be informed enough to choose for themselves exactly what they share (see [Lawful Consent](Lawful-Consent) and [Selective Disclosure](Selective-Disclosure)).
+
+This approach may be partnered with accessible policies, including [Privacy Aware Wording](Privacy-Aware-Wording), [Layered Policy Design](Layered-Policy-Design), and [Privacy Aware Network Client](Privacy-Aware-Network-Client). It may also benefit from visual cues, like [Icons for Privacy Policies](Icons-for-Privacy-Policies), [Privacy Icons](Privacy-Icons) in general, or [Privacy Color Coding](Privacy-Color-Coding), which aid in alluding to those policies.
+
+This compound pattern benefits from also using [Task-based Processing](Task-based-Processing), where personal data is separated according to purpose. In this case, only use data for which any necessary consent has been granted, and which is within the scope of the personally enabled purposes. This precludes the application of unattended process changes which would induce new consequences.
+
 This pattern _complements_ [Privacy Dashboard](Privacy-Dashboard), [Trust Evaluation of Services Sides](Trust-Evaluation-of-Services-Sides), [Appropriate Privacy Icons](Appropriate-Privacy-Icons), [Icons for Privacy Policies](Icons-for-Privacy-Policies), [Privacy Color Coding](Privacy-Color-Coding), [Privacy Aware Wording](Privacy-Aware-Wording), [Layered Policy Design](Layered-Policy-Design), and [Privacy-Aware Network Client](Privacy-Aware-Network-Client).
 
 As this pattern keeps users informed of processed data, as well as what can be derived, and [Privacy Dashboard](Privacy-Dashboard) provides collective summaries of such data, these patterns can work together. In doing so, users are better equipped to take actions which are in line with their personal privacy preferences. Similar to this argument is the benefit of [Trust Evaluation of Services Sides](Trust-Evaluation-of-Services-Sides), which highlights criteria which a service meets to build trust in the user. With this pattern, it can also inform the user of which parties with access to their data comply with these criteria.
@@ -141,14 +150,14 @@ This pattern and its components also work well with visual cues like [Appropriat
 
 As this pattern seeks to inform users of policies in addition to notifying them of important information, it benefits from the application of accessible policies. Patterns which therefore _complement_ this pattern include [Privacy Aware Wording](Privacy-Aware-Wording), [Layered Policy Design](Layered-Policy-Design), and [Privacy-Aware Network Client](Privacy-Aware-Network-Client).
 
-This pattern is a composite pattern, and thus _may use_ any number of its component patterns. These include:
+This pattern is a compound pattern, one which builds off of its component patterns. These include:
 - [Impactful Information and Feedback](Impactful-Information-and-Feedback);
 - [Increasing Awareness of Information Aggregation](Increasing-Awareness-of-Information-Aggregation);
 - [Privacy Awareness Panel](Privacy-Awareness-Panel);
 - [Appropriate Privacy Feedback](Appropriate-Privacy-Feedback); and
 - [Who's Listening](Whos-Listening).
 
-#### Pre-patterns
+#### Related Pre-patterns
 - Privacy Options in Social Networks;
 - Selective Access Control in Forum Software; and
 - Privacy Enhanced Group Scheduling.
@@ -160,7 +169,7 @@ G. Aggarwal and E. Bursztein, “An Analysis of Private Browsing Modes in Modern
 
 S. Ahern, D. Eckles, N. Good, S. King, M. Naaman, and R. Nair, “Over-Exposed ? Privacy Patterns and Considerations in Online and Mobile Photo Sharing,” CHI ’07, pp. 357–366, 2007.
 
-H. Baraki et al., Towards Interdisciplinary Design Patterns for Ubiquitous Computing Applications. Kassel, Germany, 2014.
+H. Baraki, K. Geihs, A. Hoffmann, C. Voigtmann, R. Kniewel, B. E. Macek, and J. Zirfas, “Towards Interdisciplinary Design Patterns for Ubiquitous Computing Applications,” Kassel, Germany, 2014.
 
 E. S. Chung, J. I. Hong, J. Lin, M. K. Prabaker, J. a. Landay, and A. L. Liu, “Development and Evaluation of Emerging Design Patterns for Ubiquitous Computing,” DIS ’04 Proceedings of the 5th conference on Designing interactive systems: processes, practices, methods, and techniques, pp. 233–242, 2004.
 
@@ -169,6 +178,8 @@ C. Graf, P. Wolkerstorfer, A. Geven, and M. Tscheligi, “A Pattern Collection f
 G. Iachello and J. Hong, “End-User Privacy in Human-Computer Interaction,” Foundations and Trends® in Human-Computer Interaction, vol. 1, no. 1, pp. 1–137, 2007.
 
 T. Schümmer, “The Public Privacy – Patterns for Filtering Personal Information in Collaborative Systems,” in Proceedings of CHI workshop on Human-Computer-Human-Interaction Patterns, 2004.
+
+E. Freeman, E. Robson, B. Bates, and K. Sierra, Head First Design Patterns. O’ Reilly & Associates, Inc., 2004.
 
 <!--## General Comments-->
 <!-- Separate discussion on the pattern.-->
