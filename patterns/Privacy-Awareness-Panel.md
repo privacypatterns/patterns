@@ -6,6 +6,7 @@
     categories:
         - inform
         - provide
+    com: Whos-Listening Appropriate-Privacy-Feedback Impactful-Information-and-Feedback Privacy-dashboard Trust-Evaluation-of-Services-Sides Appropriate-Privacy-Icons Icons-for-Privacy-Policies Privacy-color-coding Privacy-Labels Layered-policy-design Privacy-Aware-Wording Privacy-aware-network-client
     status: pattern
     address:
 

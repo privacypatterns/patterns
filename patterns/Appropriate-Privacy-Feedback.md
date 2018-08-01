@@ -6,6 +6,8 @@
     categories:
         - inform
         - notify
+    com: Increasing-Awareness-of-Information-Aggregation Privacy-Awareness-Panel Whos-Listening Privacy-dashboard Trust-Evaluation-of-Services-Sides Appropriate-Privacy-Icons Icons-for-Privacy-Policies Privacy-color-coding Privacy-Labels Layered-policy-design Privacy-Aware-Wording Privacy-aware-network-client
+    use: Ambient-notice Asynchronous-notice
     status: pattern
     address:
 
@@ -62,7 +64,7 @@ Visible feedback loops, which capture the user's attention, are needed to help e
 
 Notification should occur before access where possible, and during or shortly after access if earlier notification is not appropriate. In most cases this means preventing a user's use of a service before allowing the core functionality of the service to run at all. Where some features with variable privacy implications are not essential to the service, they may be provided as optional, defaulting to being disabled.
 
-Users should be informed appropriately, providing both concise and understandable explanations of the personal data acquired, and warnings of the risks involved. The service should make a best effort to ensure that the user understands the implications of consent before commencing or resuming functionality. An effort should also be made to make these notifications non-invasive. Using [Ambient](Ambient-Notice) or [Asynchronous Notice](Asynchronous-Notice) is one way to achieve this.
+Users should be informed appropriately, providing both concise and understandable explanations of the personal data acquired, and warnings of the risks involved. The service should make a best effort to ensure that the user understands the implications of consent before commencing or resuming functionality. An effort should also be made to make these notifications non-invasive. Using [Ambient](Ambient-notice) or [Asynchronous Notice](Asynchronous-notice) is one way to achieve this.
 
 Where users choose to be notified less immediately or less often, and after being warned of the risks involved, then the service may store logs of its privacy affecting activities. The user should then be able to retrieve these logs, in a human readable form, at will. As only the user should be able to access these, unless said user provides informed consent otherwise, it should also be secured. Use state of the art means of encryption to do this. If this functionality cannot be done in this manner, due to technical constraints for example, then do not provide logging functionality.
 
@@ -107,7 +109,7 @@ This pattern _complements_ [Privacy Awareness Panel](Privacy-Awareness-Panel), [
 
 For ensuring the feedback provided is accurate and actionable, this pattern also _complements_ [Privacy Sensitive Architectures](Privacy-Sensitive-Architectures) and [Reasonable Level of Control](Reasonable-Level-of-Control).
 
-Appropriate Privacy Feedback _may be used_ by [Privacy Mirrors](Privacy-Mirrors) as a means to provide feedback on personal data usage. [Privacy Dashboard](Privacy-Dashboard) also _may use_ it, as it empowers users to act on detail they have been drawn attention to. Notification may also be facilitated through _using_ [Ambient](Ambient-Notice) or [Asynchronous Notice](Asynchronous-Notice) to reduce intrusiveness.
+Appropriate Privacy Feedback _may be used_ by [Privacy Mirrors](Privacy-Mirrors) as a means to provide feedback on personal data usage. [Privacy Dashboard](Privacy-dashboard) also _may use_ it, as it empowers users to act on detail they have been drawn attention to. Notification may also be facilitated through _using_ [Ambient](Ambient-notice) or [Asynchronous Notice](Asynchronous-notice) to reduce intrusiveness.
 
 ### [Sources]
 <!-- References to the original source of the pattern.-->

@@ -6,6 +6,7 @@
     categories:
         - inform
         - provide
+    com: Personal-Data-Table Privacy-Mirrors
     status: pattern
     address:
 

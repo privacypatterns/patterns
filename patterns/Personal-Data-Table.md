@@ -1,14 +1,17 @@
     {%hyde
 
     title: "Personal Data Table"
-    excerpt: "In order for users to see what information a controller has about them, they can be provided with a detailed tabular overview of that data upon request."
-    status: pattern
     type: pattern
+    excerpt: "In order for users to see what information a controller has about them, they can be provided with a detailed tabular overview of that data upon request."
     categories:
-    - transparency
-    - access
-    - inform
-    - provide
+        - transparency
+        - access
+        - inform
+        - provide
+    com: Minimal-Information-Asymmetry
+    status: pattern
+    address:
+
     %}
 
 [TOC]

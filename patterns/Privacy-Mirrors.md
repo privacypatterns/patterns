@@ -6,6 +6,9 @@
     categories:
         - inform
         - provide
+    com: Minimal-Information-Asymmetry Impactful-Information-and-Feedback
+    use: Personal-Data-Table Appropriate-Privacy-Feedback
+    sim: Privacy-dashboard
     status: pattern
     address:
 
@@ -145,7 +148,7 @@ This pattern provides a general solution for managing identify through informing
 
 [Impactful Information and Feedback](Impactful-Information-and-Feedback) supplies insights on potentially sensitive activity. These warnings allow for protection from the controller and reflection on sharing decisions in this pattern. This makes the patterns almost _similar_, and just short of a refinement towards more specific contexts. The problems these patterns address are however quite distinct.
 
-This patter is _similar to_ [Privacy Dashboard](Privacy-Dashboard). They have overlapping contexts, describe overlapping problems, and have solutions which have similar elements within them.
+This patter is _similar to_ [Privacy Dashboard](Privacy-dashboard). They have overlapping contexts, describe overlapping problems, and have solutions which have similar elements within them.
 
 This pattern uses [Personal Data Table](Personal-Data-Table) and [Appropriate Privacy Feedback](Appropriate-Privacy-Feedback). [Personal Data Table](Personal-Data-Table) is focused in tracking stored personal data, which this pattern applies as part of its solution. This pattern may also _use_ [Appropriate Privacy Feedback](Appropriate-Privacy-Feedback) as a means to provide feedback on personal data usage.
 

@@ -9,6 +9,9 @@
         - user-interface
         - inform
         - notify
+    com: Informed-Implicit-Consent
+    alt: Asynchronous-notice
+    ref: Preventing-Mistakes-or-Reducing-Their-Impact
     status: pattern
     address: http://npdoty.name
 
@@ -98,7 +101,7 @@ _QR-code based information access, smart meter display_
 ### [Related Patterns]
 <!-- Supporting and conflicting patterns-->
 
-This pattern is an _alternative_ to [Asynchronous Notice](Asynchronous-Notice). While this pattern aims at non-intrusive and ongoing notification, the Asynchronous variant focuses on obtrusive and unavoidable notifications. As such it must be used more sparingly.
+This pattern is an _alternative_ to [Asynchronous Notice](Asynchronous-notice). While this pattern aims at non-intrusive and ongoing notification, the Asynchronous variant focuses on obtrusive and unavoidable notifications. As such it must be used more sparingly.
 
 This pattern _complements_ [Informed Implicit Consent](Informed-Implicit-Consent) and [Single Point of Contact](Single-Point-of-Contact)(SPoC). Implicit consent is shown by the Ambient Notice, reminding the user of the system's assumption that their consent has not been retracted. A SPoC is an authority which validates requests and ensures secure and private communication, a usage of data which can be persistently displayed to remind the user of its (de)activation.
 

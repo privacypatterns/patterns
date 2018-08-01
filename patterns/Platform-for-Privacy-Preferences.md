@@ -1,12 +1,16 @@
     {%hyde
 
     title: "Platform for Privacy Preferences"
-    excerpt: "Use privacy policies which consist of standardized and extensible vocabulary and data element sets, both of which user agents should be aware of, in order to streamline their review by eliminating redundancies."
-    status: pattern
     type: pattern
+    excerpt: "Use privacy policies which consist of standardized and extensible vocabulary and data element sets, both of which user agents should be aware of, in order to streamline their review by eliminating redundancies."
     categories:
         - inform
         - provide
+    use: Policy-matching-display Privacy-aware-network-client
+    com: Dynamic-Privacy-Policy-Display
+    status: pattern
+    address:
+
     %}
 
 [TOC]
@@ -101,7 +105,7 @@ _Alternatively, Claudia could have told her browser that she wanted to be warned
 
 This pattern _complements_ [Dynamic Privacy Policy Display](Dynamic-Privacy-Policy-Display). The solutions are different, but are within the same context. These patterns may work together to show the user the privacy policy and how it compares to the user preferences. [Dynamic Privacy Policy Display](Dynamic-Privacy-Policy-Display) _uses_ [Privacy Policy Display](Privacy-Policy-Display). This pattern also implicitly _complements_ that pattern.
 
-This pattern _uses_ [Policy Matching Display](Policy-Matching-Display) and [Privacy-Aware Network Client](Privacy-Aware-Network-Client). For both of these, context and problem are overlapping and the latter is a part of the solution's implementation described in the former. [Policy Matching Display](Policy-Matching-Display) in particular adds very useful improvements while including this pattern.
+This pattern _uses_ [Policy Matching Display](Policy-matching-display) and [Privacy-Aware Network Client](Privacy-aware-network-client). For both of these, context and problem are overlapping and the latter is a part of the solution's implementation described in the former. [Policy Matching Display](Policy-matching-display) in particular adds very useful improvements while including this pattern.
 
 ### [Sources]
 <!-- References to the original source of the pattern.-->

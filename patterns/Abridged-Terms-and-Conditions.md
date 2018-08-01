@@ -1,12 +1,15 @@
     {%hyde
 
     title: "Abridged Terms and Conditions"
-    excerpt: "Enables the user to better understand the Terms and Conditions presented by a system through summarization. The most important elements therein are condensed into a more concise overview."
-    status: pattern
     type: pattern
+    excerpt: "Enables the user to better understand the Terms and Conditions presented by a system through summarization. The most important elements therein are condensed into a more concise overview."
     categories:
         - inform
         - provide
+    com: Layered-policy-design Privacy-aware-network-client
+    status: pattern
+    address:
+
     %}
 
 [TOC]
@@ -88,7 +91,7 @@ _Due to the fact that the [Terms and Conditions] of an application are condensed
 ### [Related Patterns]
 <!-- Supporting and conflicting patterns-->
 
-This pattern _complements_ [Privacy Aware Wording](Privacy-Aware-Wording), [Layered Policy Design](Layered-Policy-Design), and [Privacy-Aware Network Client](Privacy-Aware-Network-Client).
+This pattern _complements_ [Privacy Aware Wording](Privacy-Aware-Wording), [Layered Policy Design](Layered-policy-design), and [Privacy-Aware Network Client](Privacy-aware-network-client).
 
 The relationships this pattern has to these accessible policies patterns stem from its inherent compatibility with policy standardization, summarization, separation into layers and re-wording. Abridging a policy may support these aspects, or even entail them, though this pattern focuses on a specific kind of policy document. Were this pattern to have a broader context, it could even be considered an accessible policies pattern itself.
 

@@ -4,13 +4,14 @@
     type: pattern
     excerpt: "Prevent suspicious access to user data through alerts and authenticate through multiple factors upon potential compromise of an account."
     categories:
-      - control
-      - notice
-      - authentication
-      - inform
-      - notify
+        - notice
+        - authentication
+        - inform
+        - notify
+    com: Informed-Secure-Passwords Data-breach-notification-pattern Impactful-Information-and-Feedback
     status: pattern
     address: weisi@cmu.edu
+
     %}
 
 [TOC]
@@ -134,7 +135,7 @@ _If the fallback multi-factor authentication only happens occasionally to the le
 ### [Related Patterns]
 <!-- Supporting and conflicting patterns-->
 
-This pattern _complements_ the [Data Breach Notification](Data-Breach-Notification) pattern. These patterns work in an overlapping context. While this pattern  focuses on detecting and dealing with unauthorized access, [Data Breach Notification](Data-Breach-Notification) focuses on informing and reacting when a data breach has occurred. The patterns can work together to handle unauthorized access to personal data.
+This pattern _complements_ the [Data Breach Notification](Data-breach-notification-pattern) pattern. These patterns work in an overlapping context. While this pattern  focuses on detecting and dealing with unauthorized access, [Data Breach Notification](Data-breach-notification-pattern) focuses on informing and reacting when a data breach has occurred. The patterns can work together to handle unauthorized access to personal data.
 
 This pattern also _complements_ [Informed Secure Passwords](Informed-Secure-Passwords). While this pattern establishes access norms for authentication, the latter focuses on encouraging better use of password-based authentication. The patterns may work together to aid in detection and response to compromised access, and in users learning from these instances.
 

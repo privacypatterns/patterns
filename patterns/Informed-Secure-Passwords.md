@@ -6,6 +6,7 @@
     categories:
         - inform
         - explain
+    com: Informed-Credential-Selection Unusual-activities Appropriate-Privacy-Icons Icons-for-Privacy-Policies Privacy-color-coding Privacy-Labels
     status: pattern
     address:
 
@@ -59,7 +60,7 @@ These aspects can be weighted together to provide the user with a strength meter
 
 Given enough resources and time however, state of the art character lengths can be overcome. It is as such useful to change them more regularly than the time it would take to brute force them. Otherwise, the longer that a password remains unchanged, the more likely it is that the password has been compromised.
 
-Therefore a mechanism should also be provided to remind a user when it is time to start thinking of a new password. Based on how strong the original was this may be more or less often. [Unusual Activities](Unusual-Activities) may also justify a more frequent update.
+Therefore a mechanism should also be provided to remind a user when it is time to start thinking of a new password. Based on how strong the original was this may be more or less often. [Unusual Activities](Unusual-activities) may also justify a more frequent update.
 
 When verifying whether a user used the same password in a second field, to prevent mistypes, simply indicate whether the fields match with a recognizable affirmation. Typically this uses a green theme, and may use a check mark.
 
@@ -91,11 +92,11 @@ _Secure passwords are very important in [an interconnected world]. Users general
 ### [Related Patterns]
 <!-- Supporting and conflicting patterns-->
 
-This pattern _complements_ [Unusual Activities](Unusual-Activities), [Informed Credential Selection](Informed-Credential-Selection), [Appropriate-Privacy-Icons](Appropriate-Privacy-Icons), [Icons-for-Privacy-Policies](Icons-for-Privacy-Policies), and [Privacy-Color-Coding](Privacy-Color-Coding).
+This pattern _complements_ [Unusual Activities](Unusual-activities), [Informed Credential Selection](Informed-Credential-Selection), [Appropriate-Privacy-Icons](Appropriate-Privacy-Icons), [Icons-for-Privacy-Policies](Icons-for-Privacy-Policies), [Privacy Labels](Privacy-Labels), and [Privacy-color-coding](Privacy-color-coding).
 
-While [Unusual Activities](Unusual-Activities) establishes access norms for authentication, this pattern focuses on encouraging better use of password-based authentication. The patterns may work together to aid in detection and response to compromised access, and in users learning from these instances. In [Informed Credential Selection](Informed-Credential-Selection), the pattern focuses on informing users about the data released for authentication in certain contexts, elaborating on how such data might be used. With overlapping contexts, these patterns both provide assistance around password-based authentication, together enhancing awareness and usage.
+While [Unusual Activities](Unusual-activities) establishes access norms for authentication, this pattern focuses on encouraging better use of password-based authentication. The patterns may work together to aid in detection and response to compromised access, and in users learning from these instances. In [Informed Credential Selection](Informed-Credential-Selection), the pattern focuses on informing users about the data released for authentication in certain contexts, elaborating on how such data might be used. With overlapping contexts, these patterns both provide assistance around password-based authentication, together enhancing awareness and usage.
 
-It has a complementary relationship with the visual cues [Appropriate-Privacy-Icons](Appropriate-Privacy-Icons), [Icons-for-Privacy-Policies](Icons-for-Privacy-Policies), and [Privacy-Color-Coding](Privacy-Color-Coding) as these can help provide simple information on password strength and policies.
+It has a complementary relationship with the visual cues [Appropriate-Privacy-Icons](Appropriate-Privacy-Icons), [Icons-for-Privacy-Policies](Icons-for-Privacy-Policies), and [Privacy-color-coding](Privacy-color-coding) as these can help provide simple information on password strength and policies.
 
 It also _complements_ the Auto Create Password pattern.
 

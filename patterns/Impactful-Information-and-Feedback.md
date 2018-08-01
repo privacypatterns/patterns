@@ -6,6 +6,8 @@
     categories:
         - inform
         - explain
+    com: Privacy-Awareness-Panel Privacy-Mirrors Unusual-activities Privacy-dashboard Trust-Evaluation-of-Services-Sides Appropriate-Privacy-Icons Icons-for-Privacy-Policies Privacy-color-coding Privacy-Labels Layered-policy-design Privacy-Aware-Wording Privacy-aware-network-client Preventing-Mistakes-or-Reducing-Their-Impact
+    use: Increasing-Awareness-of-Information-Aggregation
     status: pattern
     address:
 
@@ -86,15 +88,15 @@ By applying this pattern, users who choose to partake will have a better realiza
 
 This pattern is a component of the compound pattern, [Awareness Feed](Awareness-Feed). As such, this pattern _may be used_ by it.
 
-This pattern _complements_ [Privacy Mirrors](Privacy-Mirrors), [Unusual Activities](Unusual-Activities), [Preventing Mistakes or Reducing Their Impact](Preventing-Mistakes-or-Reducing-Their-Impact), and [Privacy Awareness Panel](Privacy-Awareness-Panel).
+This pattern _complements_ [Privacy Mirrors](Privacy-Mirrors), [Unusual Activities](Unusual-activities), [Preventing Mistakes or Reducing Their Impact](Preventing-Mistakes-or-Reducing-Their-Impact), and [Privacy Awareness Panel](Privacy-Awareness-Panel).
 
-Through [Unusual Activities](Unusual-Activities), this pattern can inform users from insights having an effect on authentication and authorization. Extending this is an implicit connection to [Informed Secure Passwords](Informed-Secure-Passwords), which benefits from having these complementary and impactive insights into authentication decisions. As an even further connection, this pattern also loosely benefits from [Informed Credential Selection](Informed-Credential-Selection) in much the same way.
+Through [Unusual Activities](Unusual-activities), this pattern can inform users from insights having an effect on authentication and authorization. Extending this is an implicit connection to [Informed Secure Passwords](Informed-Secure-Passwords), which benefits from having these complementary and impactive insights into authentication decisions. As an even further connection, this pattern also loosely benefits from [Informed Credential Selection](Informed-Credential-Selection) in much the same way.
 
 On the other hand, [Preventing Mistakes or Reducing Their Impact](Preventing-Mistakes-or-Reducing-Their-Impact) serves as a complementary pattern through its intent to prevent automatic sensitive disclosure in addition to this pattern's reflective approach.
 
-Within [Awareness Feed](Awareness-Feed), [Privacy Awareness Panel](Privacy-Awareness-Panel) may take analytical provisions from this pattern to supply feedback on potentially sensitive activity. These same provisional warnings allow for protection from the controller and reflection on sharing decisions in [Privacy Mirrors](Privacy-Mirrors). This similarity is short of a _similar_ relationship, however, especially as the problems addressed are quite distinct. This pattern is also _complemented_ by [Privacy Dashboard](Privacy-Dashboard) in a similar fashion, along with other components of [Awareness Feed](Awareness-Feed).
+Within [Awareness Feed](Awareness-Feed), [Privacy Awareness Panel](Privacy-Awareness-Panel) may take analytical provisions from this pattern to supply feedback on potentially sensitive activity. These same provisional warnings allow for protection from the controller and reflection on sharing decisions in [Privacy Mirrors](Privacy-Mirrors). This similarity is short of a _similar_ relationship, however, especially as the problems addressed are quite distinct. This pattern is also _complemented_ by [Privacy Dashboard](Privacy-dashboard) in a similar fashion, along with other components of [Awareness Feed](Awareness-Feed).
 
-As this pattern focuses on providing relevant information before disclosure as with [Awareness Feed](Awareness-Feed), visual cues and accessible policies implicitly help work towards this end. These include [Appropriate Privacy Icons](Appropriate-Privacy-Icons), [Icons for Privacy Policies](Icons-for-Privacy-Policies), [Privacy Color Coding](Privacy-Color-Coding), [Privacy Aware Wording](Privacy-Aware-Wording), [Layered Policy Design](Layered-Policy-Design), and [Privacy-Aware Network Client](Privacy-Aware-Network-Client).
+As this pattern focuses on providing relevant information before disclosure as with [Awareness Feed](Awareness-Feed), visual cues and accessible policies implicitly help work towards this end. These include [Appropriate Privacy Icons](Appropriate-Privacy-Icons), [Icons for Privacy Policies](Icons-for-Privacy-Policies), [Privacy Color Coding](Privacy-color-coding), [Privacy Aware Wording](Privacy-Aware-Wording), [Layered Policy Design](Layered-policy-design), and [Privacy-Aware Network Client](Privacy-aware-network-client).
 
 It also implicitly _complements_ [Appropriate Privacy Feedback](Appropriate-Privacy-Feedback), which focuses on informing users of what happens with their data. It does so through the same vein as [Privacy Awareness Panel](Privacy-Awareness-Panel), and also through [Increasing Awareness of Information Aggregation](Increasing-Awareness-of-Information-Aggregation).
 

@@ -1,15 +1,20 @@
     {%hyde
 
     title: "Privacy dashboard"
-    excerpt: "An informational privacy dashboard can provide collected summaries of the collected or processed personal data for a particular user."
-    status: pattern
     type: pattern
+    excerpt: "An informational privacy dashboard can provide collected summaries of the collected or processed personal data for a particular user."
     categories:
         - transparency
         - access
         - location
         - inform
         - provide
+    sim: Privacy-Mirrors
+    com: Awareness-Feed
+    use: Appropriate-Privacy-Feedback
+    status: pattern
+    address:
+
     %}
 
 [TOC]

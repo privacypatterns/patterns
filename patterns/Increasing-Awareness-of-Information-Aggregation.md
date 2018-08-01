@@ -6,6 +6,8 @@
     categories:
         - inform
         - provide
+    com: Appropriate-Privacy-Feedback Privacy-dashboard Trust-Evaluation-of-Services-Sides Appropriate-Privacy-Icons Icons-for-Privacy-Policies Privacy-color-coding Privacy-Labels Layered-policy-design Privacy-Aware-Wording Privacy-aware-network-client
+    ref: Privacy-Awareness-Panel
     status: pattern
     address:
 
@@ -89,7 +91,7 @@ This pattern is a component of the compound pattern, [Awareness Feed](Awareness-
 
 This pattern _refines_ [Privacy Awareness Panel](Privacy-Awareness-Panel) and _complements_ [Appropriate Privacy Feedback](Appropriate-Privacy-Feedback).
 
-While it only aims to solve an overlapping problem, [Privacy Awareness Panel](Privacy-Awareness-Panel) considers past and future disclosure decisions and does not differ much from the knowledge of potential sensitivity when aggregated. This pattern therefore provides more a specific application. 
+While it only aims to solve an overlapping problem, [Privacy Awareness Panel](Privacy-Awareness-Panel) considers past and future disclosure decisions and does not differ much from the knowledge of potential sensitivity when aggregated. This pattern therefore provides more a specific application.
 
 [Appropriate Privacy Feedback](Appropriate-Privacy-Feedback) provides the same information as [Privacy Awareness Panel](Privacy-Awareness-Panel), only through a different mechanism and with a different problem. Through it, the benefit of more general awareness is sought.
 

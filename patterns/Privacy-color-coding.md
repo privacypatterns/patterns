@@ -7,10 +7,12 @@
         - distraction
         - visualize
         - user-interface
-        - control
         - inform
         - explain
+    com: Icons-for-Privacy-Policies Informed-Secure-Passwords Awareness-Feed
     status: pattern
+    address:
+
     %}
 
 [TOC]
@@ -87,11 +89,11 @@ _A color coding similar to traffic lights is implemented in many modern web brow
 ### [Related Patterns]
 <!-- Supporting and conflicting patterns-->
 
-This pattern _complements_ [Impactful Information and Feedback](Impactful-Information-and-Feedback), [Informed Secure Passwords](Informed-Secure-Passwords), [Layered Policy Design](Layered-Policy-Design), [Privacy Aware Wording](Privacy-Aware-Wording), [Privacy-Aware Network Client](Privacy-Aware-Network-Client), [Awareness Feed](Awareness-Feed), and [Icons for Privacy Policies](Icons-for-Privacy-Policies). It also implicitly _complements_ [Trust Evaluation of Services Sides](Trust-Evaluation-of-Services-Sides) through [Awareness Feed](Awareness-Feed).
+This pattern _complements_ [Impactful Information and Feedback](Impactful-Information-and-Feedback), [Informed Secure Passwords](Informed-Secure-Passwords), [Layered Policy Design](Layered-policy-design), [Privacy Aware Wording](Privacy-Aware-Wording), [Privacy-Aware Network Client](Privacy-aware-network-client), [Awareness Feed](Awareness-Feed), and [Icons for Privacy Policies](Icons-for-Privacy-Policies). It also implicitly _complements_ [Trust Evaluation of Services Sides](Trust-Evaluation-of-Services-Sides) through [Awareness Feed](Awareness-Feed).
 
 As a visual cue, this pattern aids in providing [Impactful Information and Feedback](Impactful-Information-and-Feedback) by augmenting it with quickly interpreted information. These visual cues additionally help towards [Informed Secure Passwords](Informed-Secure-Passwords), as they may indicate password strength and policy.
 
-Visual cues like this pattern also aid in providing accessible policies, and thus _complement_ [Layered Policy Design](Layered-Policy-Design), [Privacy Aware Wording](Privacy-Aware-Wording), and [Privacy-Aware Network Client](Privacy-Aware-Network-Client).
+Visual cues like this pattern also aid in providing accessible policies, and thus _complement_ [Layered Policy Design](Layered-policy-design), [Privacy Aware Wording](Privacy-Aware-Wording), and [Privacy-Aware Network Client](Privacy-aware-network-client).
 
 Like many patterns which inform users, elements of [Awareness Feed](Awareness-Feed) and its methods for establishing awareness also go well with visual cues like this pattern. It also implicitly aids [Trust Evaluation of Services Sides](Trust-Evaluation-of-Services-Sides), which provides visual representation to highlight trust levels to the user.
 

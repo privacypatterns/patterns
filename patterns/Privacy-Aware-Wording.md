@@ -6,7 +6,8 @@
     categories:
         - inform
         - explain
-    status: draft
+    com: Layered-policy-design Privacy-Policy-Display Privacy-aware-network-client Abridged-Terms-and-Conditions Awareness-Feed Privacy-Labels Privacy-color-coding Icons-for-Privacy-Policies Appropriate-Privacy-Icons
+    status: pattern
     address:
 
     %}
@@ -52,7 +53,7 @@ Construct privacy related information using easily parsed and low difficultly vo
 ### [Implementation]
 <!--Guidelines for implementing the pattern; code fragments; suggested PETS; policy fragments.-->
 
-Users should not need to be familiar with the subject matter. They should also not be given unnecessary detail at the highest level of abstraction. Consider combining techniques from other patterns such as [Layered Policy Design](Layered-Policy-Design).
+Users should not need to be familiar with the subject matter. They should also not be given unnecessary detail at the highest level of abstraction. Consider combining techniques from other patterns such as [Layered Policy Design](Layered-policy-design).
 
 _Before using the terms one should be sure that they are clear and understandable for the target-users. Therefore it is recommended to either refer to standardized terms [or] to conduct user tests on the understandability of [utilized] terms and phrases. These tests do not have to be extensive. Asking only few representative users from the target-group about their understanding of the terms should suffice._
 
@@ -84,17 +85,17 @@ _Before using the terms one should be sure that they are clear and understandabl
 ### [Related Patterns]
 <!-- Supporting and conflicting patterns-->
 
-This pattern _complements_ [Awareness Feed](Awareness-Feed), [Appropriate Privacy Icons](Appropriate-Privacy-Icons), [Icons for Privacy Policies](Icons-for-Privacy-Policies), [Privacy Color Coding](Privacy-Color-Coding), [Abridged Terms and Conditions](Abridged-Terms-and-Conditions), [Privacy Policy Display](Privacy-Policy-Display), [Layered Policy Design](Layered-Policy-Design), and [Privacy-Aware Network Client](Privacy-Aware-Network-Client).
+This pattern _complements_ [Awareness Feed](Awareness-Feed), [Appropriate Privacy Icons](Appropriate-Privacy-Icons), [Icons for Privacy Policies](Icons-for-Privacy-Policies), [Privacy Labels](Privacy-Labels), [Privacy Color Coding](Privacy-color-coding), [Abridged Terms and Conditions](Abridged-Terms-and-Conditions), [Privacy Policy Display](Privacy-Policy-Display), [Layered Policy Design](Layered-policy-design), and [Privacy-Aware Network Client](Privacy-aware-network-client).
 
 Like many patterns which inform users, elements of [Awareness Feed](Awareness-Feed) (like [Impactful Information and Feedback](Impactful-Information-and-Feedback)) and its methods for establishing awareness go well with accessible policy aspects like this pattern.
 
-Interpretations of privacy policies and their expression in easily understood summaries could be improved with [Appropriate Privacy Icons](Appropriate-Privacy-Icons), [Icons for Privacy Policies](Icons-for-Privacy-Policies) and [Privacy Color Coding](Privacy-Color-Coding). This makes for a more accessible solution with visual cues.
+Interpretations of privacy policies and their expression in easily understood summaries could be improved with [Appropriate Privacy Icons](Appropriate-Privacy-Icons), [Icons for Privacy Policies](Icons-for-Privacy-Policies) and [Privacy Color Coding](Privacy-color-coding). This makes for a more accessible solution with visual cues.
 
 Accessible policies like these go well with [Abridged Terms and Conditions](Abridged-Terms-and-Conditions), as they _complement_ its need for policy summarization.
 
-Privacy Aware Wording can be used alongside [Privacy Policy Display](Privacy-Policy-Display) and [Layered Policy Design](Layered-Policy-Design) to provide more accessible wording in the resulting layered privacy policy or display. Similarly, [Privacy-Aware Network Client](Privacy-Aware-Network-Client) benefits from such attention to accessibility in its easily readable format.
+Privacy Aware Wording can be used alongside [Privacy Policy Display](Privacy-Policy-Display) and [Layered Policy Design](Layered-policy-design) to provide more accessible wording in the resulting layered privacy policy or display. Similarly, [Privacy-Aware Network Client](Privacy-aware-network-client) benefits from such attention to accessibility in its easily readable format.
 
-Implicit complementary relationships to this pattern include [Dynamic Privacy Policy Display](Dynamic-Privacy-Policy-Display) and [Policy Matching Display](Policy-Matching-Display). Both of these exist through their use of [Privacy Policy Display](Privacy-Policy-Display).
+Implicit complementary relationships to this pattern include [Dynamic Privacy Policy Display](Dynamic-Privacy-Policy-Display) and [Policy Matching Display](Policy-matching-display). Both of these exist through their use of [Privacy Policy Display](Privacy-Policy-Display).
 
 ### [Sources]
 <!-- References to the original source of the pattern.-->

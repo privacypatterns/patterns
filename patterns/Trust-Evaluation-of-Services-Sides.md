@@ -1,14 +1,17 @@
     {%hyde
 
     title: "Trust Evaluation of Services Sides"
-    excerpt: "A visual highlight provided by an authority which signals the extent to which given privacy criteria are fulfilled. It should be clearly placed and easily found, with links to additional information."
-    status: pattern
     type: pattern
+    excerpt: "A visual highlight provided by an authority which signals the extent to which given privacy criteria are fulfilled. It should be clearly placed and easily found, with links to additional information."
     categories:
-    - transparency
-    - access
-    - inform
-    - provide
+        - transparency
+        - access
+        - inform
+        - provide
+    com: Awareness-Feed Policy-matching-display
+    status: pattern
+    address:
+
     %}
 
 [TOC]
@@ -97,11 +100,11 @@ O. Drozd, “privacypatterns.wu.ac.at - Privacy Patterns Catalog,” privacypatt
 ### [Related Patterns]
 <!-- Supporting and conflicting patterns-->
 
-This pattern _complements_ [Policy Matching Display](Policy-Matching-Display) and [Awareness Feed](Awareness-Feed). It also implicitly _complements_ [Icons for Privacy Policies](Icons-for-Privacy-Policies), [Privacy Color Coding](Privacy-Color-Coding), and [Appropriate Privacy Icons](Appropriate-Privacy-Icons).
+This pattern _complements_ [Policy Matching Display](Policy-matching-display) and [Awareness Feed](Awareness-Feed). It also implicitly _complements_ [Icons for Privacy Policies](Icons-for-Privacy-Policies), [Privacy Color Coding](Privacy-color-coding), and [Appropriate Privacy Icons](Appropriate-Privacy-Icons).
 
-With [Policy Matching Display](Policy-Matching-Display), these patterns may work together towards providing the user with information which builds trust. This will be based on both preferences matching and means for demonstrating trustworthiness. With [Awareness Feed](Awareness-Feed), this pattern keeps users informed about what risks their disclosures might face, providing feedback which can relate to and further explain met criteria.
+With [Policy Matching Display](Policy-matching-display), these patterns may work together towards providing the user with information which builds trust. This will be based on both preferences matching and means for demonstrating trustworthiness. With [Awareness Feed](Awareness-Feed), this pattern keeps users informed about what risks their disclosures might face, providing feedback which can relate to and further explain met criteria.
 
-As visual cues, [Appropriate Privacy Icons](Appropriate-Privacy-Icons), [Icons for Privacy Policies](Icons-for-Privacy-Policies), and [Privacy Color Coding](Privacy-Color-Coding) aid this pattern implicitly through [Awareness Feed](Awareness-Feed) by augmenting this pattern with quickly interpreted, visual information. This is useful for highlighting trust levels to the user.
+As visual cues, [Appropriate Privacy Icons](Appropriate-Privacy-Icons), [Icons for Privacy Policies](Icons-for-Privacy-Policies), and [Privacy Color Coding](Privacy-color-coding) aid this pattern implicitly through [Awareness Feed](Awareness-Feed) by augmenting this pattern with quickly interpreted, visual information. This is useful for highlighting trust levels to the user.
 
 <!--### [Sources]-->
 <!-- References to the original source of the pattern.-->

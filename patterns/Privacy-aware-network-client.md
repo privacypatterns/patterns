@@ -9,7 +9,10 @@
         - p3p
         - inform
         - explain
+    com: Awareness-Feed Privacy-Aware-Wording Privacy-Labels Privacy-color-coding Icons-for-Privacy-Policies Appropriate-Privacy-Icons Abridged-Terms-and-Conditions
     status: pattern
+    address:
+
     %}
 
 [TOC]
@@ -90,19 +93,19 @@ _JRC P3P Proxy Version 2.0 is a P3P user agent acting like an intermediary. Depe
 ### [Related Patterns]
 <!-- Supporting and conflicting patterns-->
 
-This pattern _complements_ [Awareness Feed](Awareness-Feed), [Appropriate Privacy Icons](Appropriate-Privacy-Icons), [Icons for Privacy Policies](Icons-for-Privacy-Policies), [Privacy Color Coding](Privacy-Color-Coding), [Abridged Terms and Conditions](Abridged-Terms-and-Conditions), and [Privacy Aware Wording](Privacy-Aware-Wording).
+This pattern _complements_ [Awareness Feed](Awareness-Feed), [Appropriate Privacy Icons](Appropriate-Privacy-Icons), [Icons for Privacy Policies](Icons-for-Privacy-Policies), [Privacy Labels](Privacy-Labels), [Privacy Color Coding](Privacy-color-coding), [Abridged Terms and Conditions](Abridged-Terms-and-Conditions), and [Privacy Aware Wording](Privacy-Aware-Wording).
 
 Like many patterns which inform users, elements of [Awareness Feed](Awareness-Feed) (like [Impactful Information and Feedback](Impactful-Information-and-Feedback)) and its methods for establishing awareness go well with accessible policy aspects like this pattern.
 
-Interpretations of privacy policies and their expression in easily understood summaries could be improved with [Appropriate Privacy Icons](Appropriate-Privacy-Icons), [Icons for Privacy Policies](Icons-for-Privacy-Policies), and [Privacy Color Coding](Privacy-Color-Coding). This makes for a more accessible solution with visual cues.
+Interpretations of privacy policies and their expression in easily understood summaries could be improved with [Appropriate Privacy Icons](Appropriate-Privacy-Icons), [Icons for Privacy Policies](Icons-for-Privacy-Policies), and [Privacy Color Coding](Privacy-color-coding). This makes for a more accessible solution with visual cues.
 
 Accessible policies like these go well with [Abridged Terms and Conditions](Abridged-Terms-and-Conditions), as they _complement_ its need for policy summarization.
 
 Additionally, where this pattern securely standardizes privacy policies into an accessible format, this format is complemented by [Privacy Aware Wording](Privacy-Aware-Wording).
 
-This pattern may also be _used_ by the [Platform for Privacy Preferences](Platform-for-Privacy-Preferences) pattern. The context and problem overlap that of this pattern, its solution's implementation describes elements which already exist in [Privacy-Aware Network Client](Privacy-Aware-Network-Client).
+This pattern may also be _used_ by the [Platform for Privacy Preferences](Platform-for-Privacy-Preferences) pattern. The context and problem overlap that of this pattern, its solution's implementation describes elements which already exist in [Privacy-Aware Network Client](Privacy-aware-network-client).
 
-_The [Privacy-Aware Network Client](Privacy-Aware-Network-Client) [_refines_] the Proxy pattern_, while the Web Shopping Process pattern _is one of the patterns most likely to [_complement_] this pattern_. This pattern also _complements_ Adaptive Web Applications, _patterns for web applications that change their behavior according to the current user. They would display more or less complete privacy disclosures depending on the type of user._
+_The [Privacy-Aware Network Client](Privacy-aware-network-client) [_refines_] the Proxy pattern_, while the Web Shopping Process pattern _is one of the patterns most likely to [_complement_] this pattern_. This pattern also _complements_ Adaptive Web Applications, _patterns for web applications that change their behavior according to the current user. They would display more or less complete privacy disclosures depending on the type of user._
 
 ### [Sources]
 <!-- References to the original source of the pattern.-->
