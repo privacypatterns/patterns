@@ -14,9 +14,10 @@
 
 [TOC]
 
-<!--### [Also Known As]-->
+### [Also Known As]
 <!-- All other names the pattern is known by.-->
 
+Layered Privacy Policies / Multi-Layered Notices
 
 ## Context
 <!-- The situations in which the pattern may apply.-->
@@ -103,6 +104,8 @@ Implicit complementary relationships to this pattern include [Dynamic Privacy Po
 Pinnick, T. Layered Policy Design. TRUSTe Blog, 2011.
 
 Christoph Boesch, Frank Kargl, Henning Kopp, and Patrick Mosby, “privacypatterns.eu - collecting patterns for better privacy,” 2017. [Online]. Available: https://privacypatterns.eu/#/?limit=6&offset=0. [Accessed: 18-Jul-2017].
+
+Multi-Layered Notices Explained, White Paper, The Center for Information Policy Leadership, Hunton & Williams, http://mddb.apec.org/documents/2005/ECSG/DPM1/05_ecsg_dpm1_003.pdf
 
 <!--## General Comments-->
 <!-- Separate discussion on the pattern.-->
