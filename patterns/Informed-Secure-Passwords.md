@@ -6,7 +6,7 @@
     categories:
         - inform
         - explain
-    com: Informed-Credential-Selection Unusual-activities Appropriate-Privacy-Icons Icons-for-Privacy-Policies Privacy-color-coding Privacy-Labels
+    com: Informed-Credential-Selection Unusual-activities Appropriate-Privacy-Icons Icons-for-Privacy-Policies Privacy-color-coding
     status: pattern
     address:
 
@@ -92,7 +92,7 @@ _Secure passwords are very important in [an interconnected world]. Users general
 ### [Related Patterns]
 <!-- Supporting and conflicting patterns-->
 
-This pattern _complements_ [Unusual Activities](Unusual-activities), [Informed Credential Selection](Informed-Credential-Selection), [Appropriate-Privacy-Icons](Appropriate-Privacy-Icons), [Icons-for-Privacy-Policies](Icons-for-Privacy-Policies), [Privacy Labels](Privacy-Labels), and [Privacy-color-coding](Privacy-color-coding).
+This pattern _complements_ [Unusual Activities](Unusual-activities), [Informed Credential Selection](Informed-Credential-Selection), [Appropriate-Privacy-Icons](Appropriate-Privacy-Icons), [Icons-for-Privacy-Policies](Icons-for-Privacy-Policies), and [Privacy-color-coding](Privacy-color-coding).
 
 While [Unusual Activities](Unusual-activities) establishes access norms for authentication, this pattern focuses on encouraging better use of password-based authentication. The patterns may work together to aid in detection and response to compromised access, and in users learning from these instances. In [Informed Credential Selection](Informed-Credential-Selection), the pattern focuses on informing users about the data released for authentication in certain contexts, elaborating on how such data might be used. With overlapping contexts, these patterns both provide assistance around password-based authentication, together enhancing awareness and usage.
 
