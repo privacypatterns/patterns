@@ -62,7 +62,7 @@ _[Also,] reputation metrics based on other users' [ratings] can influence user t
 
 _A trust evaluation function should in particular follow the following design principles:_
 - _Use a multi-layered structure for displaying evaluation results._
-services side and not the user side is evaluated.
+- _Make clear who is evaluated_
 - _Inform the user without unnecessary warnings._
 - _Use a selection of meaningful overall evaluation results.
 
@@ -76,26 +76,22 @@ Users will be able to better justify the trust they place in controllers who mea
 
 
 
-<!--## Examples-->
+## Examples
 <!--Motivational example to see how the pattern is applied.-->
 
+Determine an appropriate metric for evaluating trustworthiness of partners of the service who will receive personal data as third parties. This can be simple, such as meeting expectations, failing them, or exceeding them. PrimeLife suggests 'poor', 'fair', and 'good', with fair evaluations having neither negative nor positive influences. Blacklists or alert lists make for a poor evaluation regardless of positive aspects.
 
+These evaluations are shown to users prior to their related parties having consent for access. The notification is not shown too frequently, as extensive warnings may be misleading to users. While they should be aware of neutral or unevaluated parties, it may not be desired to worry them without cause. There should also be just enough information to raise awareness, allowing the user to investigate further if desired. A notification for a fair evaluation may be 'we have not found any issues with this partner' for example, with a neutral colour which matches the rest of the interface. Poor evaluations could be yellow or red (alarming colours), with good evaluations green or blue (positive colours).
 
 <!--### [Known Uses]-->
 <!-- Pointers to various applications of the pattern.-->
 
 
 
-## See Also
+<!--## See Also-->
 <!-- Any pointers to relevant information, not contained in the subfields below.-->
 
-Additional information can be found in the original version of the pattern:
-S. Fischer-Hübner, C. Köffel, J.-S. Pettersson, P. Wolkerstorfer, C. Graf, L. E. Holtz, U. König, H. Hedbom, and B. Kellermann, “HCI Pattern Collection - Version 2,” 2010.
 
-This pattern is also highlighted in other works:
-J. Siljee, “Privacy transparency patterns,” in EuroPLoP ’15, 2015, pp. 1–11.
-
-O. Drozd, “privacypatterns.wu.ac.at - Privacy Patterns Catalog,” privacypatterns.wu.ac.at, 2016. [Online]. Available: http://privacypatterns.wu.ac.at:8080/catalog/. [Accessed: 25-Jan-2017].
 
 ### [Related Patterns]
 <!-- Supporting and conflicting patterns-->
@@ -106,10 +102,18 @@ With [Policy Matching Display](Policy-matching-display), these patterns may work
 
 As visual cues, [Appropriate Privacy Icons](Appropriate-Privacy-Icons), [Icons for Privacy Policies](Icons-for-Privacy-Policies), and [Privacy Color Coding](Privacy-color-coding) aid this pattern implicitly through [Awareness Feed](Awareness-Feed) by augmenting this pattern with quickly interpreted, visual information. This is useful for highlighting trust levels to the user.
 
-<!--### [Sources]-->
+### [Sources]
 <!-- References to the original source of the pattern.-->
 
+Additional information can be found in the original version of the pattern:
+S. Fischer-Hübner, C. Köffel, J.-S. Pettersson, P. Wolkerstorfer, C. Graf, L. E. Holtz, U. König, H. Hedbom, and B. Kellermann, “HCI Pattern Collection - Version 2,” 2010.
 
+This pattern is also highlighted in other works:
+J. Siljee, “Privacy transparency patterns,” in EuroPLoP ’15, 2015, pp. 1–11.
+
+O. Drozd, “privacypatterns.wu.ac.at - Privacy Patterns Catalog,” privacypatterns.wu.ac.at, 2016. [Online]. Available: http://privacypatterns.wu.ac.at:8080/catalog/. [Accessed: 25-Jan-2017].
+
+C. Andersson, J. Camenisch, S. Crane, S. Fischer-Hübner, R. Leenes, S. Pearson, J. S. Pettersson and D. Sommer. “Trust in PRIME”. Proceedings of the 5th IEEE Int. Symposium on Signal Processing and IT, pages 18-21, 2005.
 
 <!-- ## General Comments -->
 <!-- Separate discussion on the pattern.-->

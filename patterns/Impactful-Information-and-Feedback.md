@@ -68,10 +68,11 @@ By applying this pattern, users who choose to partake will have a better realiza
 
 
 
-<!--## Examples-->
+## Examples
 <!--Motivational example to see how the pattern is applied.-->
 
-
+_Systems can reduce user uncertainty about factors important to disclosure choices. For example, systems may be able to estimate the audience for a particular disclosure at decision-time,
+thereby reducing uncertainty and influencing user choices. Systems could use social comparison, such as decisions made by friends or other users in similar context, to reduce uncertainty about relevant norms for disclosure. Finally, tools for viewing photo “disclosures” in ways similar to how others will view these photos could help users understand the content and appearance of their disclosures._
 
 <!--### [Known Uses]-->
 <!-- Pointers to various applications of the pattern.-->

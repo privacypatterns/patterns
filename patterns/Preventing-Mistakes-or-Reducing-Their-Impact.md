@@ -63,10 +63,10 @@ Clearing up mistakenly shared data adds additional overhead, especially if the s
 
 
 
-<!--## Examples-->
+## Examples
 <!--Motivational example to see how the pattern is applied.-->
 
-
+_Through the study of [trends] in disclosure behavior, systems may be able to helpfully warn users when disclosing following potentially significant change in context, perhaps reducing potential for mistakes. As [Ahern et al.] found that privacy decisions are often correlated with the context of capture and the content of the photo as indicated by user-specified tags, it could be feasible to use these patterns for prediction or recommendation of privacy settings. In addition, providing an optional “staging area” before disclosure actually takes place and an easy way to review recent disclosures may reduce the immediate consequences of quickly regretted or accidental disclosure decisions._
 
 <!--### [Known Uses]-->
 <!-- Pointers to various applications of the pattern.-->

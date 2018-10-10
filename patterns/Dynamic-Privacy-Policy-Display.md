@@ -34,15 +34,15 @@ Not all contexts are suitable for extensive privacy policy information, yet user
 #### Forces and Concerns
 <!-- Implications in this problem which affect the appropriateness of a solution, and are affected by this pattern.-->
 <!-- Forces should be highly visible for easy reference, where less obvious a dedicated section is recommended.-->
-- Controllers need to comply with the laws mandating informed consent, but users do not read privacy policies
+- Controllers need informed consent for collection, sometimes with limited screen space available, yet users do not typically read privacy policies on their own
 - Users do not want to spend time and effort reading through privacy policies
 - Controllers want users to actually use their service (or product), but users will not do so if the cost of doing so entails disproportionate effort
-- Users want to be able to get to using the service quickly
+- Users want to be able to get to using the service quickly, without needing to visit multiple policy pages
 
 ## Solution
 <!-- A concise description of how the pattern addresses the problem.-->
 
-Provide the user with additional relevant policy information on hover or tap, by way of 'tooltips', to best inform them given contextual limitations.
+Provide the user with additional relevant policy information on hover or tap, by way of 'tooltips', to best inform them given contextual limitations. In a mobile setting these tooltips may unobtrusively become available to tap when the relevant control is most in focus (i.e. selected, centered, or occupies most of the screen).
 
 This information may highlight the nature and potential consequences of the disclosure, and should be displayed consistently.
 
@@ -68,15 +68,15 @@ However, users may also happen to not trigger the tooltip, especially when using
 
 
 
-<!--## Examples-->
+## Examples
 <!--Motivational example to see how the pattern is applied.-->
 
+When a user needs to login and is given numerous options, with limited space provided, each option can have an assigned tooltip. These can appear on hover, tap, or scroll, where necessary appearing with less opacity until the user taps the tooltip itself. It can also lead to further detail through '(see more)' in a recognizable blue underlined hyperlink format. To encourage use of this a variant may either scroll through detail or show a visible scroll bar. Not needing the user to leave the application or webpage will require less effort on their part.
 
-
-<!--### [Known Uses]-->
+### [Known Uses]
 <!-- Pointers to various applications of the pattern.-->
 
-
+The PrimeLife HCI Pattern Collection (V2) features a prototype using tooltips to convey policy information on hover. 
 
 <!--## See Also-->
 <!-- Any pointers to relevant information, not contained in the subfields below.-->

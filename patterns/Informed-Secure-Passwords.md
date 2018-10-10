@@ -79,12 +79,12 @@ _Secure passwords are very important in [an interconnected world]. Users general
 
 
 
-<!--### [Known Uses]-->
+### [Known Uses]
 <!-- Pointers to various applications of the pattern.-->
 
+Strongpasswordgenerator.com both provides explanation on state of the art approaches to secure passwords in a layperson friendly manner and helps generate them.
 
-
-## See Also
+<!--## See Also-->
 <!-- Any pointers to relevant information, not contained in the subfields below.-->
 
 

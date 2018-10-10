@@ -67,10 +67,12 @@ _Before using the terms one should be sure that they are clear and understandabl
 
 
 
-<!--## Examples-->
+## Examples
 <!--Motivational example to see how the pattern is applied.-->
 
+Referring to the user as the data subject or otherwise introducing terms to the user may reduce reading comprehension. Instead of focusing on legally accurate terms, the information should make sense to the user. It should not be provide a false interpretation, however. The PrimeLife example features a mock corporation which summarises information according to 'what', 'how', and 'who'.
 
+![Privacy Aware Wording Example](media/images/privacy-aware-wording.jpg)
 
 <!--### [Known Uses]-->
 <!-- Pointers to various applications of the pattern.-->

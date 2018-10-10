@@ -72,12 +72,12 @@ If users understand the power of data aggregation better, they are better able t
 ## Examples
 <!--Motivational example to see how the pattern is applied.-->
 
-[CryptPad](https://blog.cryptpad.fr/2017/07/07/cryptpad-analytics-what-we-cant-know-what-we-must-know-what-we-want-to-know/) Provides a thorough and clear explanation of their Data Aggregation usage which is linked to from the 'What is CryptPad' page in every instance. Towards the end of the blog post they include graphs to show how useful the data can be, but they also explain what they access, can (but do not) access, and what they cannot access. While this example explains aggregation well, and features a concise summary at the beginning, it could still be better highlighted before a user's first use of the service.
 
-<!--### [Known Uses]-->
+
+### [Known Uses]
 <!-- Pointers to various applications of the pattern.-->
 
-
+[CryptPad](https://blog.cryptpad.fr/2017/07/07/cryptpad-analytics-what-we-cant-know-what-we-must-know-what-we-want-to-know/) Provides a thorough and clear explanation of their Data Aggregation usage which is linked to from the 'What is CryptPad' page in every instance. Towards the end of the blog post they include graphs to show how useful the data can be, but they also explain what they access, can (but do not) access, and what they cannot access. While this example explains aggregation well, and features a concise summary at the beginning, it could still be better highlighted before a user's first use of the service.
 
 <!--## See Also-->
 <!-- Any pointers to relevant information, not contained in the subfields below.-->

@@ -67,15 +67,17 @@ Making policies more clear and concise is also crucial, as users will not want t
 
 
 
-<!--## Examples-->
+## Examples
 <!--Motivational example to see how the pattern is applied.-->
 
 
 
-<!--### [Known Uses]-->
+### [Known Uses]
 <!-- Pointers to various applications of the pattern.-->
 
+_Many online organizations provide signals to their customers. Often they are publicly and freely available, but can also be purchased by third parties. The online auction site, eBay, for example, uses a reputation system to assist other buyers in feeling more comfortable purchasing from an unknown seller. Many other ecommerce sites (such as Amazon) rely heavily on the reputation and referral systems in order to help customers make a more informed decision._
 
+_Websites are more commonly publishing their privacy policies in order to assuage the privacy concerns of their users [ECC2005]. Users are also stating that they would be more comfortable interacting online if the site had displayed the [TRUSTe](http://www.truste.org) or [BBBOnline](http://www.bbbonline.org) symbols, or had a privacy policy [CRA1999]._
 
 <!--## See Also-->
 <!-- Any pointers to relevant information, not contained in the subfields below.-->
@@ -95,6 +97,10 @@ This pattern supports informed user agency through explanations of policy and po
 <!-- References to the original source of the pattern.-->
 
 S. Romanosky, A. Acquisti, J. Hong, L. F. Cranor, and B. Friedman, “Privacy patterns for online interactions,” Proceedings of the 2006 conference on Pattern languages of programs - PLoP ’06, p. 1, 2006.
+
+S. Engelman, L. F. Cranor, A. Chowdury, “An analysis of P3P-Enabled web sites among Top-20 Search Results” Carnegie Mellon University, 2005.
+
+L. Cranor, J. Reagle, M. Ackerman, “Beyond Concern: Understanding Net Users’ Attitudes About Online Privacy” AT&T Labs, 1999.
 
 <!--## General Comments-->
 <!-- Separate discussion on the pattern.-->

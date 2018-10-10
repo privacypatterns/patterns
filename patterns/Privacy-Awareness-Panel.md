@@ -74,7 +74,7 @@ _Improved awareness of users about who exactly will be [and has been] able to se
 ## Examples
 <!--Motivational example to see how the pattern is applied.-->
 
-
+In a forum setting, a Privacy Awareness Panel may include login and account information, any personalizations, as well as information relating to their browser, session, IP, or other metadata which can uniquely identify them to a degree. It could also show post and user interaction history, and what, if any, of this information is more widely available or public. The panel should be easily located and known about by users, for instance introduced on first use of the forum. Unauthenticated users should also have access to this panel, though there would be less information on these users.
 
 <!--### [Known Uses]-->
 <!-- Pointers to various applications of the pattern.-->

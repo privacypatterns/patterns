@@ -65,10 +65,10 @@ Users will be informed before implicitly providing consent to reasonable process
 
 
 
-<!--## Examples-->
+## Examples
 <!--Motivational example to see how the pattern is applied.-->
 
-
+Given a Sensor Network, Provider, and Controller, collected data is delegated by the Controller through the Provider to the Sensor Network. The Sensor Network collects some data with explicit consent, but this data may also be personal for a user who has not given such consent. This data may be potentially identifying, and thus the user should be informed prior to its processing. The Controller must ensure that the Provider of the Sensor Network provides any potential users with unambiguous warning of the collection, and that individual consent is infeasible. This may make use of a clear and legible warning sign. The Sensor Network itself should also be visible and obvious, clearly indicating when collection is ongoing. Societal norms may dictate this, such as security cameras in some contexts (commercial areas where valuables may be stolen) needing little warning.
 
 <!--### [Known Uses]-->
 <!-- Pointers to various applications of the pattern.-->
