@@ -36,6 +36,7 @@ Privacy policies are typically written to satisfy legal requirements ahead of co
 #### Forces and Concerns
 <!-- Implications in this problem which affect the appropriateness of a solution, and are affected by this pattern.-->
 <!-- Forces should be highly visible for easy reference, where less obvious a dedicated section is recommended.-->
+
 - Users do not want to read through long policy documents on each site they visit while browsing the Internet
 - Users want to understand any notable risks or tradeoffs of using a site, preferably before being subject to them
 - Controllers want to adhere to the many requirements of law, in a manner that is balanced and best reduces risks for them

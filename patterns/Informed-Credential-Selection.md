@@ -33,6 +33,7 @@ Credentials which users supply may be more invasive than necessary, this is a ki
 #### Forces and Concerns
 <!-- Implications in this problem which affect the appropriateness of a solution, and are affected by this pattern.-->
 <!-- Forces should be highly visible for easy reference, where less obvious a dedicated section is recommended.-->
+
 - Users want to authenticate so that they know only they can obtain access
 - Users do not want to provide more information than they feel comfortable or than is necessary
 - Controllers want to prevent unauthorized access to user actions, as this can seriously affect their experience

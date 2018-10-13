@@ -33,6 +33,7 @@ Whenever the user's information is requested, it must be clear to them exactly w
 #### Forces and Concerns
 <!-- Implications in this problem which affect the appropriateness of a solution, and are affected by this pattern.-->
 <!-- Forces should be highly visible for easy reference, where less obvious a dedicated section is recommended.-->
+
 - Users do not want to read extensive policies, but they do want to understand any relevant risks
 - Controllers need users to understand specific policy elements in order to legally process their data
 - Users would rather be provided with relevant and ideally concise information than all of it at once

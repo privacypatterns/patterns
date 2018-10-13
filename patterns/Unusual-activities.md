@@ -37,6 +37,7 @@ Username and password authentication alone has varying reliability for proving d
 #### Forces and Concerns
 <!-- Implications in this problem which affect the appropriateness of a solution, and are affected by this pattern.-->
 <!-- Forces should be highly visible for easy reference, where less obvious a dedicated section is recommended.-->
+
 - Users want to be able to authenticate easily and quickly, but also do not want controllers to accept decisions made by intruders
 - Users want to know that their password is compromised, so that they can change it, especially if they use derivatives elsewhere
 - Controllers want to protect user accounts from unauthorized access

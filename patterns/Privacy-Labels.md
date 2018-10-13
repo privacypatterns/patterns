@@ -35,6 +35,7 @@ Due to the effort required, users often do not investigate the various privacy p
 #### Forces and Concerns
 <!-- Implications in this problem which affect the appropriateness of a solution, and are affected by this pattern.-->
 <!-- Forces should be highly visible for easy reference, where less obvious a dedicated section is recommended.-->
+
 - Users want to know how much personal data they must share to use a service, without unnecessary or disproportionate effort
 - Users want to quickly determine which services provide the functionality they seek with the privacy tradeoffs they can best accept
 - Controllers want users to realize what data they use, and how they use it, so that they do not process it without informed consent

@@ -33,6 +33,7 @@ The controller wants to be upfront about what they know and can do with personal
 #### Forces and Concerns
 <!-- Implications in this problem which affect the appropriateness of a solution, and are affected by this pattern.-->
 <!-- Forces should be highly visible for easy reference, where less obvious a dedicated section is recommended.-->
+
 - The controller wants to show the actual data they process, as well as what they do with it, as opposed to just describing policy
 - Users want full transparency, with detailed explanation as well as easily and quickly understood overviews
 - Controllers do not want this transparency to ruin trust, but to strengthen it

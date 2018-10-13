@@ -33,6 +33,7 @@ Users often overlook Terms and Conditions when presented with them in their enti
 #### Forces and Concerns
 <!-- Implications in this problem which affect the appropriateness of a solution, and are affected by this pattern.-->
 <!-- Forces should be highly visible for easy reference, where less obvious a dedicated section is recommended.-->
+
 - Controllers need to write Terms and Conditions in a manner which will hold up to scrutiny from the law, but this is not accessible to users
 - Controllers want to ensure that users are fully aware of the risks of using the system before using it, for both legal and image purposes
 - Users want to get to using the service without being blockaded by walls of text, but the also do not want to be blindsided about policy

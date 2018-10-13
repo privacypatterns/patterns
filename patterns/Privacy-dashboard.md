@@ -41,6 +41,7 @@ _Users may not remember or realize what data a particular service or company has
 #### Forces and Concerns
 <!-- Implications in this problem which affect the appropriateness of a solution, and are affected by this pattern.-->
 <!-- Forces should be highly visible for easy reference, where less obvious a dedicated section is recommended.-->
+
 - Controllers want to provide users with sufficient information to determine how it is used, and to prevent regrettable sharing decisions
 - Controllers want to prevent both over and under-sharing, so as to provide users with the best experience possible
 - Users often do not realize the privacy risks in providing their personal data

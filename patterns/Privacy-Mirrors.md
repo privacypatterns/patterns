@@ -34,6 +34,7 @@ Users are frequently unaware of the personal data which a system processes and m
 #### Forces/Concerns
 <!-- Implications in this problem which affect the appropriateness of a solution, and are affected by this pattern.-->
 <!-- Forces should be highly visible for easy reference, where less obvious a dedicated section is recommended.-->
+
 - Controllers want users to take note of important notifications, particularly if it prevents users from over or under sharing
 - Many users are complacent with not knowing about what a service does with their data, maintaining a disinterest in details
 - Users may experience notification fatigue, if they are frequently provided with warnings and access notifications

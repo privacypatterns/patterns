@@ -33,6 +33,7 @@ Poor awareness of data aggregation capabilities can lead to unintentionally reve
 #### Forces/Concerns
 <!-- Implications in this problem which affect the appropriateness of a solution, and are affected by this pattern.-->
 <!-- Forces should be highly visible for easy reference, where less obvious a dedicated section is recommended.-->
+
 - Users do not want to inadvertently disclose information which may become sensitive or identifying
 - Users are less familiar with the risks of information only becoming invasive sometimes long after disclosure
 - Controllers do not want users to unwittingly consent to disclosures they later regret due to poor awareness

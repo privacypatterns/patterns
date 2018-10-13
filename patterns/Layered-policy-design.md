@@ -33,6 +33,7 @@ The controller needs to balance comprehension and comprehensiveness in their pri
 #### Forces and Concerns
 <!-- Implications in this problem which affect the appropriateness of a solution, and are affected by this pattern.-->
 <!-- Forces should be highly visible for easy reference, where less obvious a dedicated section is recommended.-->
+
 - Users do not want to read complex and long policies, and most will simply not read them unless they are very concise
 - Users still want to understand any important distinctions which might cause them risks they would rather not take
 - Controllers want to comply with legal requirements to avoid punitive measures as well as bad publicity

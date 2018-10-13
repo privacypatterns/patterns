@@ -34,6 +34,7 @@ Users want to have reason to trust that a service does not undermine their perso
 #### Forces and Concerns
 <!-- Implications in this problem which affect the appropriateness of a solution, and are affected by this pattern.-->
 <!-- Forces should be highly visible for easy reference, where less obvious a dedicated section is recommended.-->
+
 - Controllers, as well as third parties, want to show that they are provably trustworthy and reliable
 - Less confident entities will not make this effort alone
 - Users want to verify claims which controllers and third parties make without having to do so themselves

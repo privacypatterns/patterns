@@ -33,6 +33,7 @@ Users must regularly maintain many strong passwords, remember them, and protect 
 #### Forces and Concerns
 <!-- Implications in this problem which affect the appropriateness of a solution, and are affected by this pattern.-->
 <!-- Forces should be highly visible for easy reference, where less obvious a dedicated section is recommended.-->
+
 - Users do not want to remember many long or complex passwords
 - Users do not want others to access their secured services
 - Controllers want to protect accounts from unauthorized access

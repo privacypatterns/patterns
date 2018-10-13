@@ -32,6 +32,7 @@ A lack of user awareness in the moment can lead to regretted disclosure, whether
 #### Forces/Concerns
 <!-- Implications in this problem which affect the appropriateness of a solution, and are affected by this pattern.-->
 <!-- Forces should be highly visible for easy reference, where less obvious a dedicated section is recommended.-->
+
 - Users want to use a service in an immediate and streamlined fashion, but in doing so expose themselves to mistakes.
 - Many users disclose unintentional information during the use of a service, especially when participating without caution.
 - Controllers do not want users to use a service in a way which fosters regret.

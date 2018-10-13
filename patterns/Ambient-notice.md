@@ -40,6 +40,7 @@ _A user may not realize that an application given permission to access [sensor d
 #### Forces and Concerns
 <!-- Implications in this problem which affect the appropriateness of a solution, and are affected by this pattern.-->
 <!-- Forces should be highly visible for easy reference, where less obvious a dedicated section is recommended.-->
+
 - Users are capable of forgetting or reconsidering their consent, affecting the legitimacy of any processing under it
 - Users may overlook processing which is not made apparent to them, allowing sensors to record data they would not otherwise
 - Controllers aim to ensure that consent is retained, they want to avoid collecting data against the user's wishes

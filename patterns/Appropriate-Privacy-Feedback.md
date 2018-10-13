@@ -41,6 +41,7 @@ As a result users may overlook services without fulling understanding the privac
 #### Forces/Concerns
 <!-- Implications in this problem which affect the appropriateness of a solution, and are affected by this pattern.-->
 <!-- Forces should be highly visible for easy reference, where less obvious a dedicated section is recommended.-->
+
 - Controllers want systems to do their tasks in the background without bothering the user, but need the user's informed consent
 - Controllers often do not want to process data which users feel uncomfortable about, but uninformed users may provide it
 - Users want to get the benefits of a service without having to interact with it, and may not do so at all if they do not have to

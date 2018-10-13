@@ -34,6 +34,7 @@ Not all contexts are suitable for extensive privacy policy information, yet user
 #### Forces and Concerns
 <!-- Implications in this problem which affect the appropriateness of a solution, and are affected by this pattern.-->
 <!-- Forces should be highly visible for easy reference, where less obvious a dedicated section is recommended.-->
+
 - Controllers need informed consent for collection, sometimes with limited screen space available, yet users do not typically read privacy policies on their own
 - Users do not want to spend time and effort reading through privacy policies
 - Controllers want users to actually use their service (or product), but users will not do so if the cost of doing so entails disproportionate effort

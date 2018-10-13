@@ -39,6 +39,7 @@ _Also, initial consent may have been forged by an attacker or have been provided
 #### Forces and Concerns
 <!-- Implications in this problem which affect the appropriateness of a solution, and are affected by this pattern.-->
 <!-- Forces should be highly visible for easy reference, where less obvious a dedicated section is recommended.-->
+
 - Users may change their minds or forget about consent they have given
 - Users may not realize the processing they consented to is currently in effect, potentially allowing collection of information they would not want collected
 - Controllers do not want to collect data for which consent is uncertain, where users may feel violated or otherwise let down

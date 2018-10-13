@@ -37,6 +37,7 @@ Users may get overwhelmed by the complexity of policies impacting privacy when u
 #### Forces and Concerns
 <!-- Implications in this problem which affect the appropriateness of a solution, and are affected by this pattern.-->
 <!-- Forces should be highly visible for easy reference, where less obvious a dedicated section is recommended.-->
+
 - Users do not want to have to read privacy policies, but do want to know about relevant and important distinctions from their personal preferences
 - Controllers need to have policies which are tailored to legal compliance, but also need users to understand risks and responsibilities
 - Users may not like the default values chosen by controllers for application settings, even if those defaults are privacy friendly

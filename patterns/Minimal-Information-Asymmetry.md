@@ -35,6 +35,7 @@ _Information asymmetry is generally described as one party having more or better
 #### Forces and Concerns
 <!-- Implications in this problem which affect the appropriateness of a solution, and are affected by this pattern.-->
 <!-- Forces should be highly visible for easy reference, where less obvious a dedicated section is recommended.-->
+
 - Users sometimes want to use services of an unknown party, and are cautious about what it might do with their data
 - Users may not want to provide any more information than necessary, but want the services to function properly
 - Controllers want users to understand the intentions behind the data they collect, and be content with how they use it

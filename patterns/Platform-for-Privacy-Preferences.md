@@ -34,6 +34,7 @@ Users regularly do not read privacy policies, as they are too verbose, complex, 
 #### Forces and Concerns
 <!-- Implications in this problem which affect the appropriateness of a solution, and are affected by this pattern.-->
 <!-- Forces should be highly visible for easy reference, where less obvious a dedicated section is recommended.-->
+
 - Users typically do not want to read walls of texts, often needing to be persuaded to inform themselves
 - Controllers want to ensure that users are not surprised and or upset about what is done with their data
 - A number of users want to really understand what risks they are taking regarding their privacy

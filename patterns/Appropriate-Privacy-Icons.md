@@ -34,6 +34,7 @@ Privacy icons are easily misunderstood, as they are oversimplified concepts usin
 #### Forces and Concerns
 <!-- Implications in this problem which affect the appropriateness of a solution, and are affected by this pattern.-->
 <!-- Forces should be highly visible for easy reference, where less obvious a dedicated section is recommended.-->
+
 - Users do not want to regularly read long and complex policies
 - Users want to understand what risks their data undergoes by using certain features of the service
 - Controllers want users to actually take note of the relevant policies rather than process their data without informed consent

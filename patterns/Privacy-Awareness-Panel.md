@@ -37,6 +37,7 @@ Furthermore, the controller themselves typically has more capability for identif
 #### Forces and Concerns
 <!-- Implications in this problem which affect the appropriateness of a solution, and are affected by this pattern.-->
 <!-- Forces should be highly visible for easy reference, where less obvious a dedicated section is recommended.-->
+
 - Users sometimes want to use services without being identified, but do not know how to maintain their pseudonymity
 - Users want to understand what using a service might reveal about them to various parties
 - Controllers want to protect users from unknowingly making disclosures which are invasive

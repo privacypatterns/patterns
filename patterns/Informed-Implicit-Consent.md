@@ -33,6 +33,7 @@ A controller needs to collect and otherwise process reasonable information to fu
 #### Forces and Concerns
 <!-- Implications in this problem which affect the appropriateness of a solution, and are affected by this pattern.-->
 <!-- Forces should be highly visible for easy reference, where less obvious a dedicated section is recommended.-->
+
 - Users should not have to frequently and explicitly consent for regular, everyday, ubiquitous services which are expected and acceptable for legitimate interests
 - Users do not want to have certain data processed, and need a way to avoid implicitly consenting to it
 - Controllers do not want to have to obtain explicit consent in real-time bulk for expected and acceptable legitimate interests

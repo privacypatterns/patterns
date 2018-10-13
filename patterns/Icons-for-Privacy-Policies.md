@@ -34,6 +34,7 @@ Users struggle to understand privacy policies, even when reduced to a reasonable
 #### Forces and Concerns
 <!-- Implications in this problem which affect the appropriateness of a solution, and are affected by this pattern.-->
 <!-- Forces should be highly visible for easy reference, where less obvious a dedicated section is recommended.-->
+
 - Users want to understand the risks to their data in using a service, but do not want to read long or overly complex policies
 - Many users want to be able to decide for themselves which policies apply to them, but do not want to read complex or time consuming summaries just to identify them
 - Controllers need users to be informed before their data may be processed

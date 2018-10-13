@@ -33,6 +33,7 @@ Immediate and automatic content publication without notification or confirmation
 #### Forces and Concerns
 <!-- Implications in this problem which affect the appropriateness of a solution, and are affected by this pattern.-->
 <!-- Forces should be highly visible for easy reference, where less obvious a dedicated section is recommended.-->
+
 - Users of the service want to share content with others, but not all of the content they generate is fit for sharing
 - Most users do not want to manually upload content case by case, sometimes long after creation
 - Controllers want to make it easy for users to contribute content

@@ -35,6 +35,7 @@ _Users should clearly understand the content of and terms used within privacy an
 #### Forces and Concerns
 <!-- Implications in this problem which affect the appropriateness of a solution, and are affected by this pattern.-->
 <!-- Forces should be highly visible for easy reference, where less obvious a dedicated section is recommended.-->
+
 - Users do not want to read complex and long policies
 - Users still want to understand what risks they might be taking with their data by using the service (or product)
 - Controllers want to ensure that users understand risks

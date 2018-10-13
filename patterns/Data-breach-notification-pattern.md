@@ -33,6 +33,7 @@ When data breaches occur, numerous risks become apparent for multiple parties, t
 #### Forces and Concerns
 <!-- Implications in this problem which affect the appropriateness of a solution, and are affected by this pattern.-->
 <!-- Forces should be highly visible for easy reference, where less obvious a dedicated section is recommended.-->
+
 - Users want to know if anything has happened to compromise their data, their security, or their privacy
 - Users want the controller to mitigate the risks before and after a breach to the best of their ability
 - Controllers want to prevent risks from materializing and place measures against breaches happening in future

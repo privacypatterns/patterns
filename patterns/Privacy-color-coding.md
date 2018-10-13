@@ -36,6 +36,7 @@ Users do not investigate policies and preferences due to the effort required, an
 #### Forces and Concerns
 <!-- Implications in this problem which affect the appropriateness of a solution, and are affected by this pattern.-->
 <!-- Forces should be highly visible for easy reference, where less obvious a dedicated section is recommended.-->
+
 - Users want to be able to quickly investigate how much or little information they can comfortably provide while still enjoying the service
 - Users want to be guided as to what preferences achieve better privacy
 - Controllers want users to configure preferences in ways they actually intend, therefore not processing data without informed consent

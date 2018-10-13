@@ -33,6 +33,7 @@ Users do not know if the content they are accessing or have disclosed has been a
 #### Forces and Concerns
 <!-- Implications in this problem which affect the appropriateness of a solution, and are affected by this pattern.-->
 <!-- Forces should be highly visible for easy reference, where less obvious a dedicated section is recommended.-->
+
 - Users want to know who can access their disclosures and those of others
 - Users want to know that specific other users have accessed or modified content
 - Controllers do not want users to be unaware of who can see their disclosures
