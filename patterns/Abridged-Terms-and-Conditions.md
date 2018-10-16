@@ -80,9 +80,9 @@ _Due to the fact that the [Terms and Conditions] of an application are condensed
 ### [Known Uses]
 <!-- Pointers to various applications of the pattern.-->
 
-– _Support-U: An example of an abridged TAC is given in fig. 3. The figure shows the results of the abridged TAC pattern used for the Support-U application._
-– _Connect-U: The user has to sign a license agreement of the size of one page in A4 format. On this page the agreement about the data usage is described in clear detail._
-– _Meet-U: The key points of TAC that affect the user’s privacy the most, are displayed on one screen. Hence, the gathering and processing of data are addressed and summarized briefly. The long version of the TAC is linked. The user has to agree on that before continuing with the application._
+- _Support-U: An example of an abridged TAC is given in fig. 3. The figure shows the results of the abridged TAC pattern used for the Support-U application._
+- _Connect-U: The user has to sign a license agreement of the size of one page in A4 format. On this page the agreement about the data usage is described in clear detail._
+- _Meet-U: The key points of TAC that affect the user’s privacy the most, are displayed on one screen. Hence, the gathering and processing of data are addressed and summarized briefly. The long version of the TAC is linked. The user has to agree on that before continuing with the application._
 
 ## See Also
 <!-- Any pointers to relevant information, not contained in the subfields below.-->
