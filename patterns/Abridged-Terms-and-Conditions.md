@@ -97,6 +97,7 @@ This pattern _complements_ [Privacy Aware Wording](Privacy-Aware-Wording), [Laye
 The relationships this pattern has to these accessible policies patterns stem from its inherent compatibility with policy standardization, summarization, separation into layers and re-wording. Abridging a policy may support these aspects, or even entail them, though this pattern focuses on a specific kind of policy document. Were this pattern to have a broader context, it could even be considered an accessible policies pattern itself.
 
 This pattern is also _complemented by_ the following:
+
 - _Explanation of Processes: The application shall inform users on demand about processes._
 - _Extras on Demand: ”Show the most important content up front, but hide the rest. Let the user reach it via a single, simple gesture.”_ (Tidwell, 2005)
 
