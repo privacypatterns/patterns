@@ -7,6 +7,8 @@
         - control
         - choose
     status: pattern
+    com: Reciprocity
+    use: Lawful-Consent
     address:
 
     %}

@@ -7,6 +7,8 @@
         - control
         - update
     status: pattern
+    com: Pay-Back Buddy-List
+    use: Lawful-Consent
     address:
 
     %}

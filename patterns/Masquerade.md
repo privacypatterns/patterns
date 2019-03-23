@@ -7,6 +7,9 @@
         - control
         - retract
     status: pattern
+    use: Buddy-List
+    lds: Reciprocity
+    com: Support-Selective-Disclosure Active-broadcast-of-presence Private-link
     address:
 
     %}

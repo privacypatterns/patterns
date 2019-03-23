@@ -8,6 +8,7 @@
         - choose
         - consent
     status: pattern
+    use: Reciprocity Pay-Back Lawful-Consent
     address:
 
     %}

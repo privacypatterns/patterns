@@ -7,6 +7,7 @@
         - control
         - consent
     status: pattern
+    sim: Obtaining-Explicit-Consent
     address:
 
     %}

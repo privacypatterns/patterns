@@ -9,6 +9,8 @@
         - control
         - update
     status: pattern
+    use: Lawful-Consent
+    com: Reasonable-Level-of-Control Private-link Masquerade
     address:
 
     %}
