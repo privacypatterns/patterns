@@ -1,6 +1,6 @@
     {%hyde
 
-    title: "Psuedonymous Identity"
+    title: "Pseudonymous Identity"
     type: pattern
     excerpt: "Hide the identity by using a pseudonym and ensure a
     pseudonymous identity that can not be linked with a real identity
