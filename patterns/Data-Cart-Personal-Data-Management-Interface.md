@@ -150,7 +150,7 @@ Applying the pattern is constraint by potential integration barriers, especially
 
 Select processing activitiy             |  Add tuples of personal data and data subjects | Personal data management interface
 :-------------------------:|:-------------------------:|:-------------------------:
-<img src="media/images/data_cart_screen_01.png" alt="Data Cart Screen 01" width="100"/>)  |  <img src="media/images/data_cart_screen_02.png" alt="Data Cart Screen 01" width="100"/>) | <img src="media/images/data_cart_screen_01.png" alt="Data Cart Screen 03" width="100"/>)
+<img src="/media/images/data_cart_screen_01.png" alt="Data Cart Screen 01" width="100"/>  |  <img src="/media/images/data_cart_screen_02.png" alt="Data Cart Screen 01" width="100"/> | <img src="/media/images/data_cart_screen_01.png" alt="Data Cart Screen 03" width="100"/>
 
 <!--### [Known Uses]-->
 <!-- Pointers to various applications of the pattern.-->
