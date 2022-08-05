@@ -1,23 +1,18 @@
 {%hyde _metadata blocks must begin with this_
 
-title: Title of the pattern  _variable names must be lower case_
-
-type: pattern _values allowed: pattern, principle, page_
-
-excerpt: This short description is a 1-2 line abstract to appear on the homepage and other shortened forms.
+title: "Data Cart Personal Data Management Interface"
+type: pattern
+excerpt: "Help data processing employees in the privacy-compliant handling of personal data by providing them with a privacy enhancing personal data management interface."
 
 categories: 
-  - location
-  - notice
-  - smartphone
-  - ui 
-_tags that classify the subject matter, the purpose of the pattern, and the applicable audience_
+  - enforce
+  - demonstrate
 
 status: draft _values allowed: stub, draft, published_ 
 
-address: http://npdoty.name, @m0hit _comma-separated list of authors, or more importantly, the people to contact or blame about the content, to be displayed in an &lt;address&gt; HTML element on the page. in future, URLs may be de-referenced and hCard identities extracted; Twitter/github handles and email addresses also possible._
+address: @jatoko
 
-%} _end the metadata block with this_
+%}
 
 [TOC]
 
@@ -165,6 +160,7 @@ Select processing activitiy             |  Add tuples of personal data and data 
 ## See Also
 <!-- Any pointers to relevant information, not contained in the subfields below.-->
 
+This pattern generally supports design strategies *minimize*, *inform*, and *control*.
 
 
 <!--### [Related Patterns]-->
