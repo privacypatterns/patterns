@@ -106,7 +106,7 @@ The pattern is a harmonized combination of process flow and interaction concept:
 
 7. All actions, including requests for data and data exports, are logged to document all personal data processing activities. After completing a processing activity, requests can be archived and serve as evidence for later audits and traceability. In addition, the activity log may be used to create a usage history for data processing employees.
 
-![Data Cart process flow](media/images/data_cart_process_flow.png)
+<img src="/media/images/data_cart_process_flow.png" alt="Data Cart UI concept" width="200"/>
 
 #### [UI concept]
 
@@ -120,7 +120,7 @@ The pattern is a harmonized combination of process flow and interaction concept:
 
 5. The privacy enhancing data management interface should provide detailed information on the status of pending requests. In addition, it should provide frequently needed or important information on data protection tailored to its users' needs. This includes information on allowed processing operations, whether processing has been approved, to whom data may be disclosed, deletion periods, data sensitivity, and how data must be safeguarded. In general, the interface should aim to provide such notices at a glance, with details accessible when necessary. Additional visualizations and a help section for questions should accompany detail views.
 
-![Data Cart UI concept](media/images/data_cart_ui_concept.png)
+<img src="/media/images/data_cart_ui_concept.png" alt="Data Cart UI concept" width="200"/>
 
 <!--### [Implementation]-->
 <!--Guidelines for implementing the pattern; code fragments; suggested PETS; policy fragments.-->
@@ -150,7 +150,7 @@ Applying the pattern is constraint by potential integration barriers, especially
 
 Select processing activitiy             |  Add tuples of personal data and data subjects | Personal data management interface
 :-------------------------:|:-------------------------:|:-------------------------:
-<img src="/media/images/data_cart_screen_01.png" alt="Data Cart Screen 01" width="100"/>  |  <img src="/media/images/data_cart_screen_02.png" alt="Data Cart Screen 01" width="100"/> | <img src="/media/images/data_cart_screen_01.png" alt="Data Cart Screen 03" width="100"/>
+<img src="/media/images/data_cart_screen_01.png" alt="Data Cart Screen 01" width="200"/>  |  <img src="/media/images/data_cart_screen_02.png" alt="Data Cart Screen 01" width="200"/> | <img src="/media/images/data_cart_screen_03.png" alt="Data Cart Screen 03" width="200"/>
 
 <!--### [Known Uses]-->
 <!-- Pointers to various applications of the pattern.-->
