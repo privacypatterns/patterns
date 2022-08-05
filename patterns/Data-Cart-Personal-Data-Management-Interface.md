@@ -1,18 +1,18 @@
-{%hyde _metadata blocks must begin with this_
+    {%hyde
 
-title: "Data Cart Personal Data Management Interface"
-type: pattern
-excerpt: "Help data processing employees in the privacy-compliant handling of personal data by providing them with a privacy enhancing personal data management interface."
+    title: "Data Cart - Personal Data Management Interface"
+    type: pattern
+    excerpt: "Help data processing employees in the privacy-compliant handling of personal data by providing them with a privacy enhancing personal data management interface."
 
-categories: 
-  - enforce
-  - demonstrate
+    categories: 
+      - enforce
+      - demonstrate
 
-status: draft _values allowed: stub, draft, published_ 
+    status: draft _values allowed: stub, draft, published_ 
 
-address: @jatoko
+    address: @jatoko
 
-%}
+    %}
 
 [TOC]
 
