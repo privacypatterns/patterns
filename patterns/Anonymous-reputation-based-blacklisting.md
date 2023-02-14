@@ -81,6 +81,8 @@ Different implementations may only be practical for services with a reduce numbe
 
 A wiki allows any visitor to modify its contents, even without having been authenticated. Some malicious visitors may vandalize the contents. This fact is signalled by the wiki administrators. If a visitor coming from the same IP address keeps vandalizing the site, they will earn a bad reputation, and their IP will be banned from modifying the contents anymore. However, users accessing through a Tor anonymity network proxy cannot be identified from their IPs, and thus their reputation cannot be tracked.
 
+An anonymous chat opens the gates to bad actors with little to no consequences. [RLN](https://rate-limiting-nullifier.github.io/rln-docs/what_is_rln.html) is a zero-knowledge gadget that enables spam prevention for decentralized, anonymous environments. If a participant spams the network within a timeframe, their anonymous identifier is revealed and can be kicked out by anyone participating in the chat.
+
 ### [Known Uses]
 <!-- Pointers to various applications of the pattern.-->
 
